@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/agas-portfolio/static/css/main.bec105e1.chunk.css",
+    "main.js": "/agas-portfolio/static/js/main.48034c40.chunk.js",
+    "main.js.map": "/agas-portfolio/static/js/main.48034c40.chunk.js.map",
+    "runtime-main.js": "/agas-portfolio/static/js/runtime-main.9ac5589c.js",
+    "runtime-main.js.map": "/agas-portfolio/static/js/runtime-main.9ac5589c.js.map",
+    "static/css/2.d9253284.chunk.css": "/agas-portfolio/static/css/2.d9253284.chunk.css",
+    "static/js/2.730c3da6.chunk.js": "/agas-portfolio/static/js/2.730c3da6.chunk.js",
+    "static/js/2.730c3da6.chunk.js.map": "/agas-portfolio/static/js/2.730c3da6.chunk.js.map",
+    "index.html": "/agas-portfolio/index.html",
+    "precache-manifest.9819b1ca61af2718e3d6442bf576c6dd.js": "/agas-portfolio/precache-manifest.9819b1ca61af2718e3d6442bf576c6dd.js",
+    "service-worker.js": "/agas-portfolio/service-worker.js",
+    "static/css/2.d9253284.chunk.css.map": "/agas-portfolio/static/css/2.d9253284.chunk.css.map",
+    "static/css/main.bec105e1.chunk.css.map": "/agas-portfolio/static/css/main.bec105e1.chunk.css.map",
+    "static/js/2.730c3da6.chunk.js.LICENSE": "/agas-portfolio/static/js/2.730c3da6.chunk.js.LICENSE",
+    "static/media/App.css": "/agas-portfolio/static/media/aga-rocks.1f1365ca.jpg",
+    "static/media/gift-giver-cover.png": "/agas-portfolio/static/media/gift-giver-cover.9b2e1a9c.png",
+    "static/media/gift-giver-main-page.png": "/agas-portfolio/static/media/gift-giver-main-page.cff120ab.png",
+    "static/media/gift-giver-sub-page.png": "/agas-portfolio/static/media/gift-giver-sub-page.1ffa4183.png",
+    "static/media/paper-prototype.jpg": "/agas-portfolio/static/media/paper-prototype.ccff23e2.jpg",
+    "static/media/personas-ben.png": "/agas-portfolio/static/media/personas-ben.891d790c.png",
+    "static/media/personas-rachel.png": "/agas-portfolio/static/media/personas-rachel.d32baa36.png",
+    "static/media/resume.pdf": "/agas-portfolio/static/media/resume.e3632efc.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9ac5589c.js",
+    "static/css/2.d9253284.chunk.css",
+    "static/js/2.730c3da6.chunk.js",
+    "static/css/main.bec105e1.chunk.css",
+    "static/js/main.48034c40.chunk.js"
+  ]
+}
