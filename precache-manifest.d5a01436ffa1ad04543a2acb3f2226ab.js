@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a95e4fd30f7f11d163e3629f17118cf0",
+    "revision": "d0497cdd0d98f0e0b14c2987e68d6e30",
     "url": "/agas-portfolio/index.html"
   },
   {
-    "revision": "a91e67ae24ec193b83e9",
+    "revision": "27a77e887d5e5b7eb115",
     "url": "/agas-portfolio/static/css/2.d9253284.chunk.css"
   },
   {
-    "revision": "d15f38db9d576866cfc7",
+    "revision": "1eb25196d9d9e5012b52",
     "url": "/agas-portfolio/static/css/main.bec105e1.chunk.css"
   },
   {
-    "revision": "a91e67ae24ec193b83e9",
-    "url": "/agas-portfolio/static/js/2.e2c628d6.chunk.js"
+    "revision": "27a77e887d5e5b7eb115",
+    "url": "/agas-portfolio/static/js/2.1d59df1a.chunk.js"
   },
   {
     "revision": "801eb6b718cfeb49e4699ab80a85e8cf",
-    "url": "/agas-portfolio/static/js/2.e2c628d6.chunk.js.LICENSE"
+    "url": "/agas-portfolio/static/js/2.1d59df1a.chunk.js.LICENSE"
   },
   {
-    "revision": "d15f38db9d576866cfc7",
-    "url": "/agas-portfolio/static/js/main.8c23ac76.chunk.js"
+    "revision": "1eb25196d9d9e5012b52",
+    "url": "/agas-portfolio/static/js/main.d7d09614.chunk.js"
   },
   {
     "revision": "2c76b946a5253b7500d9",
