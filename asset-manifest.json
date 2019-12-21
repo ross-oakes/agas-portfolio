@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/agas-portfolio/static/css/main.bec105e1.chunk.css",
-    "main.js": "/agas-portfolio/static/js/main.48034c40.chunk.js",
-    "main.js.map": "/agas-portfolio/static/js/main.48034c40.chunk.js.map",
+    "main.js": "/agas-portfolio/static/js/main.ded4974a.chunk.js",
+    "main.js.map": "/agas-portfolio/static/js/main.ded4974a.chunk.js.map",
     "runtime-main.js": "/agas-portfolio/static/js/runtime-main.9ac5589c.js",
     "runtime-main.js.map": "/agas-portfolio/static/js/runtime-main.9ac5589c.js.map",
     "static/css/2.d9253284.chunk.css": "/agas-portfolio/static/css/2.d9253284.chunk.css",
-    "static/js/2.730c3da6.chunk.js": "/agas-portfolio/static/js/2.730c3da6.chunk.js",
-    "static/js/2.730c3da6.chunk.js.map": "/agas-portfolio/static/js/2.730c3da6.chunk.js.map",
+    "static/js/2.0fd4e3b4.chunk.js": "/agas-portfolio/static/js/2.0fd4e3b4.chunk.js",
+    "static/js/2.0fd4e3b4.chunk.js.map": "/agas-portfolio/static/js/2.0fd4e3b4.chunk.js.map",
     "index.html": "/agas-portfolio/index.html",
-    "precache-manifest.9819b1ca61af2718e3d6442bf576c6dd.js": "/agas-portfolio/precache-manifest.9819b1ca61af2718e3d6442bf576c6dd.js",
+    "precache-manifest.921461d92d3eff81bcaa78922a016cab.js": "/agas-portfolio/precache-manifest.921461d92d3eff81bcaa78922a016cab.js",
     "service-worker.js": "/agas-portfolio/service-worker.js",
     "static/css/2.d9253284.chunk.css.map": "/agas-portfolio/static/css/2.d9253284.chunk.css.map",
     "static/css/main.bec105e1.chunk.css.map": "/agas-portfolio/static/css/main.bec105e1.chunk.css.map",
-    "static/js/2.730c3da6.chunk.js.LICENSE": "/agas-portfolio/static/js/2.730c3da6.chunk.js.LICENSE",
+    "static/js/2.0fd4e3b4.chunk.js.LICENSE": "/agas-portfolio/static/js/2.0fd4e3b4.chunk.js.LICENSE",
     "static/media/App.css": "/agas-portfolio/static/media/aga-rocks.1f1365ca.jpg",
     "static/media/gift-giver-cover.png": "/agas-portfolio/static/media/gift-giver-cover.9b2e1a9c.png",
     "static/media/gift-giver-main-page.png": "/agas-portfolio/static/media/gift-giver-main-page.cff120ab.png",
@@ -26,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.9ac5589c.js",
     "static/css/2.d9253284.chunk.css",
-    "static/js/2.730c3da6.chunk.js",
+    "static/js/2.0fd4e3b4.chunk.js",
     "static/css/main.bec105e1.chunk.css",
-    "static/js/main.48034c40.chunk.js"
+    "static/js/main.ded4974a.chunk.js"
   ]
 }
