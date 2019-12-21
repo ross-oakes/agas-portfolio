@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/agas-portfolio/static/css/main.bec105e1.chunk.css",
-    "main.js": "/agas-portfolio/static/js/main.ded4974a.chunk.js",
-    "main.js.map": "/agas-portfolio/static/js/main.ded4974a.chunk.js.map",
+    "main.js": "/agas-portfolio/static/js/main.ae3e1217.chunk.js",
+    "main.js.map": "/agas-portfolio/static/js/main.ae3e1217.chunk.js.map",
     "runtime-main.js": "/agas-portfolio/static/js/runtime-main.9ac5589c.js",
     "runtime-main.js.map": "/agas-portfolio/static/js/runtime-main.9ac5589c.js.map",
     "static/css/2.d9253284.chunk.css": "/agas-portfolio/static/css/2.d9253284.chunk.css",
     "static/js/2.0fd4e3b4.chunk.js": "/agas-portfolio/static/js/2.0fd4e3b4.chunk.js",
     "static/js/2.0fd4e3b4.chunk.js.map": "/agas-portfolio/static/js/2.0fd4e3b4.chunk.js.map",
     "index.html": "/agas-portfolio/index.html",
-    "precache-manifest.921461d92d3eff81bcaa78922a016cab.js": "/agas-portfolio/precache-manifest.921461d92d3eff81bcaa78922a016cab.js",
+    "precache-manifest.abd325177ab1d33e83a9ac9c581e8563.js": "/agas-portfolio/precache-manifest.abd325177ab1d33e83a9ac9c581e8563.js",
     "service-worker.js": "/agas-portfolio/service-worker.js",
     "static/css/2.d9253284.chunk.css.map": "/agas-portfolio/static/css/2.d9253284.chunk.css.map",
     "static/css/main.bec105e1.chunk.css.map": "/agas-portfolio/static/css/main.bec105e1.chunk.css.map",
@@ -28,6 +28,6 @@
     "static/css/2.d9253284.chunk.css",
     "static/js/2.0fd4e3b4.chunk.js",
     "static/css/main.bec105e1.chunk.css",
-    "static/js/main.ded4974a.chunk.js"
+    "static/js/main.ae3e1217.chunk.js"
   ]
 }
