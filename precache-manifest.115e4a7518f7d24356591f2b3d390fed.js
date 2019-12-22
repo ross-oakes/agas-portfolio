@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2b5fdfbdd610ffaeec3d9e478c93ef4f",
+    "revision": "0e8a550ba218b750896408e7d81c06a1",
     "url": "/agas-portfolio/index.html"
   },
   {
-    "revision": "69b630a53c97fc693331",
+    "revision": "93b2579dfd6c9f9d4303",
     "url": "/agas-portfolio/static/css/2.d9253284.chunk.css"
   },
   {
-    "revision": "1888c899afed1c80efb0",
-    "url": "/agas-portfolio/static/css/main.6219db6b.chunk.css"
+    "revision": "2aafea95b25f4726aa3d",
+    "url": "/agas-portfolio/static/css/main.515e7e20.chunk.css"
   },
   {
-    "revision": "69b630a53c97fc693331",
-    "url": "/agas-portfolio/static/js/2.cf518259.chunk.js"
+    "revision": "93b2579dfd6c9f9d4303",
+    "url": "/agas-portfolio/static/js/2.8c015f08.chunk.js"
   },
   {
     "revision": "801eb6b718cfeb49e4699ab80a85e8cf",
-    "url": "/agas-portfolio/static/js/2.cf518259.chunk.js.LICENSE"
+    "url": "/agas-portfolio/static/js/2.8c015f08.chunk.js.LICENSE"
   },
   {
-    "revision": "1888c899afed1c80efb0",
-    "url": "/agas-portfolio/static/js/main.82bc2606.chunk.js"
+    "revision": "2aafea95b25f4726aa3d",
+    "url": "/agas-portfolio/static/js/main.94555c9c.chunk.js"
   },
   {
     "revision": "2c76b946a5253b7500d9",
     "url": "/agas-portfolio/static/js/runtime-main.9ac5589c.js"
   },
   {
-    "revision": "1bf15cfa22c61ea0954ff2dbffe51b17",
-    "url": "/agas-portfolio/static/media/aga-in-louvre.1bf15cfa.png"
+    "revision": "150221c4011124cf6186aae425017ffe",
+    "url": "/agas-portfolio/static/media/aga-in-louvre.150221c4.jpg"
   },
   {
     "revision": "1f1365caea39762315e3c7591bb73b35",
