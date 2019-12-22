@@ -3,6 +3,7 @@
 .common-app {
     color: #515C6F;
     background-color: #F3F2F2;
+    font-family: 'Playfair Display', serif;
 }
 
 /*************Nav Bar*************/
@@ -14,7 +15,6 @@
 
 .navbar {
     background-color: #F3F2F2;
-    font-family: 'Playfair Display', serif;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -34,7 +34,6 @@
     background-color: #F3F2F2;
     width: inherit;
     height: 100%;
-    font-family: 'Playfair Display', serif;
     padding-bottom: 100px;
 }
 
@@ -58,7 +57,6 @@
     padding-top: 40vh;
     padding-left: 5vw;
     font-size: calc(18px + 3vw);
-    font-family: 'Playfair Display', serif;
 }
 
 .picture-extra-information {
@@ -66,7 +64,6 @@
     padding-top: 80vh;
     padding-left: 5vw;
     font-size: calc(16px + 1vw);
-    font-family: 'Playfair Display', serif;
 }
 
 .portfolio-title {
@@ -121,7 +118,6 @@
     padding-top: 10%;
     padding-left: 60%;
     font-size: 5vw;
-    font-family: 'Playfair Display', serif;
     color: white;
     text-shadow: 2px 2px gray;
     text-align: right;
@@ -142,7 +138,6 @@
     background-position: inherit;
     width: 100%;
     height: 100vh;
-    font-family: 'Playfair Display', serif;
 }
 
 .resume-title {
@@ -167,12 +162,10 @@
 
 /**********ABOUT PAGE************/
 .about-page {
-    font-family: 'Playfair Display', serif;
     width: 100%;
-    /*height: 100%;*/
-    /*color: white;*/
     text-align: center;
-    /*padding-top: 62px;*/
+    padding-top: 62px;
+    padding-bottom: 100px;
 }
 
 .about-picture {
@@ -181,7 +174,6 @@
 
 .about-title {
     font-size: calc(18px + 3vw);
-
     text-align: center;
 }
 
@@ -193,10 +185,13 @@
     text-align: left;
 }
 
+.about-text p {
+    margin-bottom: 30px;
+}
+
 /**********CONTACT PAGE************/
 
 .contact-page {
-    font-family: 'Playfair Display', serif;
     width: 100%;
     height: 100vh;
     padding-top: 100px;
@@ -300,7 +295,7 @@
     padding-top: 40px;
 }
 
-.project-title h1, h3 {
+.project-title h1, h2 {
     padding-bottom: 20px;
 }
 
