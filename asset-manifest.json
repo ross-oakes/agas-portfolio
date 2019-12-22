@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/agas-portfolio/static/css/main.59ca560e.chunk.css",
-    "main.js": "/agas-portfolio/static/js/main.8d232995.chunk.js",
-    "main.js.map": "/agas-portfolio/static/js/main.8d232995.chunk.js.map",
+    "main.css": "/agas-portfolio/static/css/main.6e5b03c0.chunk.css",
+    "main.js": "/agas-portfolio/static/js/main.82bc2606.chunk.js",
+    "main.js.map": "/agas-portfolio/static/js/main.82bc2606.chunk.js.map",
     "runtime-main.js": "/agas-portfolio/static/js/runtime-main.9ac5589c.js",
     "runtime-main.js.map": "/agas-portfolio/static/js/runtime-main.9ac5589c.js.map",
     "static/css/2.d9253284.chunk.css": "/agas-portfolio/static/css/2.d9253284.chunk.css",
     "static/js/2.cf518259.chunk.js": "/agas-portfolio/static/js/2.cf518259.chunk.js",
     "static/js/2.cf518259.chunk.js.map": "/agas-portfolio/static/js/2.cf518259.chunk.js.map",
     "index.html": "/agas-portfolio/index.html",
-    "precache-manifest.13188eb2e2fd92809dc0ffbef4fc32c0.js": "/agas-portfolio/precache-manifest.13188eb2e2fd92809dc0ffbef4fc32c0.js",
+    "precache-manifest.c35df5ed3c04eda3174c02bc5ab6ea58.js": "/agas-portfolio/precache-manifest.c35df5ed3c04eda3174c02bc5ab6ea58.js",
     "service-worker.js": "/agas-portfolio/service-worker.js",
     "static/css/2.d9253284.chunk.css.map": "/agas-portfolio/static/css/2.d9253284.chunk.css.map",
-    "static/css/main.59ca560e.chunk.css.map": "/agas-portfolio/static/css/main.59ca560e.chunk.css.map",
+    "static/css/main.6e5b03c0.chunk.css.map": "/agas-portfolio/static/css/main.6e5b03c0.chunk.css.map",
     "static/js/2.cf518259.chunk.js.LICENSE": "/agas-portfolio/static/js/2.cf518259.chunk.js.LICENSE",
     "static/media/App.css": "/agas-portfolio/static/media/aga-rocks.1f1365ca.jpg",
     "static/media/gift-giver-cover.png": "/agas-portfolio/static/media/gift-giver-cover.9b2e1a9c.png",
@@ -27,7 +27,7 @@
     "static/js/runtime-main.9ac5589c.js",
     "static/css/2.d9253284.chunk.css",
     "static/js/2.cf518259.chunk.js",
-    "static/css/main.59ca560e.chunk.css",
-    "static/js/main.8d232995.chunk.js"
+    "static/css/main.6e5b03c0.chunk.css",
+    "static/js/main.82bc2606.chunk.js"
   ]
 }

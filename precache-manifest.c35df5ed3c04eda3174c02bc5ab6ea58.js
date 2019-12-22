@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "16a304a3e0b9a3241b02db13ab9b862b",
+    "revision": "ee8782c8423894e447435a9c4619d11c",
     "url": "/agas-portfolio/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/agas-portfolio/static/css/2.d9253284.chunk.css"
   },
   {
-    "revision": "288fec4631fbf42bf513",
-    "url": "/agas-portfolio/static/css/main.59ca560e.chunk.css"
+    "revision": "ff069f3f12ae53cf36eb",
+    "url": "/agas-portfolio/static/css/main.6e5b03c0.chunk.css"
   },
   {
     "revision": "69b630a53c97fc693331",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/agas-portfolio/static/js/2.cf518259.chunk.js.LICENSE"
   },
   {
-    "revision": "288fec4631fbf42bf513",
-    "url": "/agas-portfolio/static/js/main.8d232995.chunk.js"
+    "revision": "ff069f3f12ae53cf36eb",
+    "url": "/agas-portfolio/static/js/main.82bc2606.chunk.js"
   },
   {
     "revision": "2c76b946a5253b7500d9",
