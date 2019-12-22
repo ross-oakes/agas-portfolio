@@ -3,7 +3,7 @@ import './App.css';
 import NavBar from "./components/MyNavBar";
 import FrontPage from "./pages/FrontPage"
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
     Switch,
     Route,
 } from "react-router-dom";
@@ -15,25 +15,17 @@ import GiftGiver from "./portfolio-pages/GiftGiver";
 function App() {
   return (
       <div className="common-app">
-          <NavBar/>
           <Router>
-              <Switch>
-                  <Route path="/" exact={true}>
-                      <FrontPage />
-                  </Route>
-                  <Route path="/about" exact={true}>
-                      <AboutPage />
-                  </Route>
-                  <Route path="/resume" exact={true}>
-                      <ResumePage />
-                  </Route>
-                  <Route path="/contact" exact={true}>
-                      <ContactPage />
-                  </Route>
-                  <Route path="/gift-giver" exact={true}>
-                      <GiftGiver />
-                  </Route>
-              </Switch>
+              <>
+                  <NavBar/>
+                  <Switch>
+                      <Route exact path="/" component={FrontPage}/>
+                      <Route exact path="/about" component={AboutPage}/>
+                      <Route exact path="/resume" component={ResumePage}/>
+                      <Route exact path="/contact" component={ContactPage}/>
+                      <Route exact path="/gift-giver" component={GiftGiver}/>
+                  </Switch>
+              </>
           </Router>
       </div>
   );

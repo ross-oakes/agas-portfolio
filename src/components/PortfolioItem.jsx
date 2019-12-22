@@ -1,8 +1,9 @@
 import * as React from "react";
+import {Link} from "react-router-dom";
 
- const PortfolioItem = ({ title, image, details, endpoint}) => (
+const PortfolioItem = ({ title, image, details, endpoint}) => (
      <div className="portfolio-cover">
-         <a href={endpoint}>
+         <Link to={endpoint}>
             <img alt={title} src={image} className="portfolio-image"/>
             <div className="hovered-filter">
                 <div className="portfolio-text">
@@ -10,7 +11,7 @@ import * as React from "react";
                     <p className="portfolio-details">{details}</p>
                 </div>
             </div>
-         </a>
+         </Link>
      </div>
 );
 

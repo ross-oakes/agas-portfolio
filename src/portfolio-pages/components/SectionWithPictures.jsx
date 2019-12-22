@@ -3,12 +3,11 @@ import {Col, Container, Row} from "reactstrap";
 
 
 const createPictures = (picture, horizontal) => {
-    var value = horizontal === true ? 750 : 300;
-    console.log(horizontal);
+    var value = horizontal ? 60 : 20;
     return <Col sm={{size: 4, offset: 1}}>
         <img className="image-shading" src={picture} alt={""}
              style={{
-                 width: `${value}px`,
+                 width: `${value}vw`,
              }}/>
     </Col>
 };
@@ -21,7 +20,7 @@ const SectionWithPictures = ({title, description, pictures, horizontal}) => {
             <p>{description}</p>
             <Container>
                 <Row>
-                    {pictures.map(createPictures, horizontal)}
+                    {pictures.map(picture => createPictures(picture, horizontal))}
                 </Row>
             </Container>
         </div>

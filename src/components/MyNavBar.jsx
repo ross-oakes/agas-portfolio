@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import {
     Navbar,
-    NavbarBrand,
     Nav,
     NavItem,
     NavLink,
     Collapse,
     NavbarToggler,
 } from 'reactstrap';
+import {Link} from "react-router-dom";
 
 const NavBar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -16,21 +16,21 @@ const NavBar = () => {
 
     return (
         <Navbar className="navbar" expand="md" light fixed="top">
-            <NavbarBrand className="navbar-name" href="/">Agnieszka Matyja</NavbarBrand>
+            {/*<NavbarBrand className="navbar-name" tag={Link} to="/">Agnieszka Matyja</NavbarBrand>*/}
             <NavbarToggler onClick={toggle} />
             <Collapse isOpen={isOpen} navbar>
                 <Nav navbar>
                     <NavItem>
-                        <NavLink href="/#my-portfolio">Portfolio</NavLink>
+                        <NavLink tag={Link} to="/">Portfolio</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="/about/">About</NavLink>
+                        <NavLink tag={Link} to="/about">About</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="/resume/">Resume</NavLink>
+                        <NavLink tag={Link} to="/resume/">Resume</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="/contact/">Contact</NavLink>
+                        <NavLink tag={Link} to="/contact/">Contact</NavLink>
                     </NavItem>
                 </Nav>
             </Collapse>
