@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/agas-portfolio/static/css/main.769dad77.chunk.css",
+    "main.css": "/agas-portfolio/static/css/main.6219db6b.chunk.css",
     "main.js": "/agas-portfolio/static/js/main.82bc2606.chunk.js",
     "main.js.map": "/agas-portfolio/static/js/main.82bc2606.chunk.js.map",
     "runtime-main.js": "/agas-portfolio/static/js/runtime-main.9ac5589c.js",
@@ -9,10 +9,10 @@
     "static/js/2.cf518259.chunk.js": "/agas-portfolio/static/js/2.cf518259.chunk.js",
     "static/js/2.cf518259.chunk.js.map": "/agas-portfolio/static/js/2.cf518259.chunk.js.map",
     "index.html": "/agas-portfolio/index.html",
-    "precache-manifest.f85763b10afae4e7cd3e087b0e0ad353.js": "/agas-portfolio/precache-manifest.f85763b10afae4e7cd3e087b0e0ad353.js",
+    "precache-manifest.65000e709ce8f8292c2055ee81796675.js": "/agas-portfolio/precache-manifest.65000e709ce8f8292c2055ee81796675.js",
     "service-worker.js": "/agas-portfolio/service-worker.js",
     "static/css/2.d9253284.chunk.css.map": "/agas-portfolio/static/css/2.d9253284.chunk.css.map",
-    "static/css/main.769dad77.chunk.css.map": "/agas-portfolio/static/css/main.769dad77.chunk.css.map",
+    "static/css/main.6219db6b.chunk.css.map": "/agas-portfolio/static/css/main.6219db6b.chunk.css.map",
     "static/js/2.cf518259.chunk.js.LICENSE": "/agas-portfolio/static/js/2.cf518259.chunk.js.LICENSE",
     "static/media/App.css": "/agas-portfolio/static/media/aga-rocks.1f1365ca.jpg",
     "static/media/gift-giver-cover.png": "/agas-portfolio/static/media/gift-giver-cover.9b2e1a9c.png",
@@ -27,7 +27,7 @@
     "static/js/runtime-main.9ac5589c.js",
     "static/css/2.d9253284.chunk.css",
     "static/js/2.cf518259.chunk.js",
-    "static/css/main.769dad77.chunk.css",
+    "static/css/main.6219db6b.chunk.css",
     "static/js/main.82bc2606.chunk.js"
   ]
 }
