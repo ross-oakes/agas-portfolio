@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/agas-portfolio/static/css/main.12193834.chunk.css",
-    "main.js": "/agas-portfolio/static/js/main.9be58acd.chunk.js",
-    "main.js.map": "/agas-portfolio/static/js/main.9be58acd.chunk.js.map",
+    "main.css": "/agas-portfolio/static/css/main.59ca560e.chunk.css",
+    "main.js": "/agas-portfolio/static/js/main.8d232995.chunk.js",
+    "main.js.map": "/agas-portfolio/static/js/main.8d232995.chunk.js.map",
     "runtime-main.js": "/agas-portfolio/static/js/runtime-main.9ac5589c.js",
     "runtime-main.js.map": "/agas-portfolio/static/js/runtime-main.9ac5589c.js.map",
     "static/css/2.d9253284.chunk.css": "/agas-portfolio/static/css/2.d9253284.chunk.css",
-    "static/js/2.0aa66115.chunk.js": "/agas-portfolio/static/js/2.0aa66115.chunk.js",
-    "static/js/2.0aa66115.chunk.js.map": "/agas-portfolio/static/js/2.0aa66115.chunk.js.map",
+    "static/js/2.cf518259.chunk.js": "/agas-portfolio/static/js/2.cf518259.chunk.js",
+    "static/js/2.cf518259.chunk.js.map": "/agas-portfolio/static/js/2.cf518259.chunk.js.map",
     "index.html": "/agas-portfolio/index.html",
-    "precache-manifest.1924634f6a88ae397378f7279e4f00fc.js": "/agas-portfolio/precache-manifest.1924634f6a88ae397378f7279e4f00fc.js",
+    "precache-manifest.13188eb2e2fd92809dc0ffbef4fc32c0.js": "/agas-portfolio/precache-manifest.13188eb2e2fd92809dc0ffbef4fc32c0.js",
     "service-worker.js": "/agas-portfolio/service-worker.js",
     "static/css/2.d9253284.chunk.css.map": "/agas-portfolio/static/css/2.d9253284.chunk.css.map",
-    "static/css/main.12193834.chunk.css.map": "/agas-portfolio/static/css/main.12193834.chunk.css.map",
-    "static/js/2.0aa66115.chunk.js.LICENSE": "/agas-portfolio/static/js/2.0aa66115.chunk.js.LICENSE",
+    "static/css/main.59ca560e.chunk.css.map": "/agas-portfolio/static/css/main.59ca560e.chunk.css.map",
+    "static/js/2.cf518259.chunk.js.LICENSE": "/agas-portfolio/static/js/2.cf518259.chunk.js.LICENSE",
     "static/media/App.css": "/agas-portfolio/static/media/aga-rocks.1f1365ca.jpg",
     "static/media/gift-giver-cover.png": "/agas-portfolio/static/media/gift-giver-cover.9b2e1a9c.png",
     "static/media/gift-giver-main-page.png": "/agas-portfolio/static/media/gift-giver-main-page.cff120ab.png",
@@ -26,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.9ac5589c.js",
     "static/css/2.d9253284.chunk.css",
-    "static/js/2.0aa66115.chunk.js",
-    "static/css/main.12193834.chunk.css",
-    "static/js/main.9be58acd.chunk.js"
+    "static/js/2.cf518259.chunk.js",
+    "static/css/main.59ca560e.chunk.css",
+    "static/js/main.8d232995.chunk.js"
   ]
 }
