@@ -1,203 +1,207 @@
 @import url('https://fonts.googleapis.com/css?family=Allura&display=swap');
 
-
 .common-app {
-  color: #515C6F;
-  background-color: #F3F2F2;
+    color: #515C6F;
+    background-color: #F3F2F2;
 }
 
 /*************Nav Bar*************/
 .navbar-name {
-  vertical-align: middle;
-  font-family: 'Allura', cursive;
-  font-size: 15px;
+    vertical-align: middle;
+    font-family: 'Allura', cursive;
+    font-size: 15px;
 }
 
 .navbar {
-  background-color: #F3F2F2;
-  font-family: 'Playfair Display', serif;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
+    background-color: #F3F2F2;
+    font-family: 'Playfair Display', serif;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 .navbar a {
-  color: #515C6F;
-  font-size: 20px;
-  margin-right: 50px;
+    color: #515C6F;
+    font-size: 20px;
+    margin-right: 50px;
 
 }
+
 /***********Front PAGE************/
 .front-page {
-  color: #515C6F;
-  font-size: calc(16px + 1vw);
-  background-color: #F3F2F2;
-  width: inherit;
-  height: 100vh;
-  font-family: 'Playfair Display', serif;
+    color: #515C6F;
+    font-size: calc(16px + 1vw);
+    background-color: #F3F2F2;
+    width: inherit;
+    height: 100vh;
+    font-family: 'Playfair Display', serif;
 }
 
 .background-with-aga {
-  width: 100%;
-  height: 100vh;
-  background: url("resources/aga-rocks.jpg") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  margin:unset;
-  opacity: 0.9;
-  position: relative;
-  color: white;
-  text-shadow: 2px 2px gray;
+    width: 100%;
+    height: 100vh;
+    background: url("resources/aga-rocks.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: unset;
+    opacity: 0.9;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px gray;
 }
 
 .picture-title {
-  position: absolute;
-  padding-top: 40vh;
-  padding-left: 5vw;
-  font-size: calc(18px + 3vw);
-  font-family: 'Playfair Display', serif;
+    position: absolute;
+    padding-top: 40vh;
+    padding-left: 5vw;
+    font-size: calc(18px + 3vw);
+    font-family: 'Playfair Display', serif;
 }
 
 .picture-extra-information {
-  position: absolute;
-  padding-top: 80vh;
-  padding-left: 5vw;
-  font-size: calc(16px + 1vw);
-  font-family: 'Playfair Display', serif;
+    position: absolute;
+    padding-top: 80vh;
+    padding-left: 5vw;
+    font-size: calc(16px + 1vw);
+    font-family: 'Playfair Display', serif;
 }
 
 .portfolio-title {
-  text-align: center;
-  padding-top: 5%;
-  background-color: #F3F2F2;
+    text-align: center;
+    padding-top: 5%;
+    background-color: #F3F2F2;
 }
 
 .portfolio-item {
-  background-color: #F3F2F2;
-  width: 100%;
-  height: 100%;
+    background-color: #F3F2F2;
+    width: 100%;
+    height: 100%;
 }
 
 .portfolio-cover {
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 2.5%;
-  width: inherit;
-  position: relative;
-  background-color: #F3F2F2;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2.5%;
+    width: inherit;
+    position: relative;
+    background-color: #F3F2F2;
 }
 
 .portfolio-image {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
 }
 
 .hovered-filter {
-  width: 100%;
-  height: 100%;
-  top: 0;
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  background-color: #FF6969;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    background-color: #FF6969;
 }
 
 .portfolio-cover:hover .portfolio-image {
-  opacity: 0.7;
+    opacity: 0.7;
 }
 
 .portfolio-cover:hover .hovered-filter {
-  opacity: 0.7;
+    opacity: 0.7;
 }
 
 .portfolio-text {
-  position: absolute;
-  padding-top: 10%;
-  padding-left: 60%;
-  font-size: 5vw;
-  font-family: 'Playfair Display', serif;
-  color: white;
-  text-shadow: 2px 2px gray;
-  text-align: right;
-  width: 90%;
+    position: absolute;
+    padding-top: 10%;
+    padding-left: 60%;
+    font-size: 5vw;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    text-shadow: 2px 2px gray;
+    text-align: right;
+    width: 90%;
 }
 
 .portfolio-details {
-  font-size: 2.4vw;
+    font-size: 2.4vw;
 }
 
 /**********RESUME PAGE************/
 .resume-page {
-  padding-left: 15%;
-  padding-right: 15%;
-  padding-top: 62px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 62px;
     font-size: calc(14px + 0.4vw);
-  background-size: cover;
-  background-position: inherit;
-  width: 100%;
-  height: 100vh;
-  font-family: 'Playfair Display', serif;
+    background-size: cover;
+    background-position: inherit;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Playfair Display', serif;
 }
 
 .resume-title {
-  padding-top: 5%;
-  padding-bottom: 2.3%;
+    padding-top: 5%;
+    padding-bottom: 2.3%;
     font-size: calc(18px + 1vw);
 }
 
 .resume-footer {
-  color: #515C6F;
-  position: absolute;
-  bottom: 10%;
+    position: absolute;
+    bottom: 10%;
+}
+
+.resume-footer a {
+    color: #515C6F;
+    padding-right: 100px;
 }
 
 /**********ABOUT PAGE************/
 .about-page {
-  font-family: 'Playfair Display', serif;
-  width: 100%;
-  height: 100vh;
-  background: url("resources/aga-in-louvre.png") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  color: white;
-  text-align: center;
-  padding-top: 62px;
+    font-family: 'Playfair Display', serif;
+    width: 100%;
+    height: 100vh;
+    background: url("resources/aga-in-louvre.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-top: 62px;
 }
 
 .about-title {
-  padding-top: 50vh;
-  font-size: calc(18px + 3vw);
-  font-family: 'Playfair Display', serif;
+    padding-top: 50vh;
+    font-size: calc(18px + 3vw);
+    font-family: 'Playfair Display', serif;
 }
 
 .about-text {
-  margin-top: 2vw;
-  font-size: calc(12px + 0.6vw);
-  padding-left: 25vw;
-  padding-right: 25vw;
+    margin-top: 2vw;
+    font-size: calc(12px + 0.6vw);
+    padding-left: 25vw;
+    padding-right: 25vw;
 }
 
 /**********CONTACT PAGE************/
 
 .contact-page {
-  font-family: 'Playfair Display', serif;
-  width: 100%;
-  height: 100vh;
-  padding-top: 100px;
-  padding-left: 15%;
-  padding-right: 15%;
+    font-family: 'Playfair Display', serif;
+    width: 100%;
+    height: 100vh;
+    padding-top: 100px;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .form-group-display {
-  background-color: white;
-  width: 30vw;
+    background-color: white;
+    width: 30vw;
 
     box-shadow: 1px 1px 3px #c2c1c1;
 }
@@ -291,7 +295,7 @@
     padding-top: 40px;
 }
 
-.project-title h1,h3 {
+.project-title h1, h3 {
     padding-bottom: 20px;
 }
 
@@ -301,7 +305,7 @@
     padding-bottom: 0;
 }
 
-.description-with-title h2{
+.description-with-title h2 {
     padding-bottom: 20px;
 }
 
