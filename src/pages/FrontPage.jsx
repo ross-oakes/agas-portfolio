@@ -17,11 +17,11 @@ const FrontPage = () => {
                 </div>
             </div>
             <h1 id="my-portfolio" className="portfolio-title">My Portfolio</h1>
-                <PortfolioItem
-                    title="Gift Giver"
-                    details="a mobile app helping to select a perfect gift"
-                    image={giftGiverCoverPhoto}
-                    endpoint="/gift-giver"/>
+            <PortfolioItem
+                title="Gift Giver"
+                details="a mobile app helping to select a perfect gift"
+                image={giftGiverCoverPhoto}
+                endpoint="/gift-giver"/>
 
         </div>
     );

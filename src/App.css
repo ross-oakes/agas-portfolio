@@ -18,7 +18,6 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    margin-left: calc(15% - 16px);
 }
 
 .navbar a {
@@ -34,8 +33,9 @@
     font-size: calc(16px + 1vw);
     background-color: #F3F2F2;
     width: inherit;
-    height: 100vh;
+    height: 100%;
     font-family: 'Playfair Display', serif;
+    padding-bottom: 100px;
 }
 
 .background-with-aga {
