@@ -1,7 +1,7 @@
 import { Component } from "react"
 
 export class ScrollToTop extends Component {
-    componentDidMount() {
+    componentDidUpdate() {
         window.scrollTo(0, 0)
     }
 

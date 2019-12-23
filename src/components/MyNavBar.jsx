@@ -5,9 +5,10 @@ import {
     NavItem,
     NavLink,
     Collapse,
-    NavbarToggler,
+    NavbarToggler, NavbarBrand,
 } from 'reactstrap';
 import {Link} from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 const NavBar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -16,12 +17,12 @@ const NavBar = () => {
 
     return (
         <Navbar className="navbar" expand="md" light fixed="top">
-            {/*<NavbarBrand className="navbar-name" tag={Link} to="/">Agnieszka Matyja</NavbarBrand>*/}
+            <NavbarBrand className="navbar-name" tag={Link} to="/">Aga UX</NavbarBrand>
             <NavbarToggler onClick={toggle} />
             <Collapse isOpen={isOpen} navbar>
                 <Nav navbar>
                     <NavItem>
-                        <NavLink tag={Link} to="/">Portfolio</NavLink>
+                        <NavLink tag={HashLink} to="/#my-portfolio">Portfolio</NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink tag={Link} to="/about">About</NavLink>

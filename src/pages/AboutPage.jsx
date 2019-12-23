@@ -6,7 +6,7 @@ const AboutPage = () => {
     return (
         <div className="about-page">
             <ScrollToTop/>
-            <img className="about-picture" src={AgaLouvre}/>
+            <img className="about-picture" src={AgaLouvre} alt=""/>
             <div className="about-text">
                 <h3 className="about-title">About</h3>
 

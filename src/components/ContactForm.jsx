@@ -3,7 +3,6 @@ import {Button, Form} from 'reactstrap';
 import humanIcon from "../resources/human-icon.png"
 import mailIcon from "../resources/mail-icon.png"
 import ContactFormBox from "./ContactFormBox";
-import arrowIcon from "../resources/arrow-icon.png"
 
 const ContactForm = () =>  (
     <Form className="form">
@@ -28,9 +27,6 @@ const ContactForm = () =>  (
         <tr align="right">
             <Button className="button-display">
                 <b>SEND</b>
-                <div className="arrow-display">
-                    <img src={arrowIcon} alt=""/>
-                </div>
             </Button>
         </tr>
 
