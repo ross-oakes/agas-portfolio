@@ -17,7 +17,7 @@ const NavBar = () => {
 
     return (
         <Navbar className="navbar" expand="md" light fixed="top">
-            <NavbarBrand className="navbar-name" tag={Link} to="/">Aga UX</NavbarBrand>
+            <NavbarBrand className="navbar-name" tag={Link} to="/">Agnieszka Matyja</NavbarBrand>
             <NavbarToggler onClick={toggle} />
             <Collapse isOpen={isOpen} navbar>
                 <Nav navbar>
