@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/agas-portfolio/static/css/main.0a21da95.chunk.css",
-    "main.js": "/agas-portfolio/static/js/main.d96d7def.chunk.js",
-    "main.js.map": "/agas-portfolio/static/js/main.d96d7def.chunk.js.map",
+    "main.css": "/agas-portfolio/static/css/main.552b157d.chunk.css",
+    "main.js": "/agas-portfolio/static/js/main.e69ec765.chunk.js",
+    "main.js.map": "/agas-portfolio/static/js/main.e69ec765.chunk.js.map",
     "runtime-main.js": "/agas-portfolio/static/js/runtime-main.9ac5589c.js",
     "runtime-main.js.map": "/agas-portfolio/static/js/runtime-main.9ac5589c.js.map",
     "static/css/2.d9253284.chunk.css": "/agas-portfolio/static/css/2.d9253284.chunk.css",
-    "static/js/2.8c015f08.chunk.js": "/agas-portfolio/static/js/2.8c015f08.chunk.js",
-    "static/js/2.8c015f08.chunk.js.map": "/agas-portfolio/static/js/2.8c015f08.chunk.js.map",
+    "static/js/2.d63f517c.chunk.js": "/agas-portfolio/static/js/2.d63f517c.chunk.js",
+    "static/js/2.d63f517c.chunk.js.map": "/agas-portfolio/static/js/2.d63f517c.chunk.js.map",
     "index.html": "/agas-portfolio/index.html",
-    "precache-manifest.17a2ccbf70b0aabe1ee97ebe27a875b9.js": "/agas-portfolio/precache-manifest.17a2ccbf70b0aabe1ee97ebe27a875b9.js",
+    "precache-manifest.bc39f769e774c0bff4509ab355770065.js": "/agas-portfolio/precache-manifest.bc39f769e774c0bff4509ab355770065.js",
     "service-worker.js": "/agas-portfolio/service-worker.js",
     "static/css/2.d9253284.chunk.css.map": "/agas-portfolio/static/css/2.d9253284.chunk.css.map",
-    "static/css/main.0a21da95.chunk.css.map": "/agas-portfolio/static/css/main.0a21da95.chunk.css.map",
-    "static/js/2.8c015f08.chunk.js.LICENSE": "/agas-portfolio/static/js/2.8c015f08.chunk.js.LICENSE",
+    "static/css/main.552b157d.chunk.css.map": "/agas-portfolio/static/css/main.552b157d.chunk.css.map",
+    "static/js/2.d63f517c.chunk.js.LICENSE": "/agas-portfolio/static/js/2.d63f517c.chunk.js.LICENSE",
     "static/media/aga-in-louvre.jpg": "/agas-portfolio/static/media/aga-in-louvre.150221c4.jpg",
     "static/media/App.css": "/agas-portfolio/static/media/aga-rocks.1f1365ca.jpg",
     "static/media/gift-giver-cover.png": "/agas-portfolio/static/media/gift-giver-cover.9b2e1a9c.png",
@@ -27,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.9ac5589c.js",
     "static/css/2.d9253284.chunk.css",
-    "static/js/2.8c015f08.chunk.js",
-    "static/css/main.0a21da95.chunk.css",
-    "static/js/main.d96d7def.chunk.js"
+    "static/js/2.d63f517c.chunk.js",
+    "static/css/main.552b157d.chunk.css",
+    "static/js/main.e69ec765.chunk.js"
   ]
 }
