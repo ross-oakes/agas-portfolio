@@ -3,7 +3,7 @@ import {Col, Container, Row} from "reactstrap";
 
 
 const createPictures = (picture, horizontal) => {
-    var value = horizontal ? 60 : 20;
+    var value = horizontal ? 50 : 30;
     return <Col sm="auto">
         <img className="image-shading" src={picture} alt={""}
              style={{
