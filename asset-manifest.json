@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.ccfbf90a.chunk.css",
+    "main.css": "/static/css/main.5dc5f7e2.chunk.css",
     "main.js": "/static/js/main.5c419d39.chunk.js",
     "main.js.map": "/static/js/main.5c419d39.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.63c1efab.js",
@@ -9,10 +9,10 @@
     "static/js/2.d63f517c.chunk.js": "/static/js/2.d63f517c.chunk.js",
     "static/js/2.d63f517c.chunk.js.map": "/static/js/2.d63f517c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6cb4050e67cf95e7512366a850c5e6a0.js": "/precache-manifest.6cb4050e67cf95e7512366a850c5e6a0.js",
+    "precache-manifest.45edbab23dea126738be7286647c8a19.js": "/precache-manifest.45edbab23dea126738be7286647c8a19.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.d9253284.chunk.css.map": "/static/css/2.d9253284.chunk.css.map",
-    "static/css/main.ccfbf90a.chunk.css.map": "/static/css/main.ccfbf90a.chunk.css.map",
+    "static/css/main.5dc5f7e2.chunk.css.map": "/static/css/main.5dc5f7e2.chunk.css.map",
     "static/js/2.d63f517c.chunk.js.LICENSE": "/static/js/2.d63f517c.chunk.js.LICENSE",
     "static/media/aga-in-louvre.jpg": "/static/media/aga-in-louvre.150221c4.jpg",
     "static/media/App.css": "/static/media/aga-rocks.1f1365ca.jpg",
@@ -28,7 +28,7 @@
     "static/js/runtime-main.63c1efab.js",
     "static/css/2.d9253284.chunk.css",
     "static/js/2.d63f517c.chunk.js",
-    "static/css/main.ccfbf90a.chunk.css",
+    "static/css/main.5dc5f7e2.chunk.css",
     "static/js/main.5c419d39.chunk.js"
   ]
 }
