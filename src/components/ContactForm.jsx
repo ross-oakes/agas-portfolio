@@ -33,6 +33,7 @@ const ContactForm = () => {
                             label="Name"
                             hintText="Jane Doe"
                             height="40"
+                            value={name}
                             onChange={wrapFunc(setName)}/>
         </tr>
         <tr>
@@ -40,6 +41,7 @@ const ContactForm = () => {
                             label="Email"
                             hintText="janedoe123@email.com"
                             height="40"
+                            value={email}
                             onChange={wrapFunc(setEmail)}/>
         </tr>
         <tr>
@@ -47,6 +49,7 @@ const ContactForm = () => {
                             hintText="Type something..."
                             inputType="textarea"
                             height="180"
+                            value={content}
                             onChange={wrapFunc(setContent)}/>
         </tr>
         <tr align="right">
