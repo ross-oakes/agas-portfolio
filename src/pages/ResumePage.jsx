@@ -18,22 +18,20 @@ const ResumePage = () => {
                 <p>Barnard, Leon. <b>Wireframing with Balsamiq Mockups.</b> Udemy, 2019.</p>
                 <p>Natoli, Joe. <b>UX & Web Design Master Course: Strategy, Design, Development.</b> Udemy, 2019.</p>
             </div>
-            <div className="resume-footer">
-                <Container>
-                    <Row>
-                        <Col xs="auto">
-                            <a href={resume} download>
-                                <img src={downloadIcon} alt="" height="25px" width="25px"/> Download My Resume
-                            </a>
-                        </Col>
-                        <Col xs="auto">
-                            <a href="https://www.linkedin.com/in/agnieszka-matyja-09b07b198/">
-                                <img src={linkedinIcon} alt="" height="25px" width="25px"/> LinkedIn profile
-                            </a>
-                        </Col>
-                    </Row>
-                </Container>
-            </div>
+            <Container className="resume-footer">
+                <Row>
+                    <Col xs>
+                        <a href={resume} download>
+                            <img src={downloadIcon} alt="" height="25px" width="25px"/> Download My Resume
+                        </a>
+                    </Col>
+                    <Col xs>
+                        <a href="https://www.linkedin.com/in/agnieszka-matyja-09b07b198/">
+                            <img src={linkedinIcon} alt="" height="25px" width="25px"/> LinkedIn profile
+                        </a>
+                    </Col>
+                </Row>
+            </Container>
 
         </div>
     );
