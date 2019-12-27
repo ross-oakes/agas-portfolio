@@ -26,7 +26,7 @@ const ResumePage = () => {
                         </a>
                     </Col>
                     <Col xs>
-                        <a href="https://www.linkedin.com/in/agnieszka-matyja-09b07b198/">
+                        <a href="https://www.linkedin.com/in/agnieszka-matyja-09b07b198/" target="_blank" >
                             <img src={linkedinIcon} alt="" height="25px" width="25px"/> LinkedIn profile
                         </a>
                     </Col>
