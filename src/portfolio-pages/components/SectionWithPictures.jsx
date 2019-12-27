@@ -1,15 +1,25 @@
 import * as React from "react"
 import {Col, Container, Row} from "reactstrap";
 
-
-const createPictures = (picture, horizontal) => {
+const createPictures = (pictures, horizontal) => {
     var value = horizontal ? 50 : 30;
-    return <Col sm="auto">
-        <img className="image-shading" src={picture} alt={""}
-             style={{
-                 width: `${value}vw`,
-             }}/>
-    </Col>
+
+    var spacer = <Col sm={1}></Col>;
+
+    console.log(pictures);
+
+    var htmlPics = pictures.map(function (picture) {
+        return <Col key={picture} sm="auto">
+            <img className="image-shading" src={picture} alt={""}
+                 style={{
+                     width: `${value}vw`,
+                 }}/>
+        </Col>
+    });
+
+    var htmlPicsWithSpacers = [...htmlPics].map((e, i) => i < htmlPics.length - 1 ? [e, spacer] : [e]).reduce((a, b) => a.concat(b))
+
+    return htmlPicsWithSpacers;
 };
 
 const SectionWithPictures = ({title, description, pictures, horizontal}) => {
@@ -20,7 +30,9 @@ const SectionWithPictures = ({title, description, pictures, horizontal}) => {
             <p>{description}</p>
             <Container>
                 <Row>
-                    {pictures.map(picture => createPictures(picture, horizontal))}
+                    {
+                        createPictures(pictures, horizontal)
+                    }
                 </Row>
             </Container>
         </div>
