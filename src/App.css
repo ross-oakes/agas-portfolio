@@ -200,19 +200,23 @@
     box-shadow: 1px 1px 3px #c2c1c1;
 }
 
-.button-display {
-    position: relative;
-    width: 16vw;
-    min-width: 135px;
+.frontpage-button-display {
+    width: 200px;
+    box-shadow: 2px 2px 8px #515c6f;
     border-radius: 19px !important;
     background-color: #FF6969 !important;
     border-color: #FF6969 !important;
 }
 
-.button-with-shadow {
+.contact-me-button {
+    position: relative;
     box-shadow: 2px 2px 8px #FF6969;
+    border-radius: 19px !important;
+    background-color: #FF6969 !important;
+    border-color: #FF6969 !important;
     margin-bottom: 1rem;
     min-width: 110px;
+    width: 16vw;
 }
 
 .toast-display {
