@@ -2,6 +2,7 @@ import React from 'react';
 import giftGiverCoverPhoto from '../resources/gift-giver-cover.png';
 import PortfolioItem from "../components/PortfolioItem";
 import {ScrollToTop} from "../components/ReactUtils";
+import {Button} from "reactstrap";
 
 const FrontPage = () => {
     return (
@@ -13,7 +14,9 @@ const FrontPage = () => {
                     <p>A passionate UX designer</p>
                 </div>
                 <div className="picture-extra-information">
-                    <p>Scroll down to see my portfolio</p>
+                    <a href="#my-portfolio">
+                        <Button className="button-display"><b>See my portfolio</b></Button>
+                    </a>
                 </div>
             </div>
             <h1 id="my-portfolio" className="portfolio-title">My Portfolio</h1>

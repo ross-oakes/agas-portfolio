@@ -76,7 +76,7 @@ const ContactForm = () => {
                             onChange={wrapFunc(setContent)}/>
         </tr>
         <tr align="right">
-            <Button className="button-display" onClick={send}>
+            <Button className="button-display button-with-shadow" onClick={send}>
                 <b>SEND</b>
             </Button>
         </tr>

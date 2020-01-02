@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 .common-app {
     color: #515C6F;
@@ -202,12 +203,16 @@
 .button-display {
     position: relative;
     width: 16vw;
-    min-width: 110px;
+    min-width: 135px;
     border-radius: 19px !important;
     background-color: #FF6969 !important;
     border-color: #FF6969 !important;
+}
+
+.button-with-shadow {
     box-shadow: 2px 2px 8px #FF6969;
     margin-bottom: 1rem;
+    min-width: 110px;
 }
 
 .toast-display {
