@@ -15,7 +15,7 @@ const FrontPage = () => {
                 </div>
                 <div className="picture-extra-information">
                     <a href="#my-portfolio">
-                        <Button className="button-display"><b>See my portfolio</b></Button>
+                        <Button className="button-display"><b>SEE MY PORTFOLIO</b></Button>
                     </a>
                 </div>
             </div>
