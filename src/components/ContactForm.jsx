@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import {Button, Form} from 'reactstrap';
+import {Alert, Button, Form} from 'reactstrap';
 import humanIcon from "../resources/human-icon.png"
 import mailIcon from "../resources/mail-icon.png"
 import ContactFormBox from "./ContactFormBox";
@@ -8,8 +8,25 @@ const ContactForm = () => {
     const [name, setName] = useState();
     const [email, setEmail] = useState();
     const [content, setContent] = useState();
+    const [successAlertVisible, setSuccessVisible] = useState(false);
+    const [dangerAlertVisible, setDangerVisible] = useState(false);
+    const openSuccessAlert = () => {
+        setSuccessVisible(true);
+    };
+    const closeSuccessAlert = () => {
+        setSuccessVisible(false);
+    };
+    const openDangerAlert = () => {
+        setDangerVisible(true);
+    };
+    const closeDangerAlert = () => {
+        setDangerVisible(false);
+    };
 
     const send = () => {
+        closeSuccessAlert();
+        closeDangerAlert();
+
         var template_params = {
             "reply_to": email,
             "from_name": name,
@@ -18,7 +35,13 @@ const ContactForm = () => {
 
         var service_id = "default_service";
         var template_id = "template_594ZU3dk";
-        window.emailjs.send(service_id, template_id, template_params)
+        try {
+            window.emailjs.send(service_id, template_id, template_params);
+            openSuccessAlert();
+        } catch (e) {
+            openDangerAlert();
+        }
+
     };
 
     function wrapFunc(func){
@@ -57,7 +80,12 @@ const ContactForm = () => {
                 <b>SEND</b>
             </Button>
         </tr>
-
+        <Alert className="toast-display" color="success" isOpen={successAlertVisible} toggle={closeSuccessAlert}>
+            Your message has been sent successfully. I'll get back to you shortly.
+        </Alert>
+        <Alert className="toast-display" color="danger" isOpen={dangerAlertVisible} toggle={closeDangerAlert}>
+            Your message has failed. Please try again.
+        </Alert>
     </Form>
 };
 

@@ -207,6 +207,11 @@
     background-color: #FF6969 !important;
     border-color: #FF6969 !important;
     box-shadow: 2px 2px 8px #FF6969;
+    margin-bottom: 1rem;
+}
+
+.toast-display {
+    width: 30vw;
 }
 
 .arrow-display {
