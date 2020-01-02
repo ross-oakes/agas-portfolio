@@ -14,11 +14,12 @@ const ResumePage = () => {
                 <p><b>Masters, </b>English Philology, Jagiellonian University, 2015-2017, Grade: Distinction.</p>
 
                 <h3 className="resume-title"><b>Training</b></h3>
-                <p>Travis, David. <b>User Experience (UX): The Ultimate Guide to Usability and UX.</b> Udemy, 2019.</p>
-                <p>Walter Scott, Daniel. <b>User Experience Design Essentials - Adobe XD UI UX Design.</b> Udemy, 2019.</p>
-                <p>Natoli, Joe. <b>DESIGN RULES: Principles + Practices for Great UI Design.</b> Udemy, 2019.</p>
-                <p>Barnard, Leon. <b>Wireframing with Balsamiq Mockups.</b> Udemy, 2019.</p>
-                <p>Natoli, Joe. <b>UX & Web Design Master Course: Strategy, Design, Development.</b> Udemy, 2019.</p>
+                <p>Travis, David. <b>User Experience (UX): The Ultimate Guide to Usability and UX.</b> 2019.</p>
+                <p>Walter Scott, Daniel. <b>User Experience Design Essentials - Adobe XD UI UX Design.</b> 2019.</p>
+                <p>Natoli, Joe. <b>DESIGN RULES: Principles + Practices for Great UI Design.</b> 2019.</p>
+                <p>Barnard, Leon. <b>Wireframing with Balsamiq Mockups.</b> 2019.</p>
+                <p>Natoli, Joe. <b>UX & Web Design Master Course: Strategy, Design, Development.</b> 2019.</p>
+                <p>Angelo Todaro, Joseph. <b>Sketch from A to Z (2019): Become an app designer.</b> 2020.</p>
             </div>
             <Container className="resume-footer">
                 <Row>
