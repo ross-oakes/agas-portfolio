@@ -266,6 +266,15 @@
     width: 12vw;
 }
 
+.details-title h3 {
+    padding-bottom: 5px;
+}
+
+.details-content {
+    padding-bottom: 30px;
+    text-align: right;
+}
+
 .toast-display {
     width: 30vw;
 }
@@ -277,17 +286,6 @@
     width: 100%;
     z-index:9999;
     border-radius:0
-}
-
-.table-contact-info {
-    margin-left: auto;
-    margin-right: 0;
-    text-align: right;
-    font-size: calc(12px + 0.2vw);
-}
-
-.table-contact-info h2 {
-    font-size: calc(16px + 1vw);
 }
 
 /**********PORTFOLIO PAGE************/

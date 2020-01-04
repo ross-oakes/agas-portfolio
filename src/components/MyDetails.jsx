@@ -1,26 +1,30 @@
 import React from "react";
+import {Row} from "reactstrap";
 
 const MyDetails = () => {
     return (
-        <table className="table-contact-info">
-            <tbody>
-                <tr>
-                    <h2>Email</h2>
-                    agnieszkamatyja93@gmail.com
-                </tr>
-                <tr>
-                    <h2>Mobile number</h2>
-                    +44 7514 487 378
-                </tr>
-                <tr>
-                    <h2>Address</h2>
-                    Wheathampstead<br />
-                    St. Albans <br />
-                    UK
-
-                </tr>
-            </tbody>
-        </table>
+        <>
+            <Row className="justify-content-end details-title ">
+                <h3>Email</h3><br/>
+            </Row>
+            <Row className="justify-content-end details-content">
+                agnieszkamatyja93@gmail.com
+            </Row>
+            <Row className="justify-content-end details-title">
+                <h3>Mobile number</h3>
+            </Row>
+            <Row className="justify-content-end details-content">
+                +44 7514 487 378
+            </Row>
+            <Row className="justify-content-end details-title">
+                <h3>Address</h3>
+            </Row>
+            <Row className="justify-content-end details-content">
+                Wheathampstead<br />
+                St. Albans <br />
+                UK
+            </Row>
+        </>
 
     );
 };
