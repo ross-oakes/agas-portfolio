@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9ac6499dd4035aa798b253c9ed9f0523",
+    "revision": "ed0e7f2237d51cfe538fed587d486a27",
     "url": "/index.html"
   },
   {
-    "revision": "02e125e9e0a6e3697543",
+    "revision": "91b6b1057e98767b4c2b",
     "url": "/static/css/2.d9253284.chunk.css"
   },
   {
-    "revision": "473dde5e3668bd07ae75",
-    "url": "/static/css/main.dcea8634.chunk.css"
+    "revision": "86cfc44b89cce94ae33c",
+    "url": "/static/css/main.00e13ef6.chunk.css"
   },
   {
-    "revision": "02e125e9e0a6e3697543",
-    "url": "/static/js/2.e1728ed3.chunk.js"
+    "revision": "91b6b1057e98767b4c2b",
+    "url": "/static/js/2.d28aee90.chunk.js"
   },
   {
     "revision": "801eb6b718cfeb49e4699ab80a85e8cf",
-    "url": "/static/js/2.e1728ed3.chunk.js.LICENSE"
+    "url": "/static/js/2.d28aee90.chunk.js.LICENSE"
   },
   {
-    "revision": "473dde5e3668bd07ae75",
-    "url": "/static/js/main.e9fa5885.chunk.js"
+    "revision": "86cfc44b89cce94ae33c",
+    "url": "/static/js/main.76f3e73a.chunk.js"
   },
   {
     "revision": "e738b54ffe3b15816cf3",
@@ -36,6 +36,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/aga-rocks.1f1365ca.jpg"
   },
   {
+    "revision": "3eb006b11e8190d4c6682d57faa4495e",
+    "url": "/static/media/checkout-design.3eb006b1.png"
+  },
+  {
     "revision": "9b2e1a9c4ec43ba3d15084c7f6490d48",
     "url": "/static/media/gift-giver-cover.9b2e1a9c.png"
   },
@@ -46,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1ffa418379cff47451023868cf50dd60",
     "url": "/static/media/gift-giver-sub-page.1ffa4183.png"
+  },
+  {
+    "revision": "9ea92e0403aa6dd8b48c33d82571b258",
+    "url": "/static/media/landing-page-design.9ea92e04.png"
   },
   {
     "revision": "ccff23e2246fc7968535a456969f5726",
@@ -65,6 +73,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "234fe1b9324c4c819f862192c3d69705",
-    "url": "/static/media/ui-challenges.234fe1b9.png"
+    "url": "/static/media/signup-design.234fe1b9.png"
   }
 ]);

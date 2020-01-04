@@ -1,35 +1,37 @@
 {
   "files": {
-    "main.css": "/static/css/main.dcea8634.chunk.css",
-    "main.js": "/static/js/main.e9fa5885.chunk.js",
-    "main.js.map": "/static/js/main.e9fa5885.chunk.js.map",
+    "main.css": "/static/css/main.00e13ef6.chunk.css",
+    "main.js": "/static/js/main.76f3e73a.chunk.js",
+    "main.js.map": "/static/js/main.76f3e73a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.63c1efab.js",
     "runtime-main.js.map": "/static/js/runtime-main.63c1efab.js.map",
     "static/css/2.d9253284.chunk.css": "/static/css/2.d9253284.chunk.css",
-    "static/js/2.e1728ed3.chunk.js": "/static/js/2.e1728ed3.chunk.js",
-    "static/js/2.e1728ed3.chunk.js.map": "/static/js/2.e1728ed3.chunk.js.map",
+    "static/js/2.d28aee90.chunk.js": "/static/js/2.d28aee90.chunk.js",
+    "static/js/2.d28aee90.chunk.js.map": "/static/js/2.d28aee90.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.102aae62031087ff91147c23f0e15b70.js": "/precache-manifest.102aae62031087ff91147c23f0e15b70.js",
+    "precache-manifest.2300000aa20a2c6106717d3d2161ef41.js": "/precache-manifest.2300000aa20a2c6106717d3d2161ef41.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.d9253284.chunk.css.map": "/static/css/2.d9253284.chunk.css.map",
-    "static/css/main.dcea8634.chunk.css.map": "/static/css/main.dcea8634.chunk.css.map",
-    "static/js/2.e1728ed3.chunk.js.LICENSE": "/static/js/2.e1728ed3.chunk.js.LICENSE",
+    "static/css/main.00e13ef6.chunk.css.map": "/static/css/main.00e13ef6.chunk.css.map",
+    "static/js/2.d28aee90.chunk.js.LICENSE": "/static/js/2.d28aee90.chunk.js.LICENSE",
     "static/media/aga-in-louvre.jpg": "/static/media/aga-in-louvre.150221c4.jpg",
     "static/media/App.css": "/static/media/aga-rocks.1f1365ca.jpg",
+    "static/media/checkout-design.png": "/static/media/checkout-design.3eb006b1.png",
     "static/media/gift-giver-cover.png": "/static/media/gift-giver-cover.9b2e1a9c.png",
     "static/media/gift-giver-main-page.png": "/static/media/gift-giver-main-page.cff120ab.png",
     "static/media/gift-giver-sub-page.png": "/static/media/gift-giver-sub-page.1ffa4183.png",
+    "static/media/landing-page-design.png": "/static/media/landing-page-design.9ea92e04.png",
     "static/media/paper-prototype.jpg": "/static/media/paper-prototype.ccff23e2.jpg",
     "static/media/personas-ben.png": "/static/media/personas-ben.129d6faf.png",
     "static/media/personas-rachel.png": "/static/media/personas-rachel.d32baa36.png",
     "static/media/resume.pdf": "/static/media/resume.ba94467d.pdf",
-    "static/media/ui-challenges.png": "/static/media/ui-challenges.234fe1b9.png"
+    "static/media/signup-design.png": "/static/media/signup-design.234fe1b9.png"
   },
   "entrypoints": [
     "static/js/runtime-main.63c1efab.js",
     "static/css/2.d9253284.chunk.css",
-    "static/js/2.e1728ed3.chunk.js",
-    "static/css/main.dcea8634.chunk.css",
-    "static/js/main.e9fa5885.chunk.js"
+    "static/js/2.d28aee90.chunk.js",
+    "static/css/main.00e13ef6.chunk.css",
+    "static/js/main.76f3e73a.chunk.js"
   ]
 }
