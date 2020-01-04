@@ -235,6 +235,15 @@
     width: 30vw;
 }
 
+.alert-fixed {
+    position:fixed;
+    top: 65px;
+    left: 0;
+    width: 100%;
+    z-index:9999;
+    border-radius:0
+}
+
 .arrow-display {
     background-color: white;
     border-radius: 12px;
