@@ -21,19 +21,22 @@ const UiChallenges = () => (
             title="Challenge 1"
             description="Design a Sign Up page."
             pictures={[SignUpDesign]}
-            horizontal={true}/>
+            horizontal={true}
+            lrg/>
 
         <SectionWithPictures
             title="Challenge 2"
             description="Design a credit card checkout."
             pictures={[CheckoutDesign]}
-            horizontal={true}/>
+            horizontal={true}
+            lrg/>
 
         <SectionWithPictures
             title="Challenge 3"
             description="Design a landing page."
             pictures={[LandingPageDesign]}
-            horizontal={true}/>
+            horizontal={true}
+            lrg/>
 
     </div>
 );
