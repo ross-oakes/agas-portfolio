@@ -312,12 +312,14 @@
     padding-bottom: 0;
 }
 
-.description-with-title h2 {
-    padding-bottom: 20px;
+.description-without-title {
+    text-align: left;
+    padding: 50px;
+    padding-bottom: 0;
 }
 
-.description-with-title td {
-    padding-left: 50px;
+.description-with-title h2 {
+    padding-bottom: 20px;
 }
 
 .image-shading {
