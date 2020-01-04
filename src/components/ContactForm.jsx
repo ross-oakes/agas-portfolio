@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import {Alert, Button, Form} from 'reactstrap';
+import {Button, Form, FormGroup} from 'reactstrap';
 import humanIcon from "../resources/human-icon.png"
 import mailIcon from "../resources/mail-icon.png"
 import ContactFormBox from "./ContactFormBox";
@@ -39,35 +39,29 @@ const ContactForm = ({openSuccessAlert, closeSuccessAlert,
     }
 
     return <Form className="form">
-        <tr>
-            <ContactFormBox icon={humanIcon}
-                            label="Name"
-                            hintText="Jane Doe"
-                            height="40"
-                            value={name}
-                            onChange={wrapFunc(setName)}/>
-        </tr>
-        <tr>
-            <ContactFormBox icon={mailIcon}
-                            label="Email"
-                            hintText="janedoe123@email.com"
-                            height="40"
-                            value={email}
-                            onChange={wrapFunc(setEmail)}/>
-        </tr>
-        <tr>
-            <ContactFormBox label="Message"
-                            hintText="Type something..."
-                            inputType="textarea"
-                            height="180"
-                            value={content}
-                            onChange={wrapFunc(setContent)}/>
-        </tr>
-        <tr align="right">
+        <ContactFormBox icon={humanIcon}
+                        label="Name"
+                        hintText="Jane Doe"
+                        height="40"
+                        value={name}
+                        onChange={wrapFunc(setName)}/>
+        <ContactFormBox icon={mailIcon}
+                        label="Email"
+                        hintText="janedoe123@email.com"
+                        height="40"
+                        value={email}
+                        onChange={wrapFunc(setEmail)}/>
+        <ContactFormBox label="Message"
+                        hintText="Type something..."
+                        inputType="textarea"
+                        height="180"
+                        value={content}
+                        onChange={wrapFunc(setContent)}/>
+        <FormGroup align="right">
             <Button className="contact-me-button" onClick={send}>
                 <b>SEND</b>
             </Button>
-        </tr>
+        </FormGroup>
     </Form>
 };
 

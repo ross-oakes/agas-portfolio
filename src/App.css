@@ -45,6 +45,14 @@
     width: inherit;
 }
 
+.frontpage-button-display {
+    width: 200px;
+    box-shadow: 2px 2px 8px #515c6f;
+    border-radius: 19px !important;
+    background-color: #FF6969 !important;
+    border-color: #FF6969 !important;
+}
+
 .background-with-aga {
     width: 100%;
     height: 100vh;
@@ -205,30 +213,45 @@
     padding-bottom: 100px;
 }
 
-.form-group-display {
-    background-color: white;
-    width: 30vw;
-
-    box-shadow: 1px 1px 3px #c2c1c1;
+.contact-form {
+    max-width: 500px !important;
+    min-width: 500px !important;
 }
 
-.frontpage-button-display {
-    width: 200px;
-    box-shadow: 2px 2px 8px #515c6f;
-    border-radius: 19px !important;
-    background-color: #FF6969 !important;
-    border-color: #FF6969 !important;
+.form-group-display {
+    background-color: white;
+    box-shadow: 1px 1px 3px #c2c1c1;
+    border-radius: 10px;
+}
+
+.icon-display {
+    padding: 25px !important;
+}
+
+.no-icon-display {
+    padding: 39px !important;
+}
+
+.form-display {
+    padding-left: 0 !important;
+}
+
+.input-display {
+    border-color: white !important;
+    padding: 0 !important;
+    margin-bottom: 2px !important;
+    width: 400px !important;
+    font-size: calc(12px + 0.2vw) !important;
+    min-height: 40px;
 }
 
 .contact-me-button {
-    position: relative;
     box-shadow: 2px 2px 8px #FF6969;
     border-radius: 19px !important;
     background-color: #FF6969 !important;
     border-color: #FF6969 !important;
-    margin-bottom: 1rem;
     min-width: 110px;
-    width: 16vw;
+    width: 12vw;
 }
 
 .toast-display {
@@ -242,54 +265,6 @@
     width: 100%;
     z-index:9999;
     border-radius:0
-}
-
-.arrow-display {
-    background-color: white;
-    border-radius: 12px;
-    width: 24px;
-    height: 24px;
-    min-width: 18px;
-    display: inline-block;
-    position: absolute;
-    right: 0.5vw;
-}
-
-.icon-display {
-    width: 70px;
-    height: 70px;
-
-    min-width: 28px;
-    min-height: 28px;
-
-    vertical-align: middle;
-    text-align: center;
-}
-
-.icon-size {
-    width: 28px;
-    height: 28px;
-}
-
-.label-display {
-    margin-bottom: 0;
-    font-size: 12px;
-    color: #B9BEC7;
-}
-
-.input-display {
-    border-color: white !important;
-    padding: 0 !important;
-    width: 25vw !important;
-    font-size: calc(12px + 0.2vw) !important;
-}
-
-.td-custom {
-    vertical-align: middle;
-}
-
-.contact-info {
-    vertical-align: top;
 }
 
 .table-contact-info {
