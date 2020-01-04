@@ -41,27 +41,11 @@ const ContactPage = () => {
                                 openDangerAlert={openDangerAlert}
                                 closeDangerAlert={closeDangerAlert}/>
                         </Col>
-                        <Col className="contact-form">
+                        <Col className="details-contact-form">
                             <MyDetails/>
                         </Col>
                     </Row>
                 </Container>
-                {/*<table width="100%">*/}
-                    {/*<tbody>*/}
-                        {/*<tr>*/}
-                            {/*<td>*/}
-                                {/*<ContactForm*/}
-                                    {/*openSuccessAlert={openSuccessAlert}*/}
-                                    {/*closeSuccessAlert={closeSuccessAlert}*/}
-                                    {/*openDangerAlert={openDangerAlert}*/}
-                                    {/*closeDangerAlert={closeDangerAlert}/>*/}
-                            {/*</td>*/}
-                            {/*<td className="contact-info">*/}
-                                {/*<MyDetails/>*/}
-                            {/*</td>*/}
-                        {/*</tr>*/}
-                    {/*</tbody>*/}
-                {/*</table>*/}
             </div>
         </>
     );

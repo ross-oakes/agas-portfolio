@@ -5,10 +5,10 @@ const MyDetails = () => {
     return (
         <>
             <Row className="justify-content-end details-title ">
-                <h3>Email</h3><br/>
+                <h3>Email</h3>
             </Row>
             <Row className="justify-content-end details-content">
-                agnieszkamatyja93@gmail.com
+                <p>agnieszkamatyja93@gmail.com</p>
             </Row>
             <Row className="justify-content-end details-title">
                 <h3>Mobile number</h3>

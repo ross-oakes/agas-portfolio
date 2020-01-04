@@ -225,6 +225,11 @@
     min-width: 500px !important;
 }
 
+.details-contact-form {
+    max-width: 500px !important;
+    min-width: 240px !important;
+}
+
 .form-group-display {
     background-color: white;
     box-shadow: 1px 1px 3px #c2c1c1;
