@@ -6,8 +6,6 @@ const createPictures = (pictures, horizontal) => {
 
     var spacer = <Col sm={1}></Col>;
 
-    console.log(pictures);
-
     var htmlPics = pictures.map(function (picture) {
         return <Col key={picture} sm="auto">
             <img className="image-shading" src={picture} alt={""}
