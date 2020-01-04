@@ -17,9 +17,7 @@ const createPictures = (pictures, horizontal) => {
         </Col>
     });
 
-    var htmlPicsWithSpacers = [...htmlPics].map((e, i) => i < htmlPics.length - 1 ? [e, spacer] : [e]).reduce((a, b) => a.concat(b))
-
-    return htmlPicsWithSpacers;
+    return [...htmlPics].map((e, i) => i < htmlPics.length - 1 ? [e, spacer] : [e]).reduce((a, b) => a.concat(b));
 };
 
 const SectionWithPictures = ({title, description, pictures, horizontal}) => {
