@@ -11,6 +11,7 @@ import ContactPage from "./pages/ContactPage";
 import AboutPage from "./pages/AboutPage";
 import ResumePage from "./pages/ResumePage";
 import GiftGiver from "./portfolio-pages/GiftGiver";
+import UiChallenges from "./portfolio-pages/UiChallenges";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
                       <Route exact path="/resume" component={ResumePage}/>
                       <Route exact path="/contact" component={ContactPage}/>
                       <Route exact path="/gift-giver" component={GiftGiver}/>
+                      <Route exact path="/ui-challenges" component={UiChallenges}/>
                   </Switch>
               </>
           </Router>
