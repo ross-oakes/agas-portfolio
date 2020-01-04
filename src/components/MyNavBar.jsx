@@ -25,7 +25,7 @@ const NavBar = () => {
 
     return (
         <Navbar className="navbar" expand="md" light fixed="top">
-            <NavbarBrand className="navbar-name" tag={Link} to="/">aga ux</NavbarBrand>
+            <NavbarBrand className="navbar-name" tag={Link} to="/" onClick={closeNavBar}>aga ux</NavbarBrand>
             <NavbarToggler onClick={toggleNavBar}/>
             <Collapse isOpen={isOpen} navbar>
                 <Nav navbar>

@@ -43,7 +43,6 @@
 .front-page {
     font-size: calc(16px + 1vw);
     width: inherit;
-    padding-bottom: 100px;
 }
 
 .background-with-aga {
@@ -89,6 +88,7 @@
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 2.5%;
+    margin-bottom: 10%;
     width: inherit;
     position: relative;
 }

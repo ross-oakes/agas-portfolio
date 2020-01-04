@@ -24,7 +24,7 @@ const ResumePage = () => {
             </div>
             <Container className="resume-footer">
                 <Row>
-                    <Col xs>
+                    <Col xs className="resume-footer-spacing">
                         <a href={resume} download>
                             <img src={downloadIcon} alt="" height="25px" width="25px"/> Download My Resume
                         </a>

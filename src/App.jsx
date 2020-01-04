@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import './Mobile.css';
 import NavBar from "./components/MyNavBar";
 import FrontPage from "./pages/FrontPage"
 import {
