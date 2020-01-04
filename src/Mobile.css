@@ -6,6 +6,15 @@
         padding-top: 15%;
     }
 
+    .portfolio-image {
+        opacity: 1;
+    }
+
+    .hovered-filter {
+        opacity: 1;
+        background-color: transparent;
+    }
+
     /**********RESUME PAGE************/
 
     .resume-text {
