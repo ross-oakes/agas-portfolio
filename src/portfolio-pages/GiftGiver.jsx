@@ -20,18 +20,22 @@ const GiftGiver = () => (
         <img className="portfolio-item" src={GiftGiverPic} alt=""/>
         <Section
             title="The brief"
-            description="To create an app. The idea of the app was to recommend users gifts to buy for their loved ones.
-            These recommendations were based on that person's preexisting preferences. Users will enter the items a
-            person already owns and the app will provide a list of gifts ideal for this person. This project was part
-            of a UX course I have completed."/>
+            description={[
+                "To create an app. The idea of the app was to recommend users gifts to buy for their " +
+                "loved ones. These recommendations were based on that person's preexisting preferences. Users will " +
+                "enter the items a person already owns and the app will provide a list of gifts ideal for this " +
+                "person. This project was part of a UX course I have completed."
+            ]}/>
 
         <Section
             title="What I did"
-            description="I conducted contextual research with 15 users. Then, I designed user journey maps and used
-            affinity mapping to create personas. I used red routes to determine the key functions of my application.
-            Next, I designed and tested paper prototypes. These prototypes helped to improve my design. Afterwards I
-            built wireframes, giving me some suggestions for improvement again. The last stage was building a High
-            Fidelity Prototype and testing it with real users."/>
+            description={[
+                "I conducted contextual research with 15 users. Then, I designed user journey maps and used affinity " +
+                "mapping to create personas. I used red routes to determine the key functions of my application. " +
+                "Next, I designed and tested paper prototypes. These prototypes helped to improve my design. " +
+                "Afterwards I built wireframes, giving me some suggestions for improvement again. The last stage was " +
+                "building a High Fidelity Prototype and testing it with real users."
+            ]}/>
 
         <SectionWithTable title="Key tools and deliverables"
                           tableComponents={[
@@ -63,14 +67,20 @@ const GiftGiver = () => (
 
         <Section
             title="What went well:"
-            description='People were interested in using this app - it reduces time spent choosing the "ideal" gift.'/>
+            description={[
+                'People were interested in using this app - it reduces time spent choosing the "ideal" ' +
+                'gift.'
+            ]}/>
 
         <Section
             title="What could have been better:"
-            description='Some of the elements could have been redesigned. For example, moving "Stuff they like" onto a
-            separate page, would have given each page a single task. This would have reduce the complexity of any given
-            page, and made the app even easier to use. But, it is a trade off between a minimal responsibility design
-            and the number of page transitions.'/>
+            description={[
+                'Some of the elements could have been redesigned. For example, moving "Stuff they like" ' +
+                'onto a separate page, would have given each page a single task. This would have reduce the complexity ' +
+                'of any given page, and made the app even easier to use.',
+
+                'Another point'
+            ]}/>
     </div>
 );
 

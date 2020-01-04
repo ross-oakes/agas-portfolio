@@ -1,9 +1,13 @@
 import * as React from "react"
 
-const Section = ({title, description}) => (
+function createParagraph(description) {
+    return <p>{description}</p>
+}
+
+const Section = ({title, description: descriptions}) => (
     <div className="description-with-title">
         <h2>{title}</h2>
-        <p>{description}</p>
+        {descriptions.map(createParagraph)}
     </div>
 );
 
