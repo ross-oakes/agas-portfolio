@@ -29,6 +29,16 @@
     margin-right: 50px;
 }
 
+.sub-navbar {
+    background-color: #F6F6F6 !important;
+    font-size: 10px !important;
+    width: 170px;
+}
+
+.sub-navbar a {
+    font-size: 18px !important;
+}
+
 /***********Front PAGE************/
 .front-page {
     font-size: calc(16px + 1vw);
