@@ -32,7 +32,7 @@ const ContactPage = () => {
             </Alert>
             <div className="contact-page">
                 <h2>Contact me</h2>
-                <Container>
+                <Container className="contact-page-container">
                     <Row>
                         <Col className="contact-form">
                             <ContactForm
