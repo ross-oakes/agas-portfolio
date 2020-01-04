@@ -19,14 +19,14 @@ const NavBar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [isDropdownOpen, setDropdownOpen] = useState(false);
 
-    const toggle = () => setIsOpen(!isOpen);
+    const toggleNavBar = () => setIsOpen(!isOpen);
     const toggleDropDown = () => setDropdownOpen(!isDropdownOpen);
 
     return (
         <Navbar className="navbar" expand="md" light fixed="top">
             <NavbarBrand className="navbar-name" tag={Link} to="/">aga ux</NavbarBrand>
-            <NavbarToggler onClick={toggle} />
-            <Collapse isOpen={isOpen} navbar>
+            <NavbarToggler onClick={toggleNavBar} />
+            <Collapse isOpen={false} navbar>
                 <Nav navbar>
                     <Dropdown nav inNavbar
                               isOpen={isDropdownOpen}
