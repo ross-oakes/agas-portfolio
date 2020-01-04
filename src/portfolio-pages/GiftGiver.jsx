@@ -54,7 +54,9 @@ const GiftGiver = () => (
         <SectionWithPictures
             title="Paper prototypes"
             description="I developed paper prototypes of the app and tested it with users. This allowed for the
-            classification of crucial improvements needed."
+            classification of crucial improvements needed. For instance, I deleted the section 'Name' to improve
+            clarity for the participants. They didn't know whether they should type their name or type the name of the
+            person who they were trying to buy a gift for."
             pictures={[PaperPrototype]}
             horizontal={true}/>
 
@@ -77,9 +79,7 @@ const GiftGiver = () => (
             description={[
                 'Some of the elements could have been redesigned. For example, moving "Stuff they like" ' +
                 'onto a separate page, would have given each page a single task. This would have reduce the complexity ' +
-                'of any given page, and made the app even easier to use.',
-
-                'Another point'
+                'of any given page, and made the app even easier to use.'
             ]}/>
     </div>
 );
