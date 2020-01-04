@@ -1,20 +1,18 @@
 import * as React from "react"
+import {Col, Container, Row} from "reactstrap";
 
 
-const createRow = (row) => <tr>{row.map(createCell)}</tr>;
-const createCell = (value) => <td>{value}</td>;
+const createRow = (row) => <Row>{row.map(createCell)}</Row>;
+const createCell = (value) => <Col>{value}</Col>;
 
 const SectionWithTable = ({title, tableComponents}) => {
-
 
     return (
         <div className="description-with-title">
             <h2>{title}</h2>
-            <table>
-                <tbody>
+            <Container>
                 {tableComponents.map(createRow)}
-                </tbody>
-            </table>
+            </Container>
         </div>
     )
 };
