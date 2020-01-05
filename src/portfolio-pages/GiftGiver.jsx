@@ -94,7 +94,7 @@ const GiftGiver = () => (
         <Section
             title="What could have been better:"
             description={[
-                "Some of the design options might be changed, for example, “Stuff they like” could have been moved " +
+                "Some of the design options might be changed, for example, 'Stuff they like' could have been moved " +
                 "to a separate page in order to give each page a single task. Also, some of the users were not sure " +
                 "what to type in 'Stuff they like' section (for example, should they type in an activity the " +
                 "person likes or a personal possession the person has). A question mark sign might be added there " +
