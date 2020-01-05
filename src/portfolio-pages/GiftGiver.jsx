@@ -47,24 +47,39 @@ const GiftGiver = () => (
 
         <SectionWithPictures
             title="Personas"
-            description="Analysis of contextual research led to the development of personas and user stories.
-            Rachel, the most demanding persona, was identified as the main target for my app."
+            description={[
+                "Analysis of contextual research led to the development of personas and user stories. Rachel, the " +
+                "most demanding persona, was identified as the main target for my app."
+            ]}
             pictures={[Rachel, Ben]}/>
 
         <SectionWithPictures
             title="Paper prototypes"
-            description="I developed paper prototypes of the app and tested it with users. This allowed for the
-            classification of crucial improvements needed. For instance, I deleted the section 'Name' to improve
-            clarity for the participants. They didn't know whether they should type their name or type the name of the
-            person who they were trying to buy a gift for."
+            description={[
+                "I developed paper prototypes of the app and tested it with users. Users were given a landing page " +
+                "and they could interact with it as they would with a phone app - click on any interactive element " +
+                "and complete any text boxes. The tasks they were given were based on the red routes of the " +
+                "application, e.g. find a perfect gift for your mum for her birthday. The participants were asked to " +
+                "think aloud while they were doing tasks, which allowed me to understand each participants' actions " +
+                "better.",
+
+                "Paper prototypes testing allowed for the classification of crucial improvements needed. For " +
+                "instance, I deleted the section 'Name' to improve clarity for the participants. They didn't know " +
+                "whether they should type their name or type the name of the person who they were trying to buy a " +
+                "gift for. Also, the search field on the landing page was not needed and confused the participants. " +
+                "A better option was to delete it from the landing page, but keep it on the results page to allow " +
+                "users to search through the page."
+            ]}
             pictures={[PaperPrototype]}
             horizontal={true}/>
 
         <SectionWithPictures
             title="The result"
-            description="I have user tested my paper prototypes and wireframes with 7 different users. Results of the
-            test allowed me to improve my designs and arrive at the final version. A High Fidelity Mockup of the app.
-            I have used this HF mockup to make sure it was usable, functional and clear."
+            description={[
+                "I have user tested my paper prototypes and wireframes with 7 different users. Results of the test " +
+                "allowed me to improve my designs and arrive at the final version. A High Fidelity Mockup of the app. " +
+                "I have used this HF mockup to make sure it was usable, functional and clear."
+            ]}
             pictures={[GiftGiverMainPage, GiftGiverSubPage]}/>
 
         <Section

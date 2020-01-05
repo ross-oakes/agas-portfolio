@@ -20,10 +20,14 @@ const createPictures = (pictures, horizontal, lrg) => {
     return [...htmlPics].map((e, i) => i < htmlPics.length - 1 ? [e, spacer] : [e]).reduce((a, b) => a.concat(b));
 };
 
-const SectionWithPictures = ({title, description, pictures, horizontal, lrg}) => (
+const createParagraph = (description) => (
+    <p>{description}</p>
+);
+
+const SectionWithPictures = ({title, description: descriptions, pictures, horizontal, lrg}) => (
     <div className="description-with-title">
         <h2>{title}</h2>
-        <p>{description}</p>
+        {descriptions.map(createParagraph)}
         <Container>
             <Row>
                 {
