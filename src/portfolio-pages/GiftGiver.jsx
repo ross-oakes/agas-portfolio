@@ -77,8 +77,11 @@ const GiftGiver = () => (
             title="The result"
             description={[
                 "I have user tested my paper prototypes and wireframes with 7 different users. Results of the test " +
-                "allowed me to improve my designs and arrive at the final version. A High Fidelity Mockup of the app. " +
-                "I have used this HF mockup to make sure it was usable, functional and clear."
+                "allowed me to improve my design and arrive at the final version - High Fidelity Mockup of the app, " +
+                "which I have tested to make sure it was usable, functional and clear. Some of the Usability Problems " +
+                "with HF Mockups included the fact that some of the users didn't know that they can click on the " +
+                "picture of the item to see more details and how to shop. As a result of this finding, I have added " +
+                "a 'See More' button to highlight the interactivity of the picture."
             ]}
             pictures={[GiftGiverMainPage, GiftGiverSubPage]}/>
 
@@ -92,9 +95,11 @@ const GiftGiver = () => (
         <Section
             title="What could have been better:"
             description={[
-                'Some of the elements could have been redesigned. For example, moving "Stuff they like" ' +
-                'onto a separate page, would have given each page a single task. This would have reduce the complexity ' +
-                'of any given page, and made the app even easier to use.'
+                "Some of the design options might be changed, for example, “Stuff they like” could have been moved " +
+                "to a separate page in order to give each page a single task. Also, some of the users were not sure " +
+                "what to type in 'Stuff they like' section (for example, should they type in an activity the " +
+                "person likes or a personal possession the person has). A question mark sign might be added there " +
+                "to offer additional explanation, if needed."
             ]}/>
     </div>
 );
