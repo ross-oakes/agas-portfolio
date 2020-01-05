@@ -58,11 +58,6 @@
     }
 
     .input-display {
-        border-color: white !important;
-        padding: 0 !important;
-        margin-bottom: 2px !important;
         width: 45vw !important;
-        font-size: calc(12px + 0.2vw) !important;
-        min-height: 40px;
     }
 }
