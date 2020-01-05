@@ -19,21 +19,27 @@ const UiChallenges = () => (
 
         <SectionWithPictures
             title="Challenge 1"
-            description="Design a Sign Up page."
+            description={[
+                "Design a Sign Up page."
+            ]}
             pictures={[SignUpDesign]}
             horizontal={true}
             lrg/>
 
         <SectionWithPictures
             title="Challenge 2"
-            description="Design a credit card checkout."
+            description={[
+                "Design a credit card checkout."
+            ]}
             pictures={[CheckoutDesign]}
             horizontal={true}
             lrg/>
 
         <SectionWithPictures
             title="Challenge 3"
-            description="Design a landing page."
+            description={[
+                "Design a landing page."
+            ]}
             pictures={[LandingPageDesign]}
             horizontal={true}
             lrg/>
