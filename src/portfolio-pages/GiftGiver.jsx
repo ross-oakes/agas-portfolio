@@ -88,8 +88,7 @@ const GiftGiver = () => (
         <Section
             title="What went well:"
             description={[
-                'People were interested in using this app - it reduces time spent choosing the "ideal" ' +
-                'gift.'
+                "People were interested in using this app - it reduces time spent choosing the 'ideal' gift."
             ]}/>
 
         <Section
