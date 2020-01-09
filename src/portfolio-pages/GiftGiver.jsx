@@ -48,8 +48,10 @@ const GiftGiver = () => (
         <SectionWithPictures
             title="Personas"
             description={[
-                "Analysis of contextual research led to the development of personas and user stories. Rachel, the " +
-                "most demanding persona, was identified as the main target for my app."
+                "I conducted contextual research: I spoke to 15 users and asked them to show me how they went about " +
+                "finding a gift for someone. Next, I analysed my findings and looked for reoccurring patterns, which " +
+                "led to the development of personas and user stories. Rachel, the most demanding persona, was " +
+                "identified as the primary target."
             ]}
             pictures={[Rachel, Ben]}/>
 

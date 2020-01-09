@@ -21,6 +21,7 @@ const ResumePage = () => {
                 <p>Natoli, Joe. <b>UX & Web Design Master Course: Strategy, Design, Development.</b> 2019.</p>
                 <p>Angelo Todaro, Joseph. <b>Sketch from A to Z (2019): Become an app designer.</b> 2020.</p>
                 <p>Travis, David. <b>Usability Testing Boot Camp.</b> 2020.</p>
+                <p>Cooper Professional Education. <b>Cooper Crash Course: Design Thinking in 3 Steps.</b> 2020.</p>
             </div>
             <Container className="resume-footer">
                 <Row>
