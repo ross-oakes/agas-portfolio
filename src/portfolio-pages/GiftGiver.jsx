@@ -129,46 +129,48 @@ const GiftGiver = () => (
                 "I developed paper prototypes of the app and tested it with users. Users were given a landing page " +
                 "and they could interact with it as they would with a phone app - click on any interactive element " +
                 "and complete any text boxes. The tasks they were given were based on the red routes of the " +
-                "application, e.g. find a perfect gift for your mum for her birthday. The participants were asked to " +
-                "think aloud while they were doing tasks, which allowed me to understand each participants' actions " +
-                "better.",
+                "application, e.g. find a perfect gift for your mum for her birthday. The participants were asked " +
+                "to think aloud while they were doing tasks, which allowed me  to understand each participants' " +
+                "actions better.",
 
                 "Paper prototypes testing allowed for the classification of crucial improvements needed. For " +
                 "instance, I deleted the section 'Name' to improve clarity for the participants. They didn't know " +
                 "whether they should type their name or type the name of the person who they were trying to buy a " +
                 "gift for. Also, the search field on the landing page was not needed and confused the participants. " +
                 "A better option was to delete it from the landing page, but keep it on the results page to allow " +
-                "users to search through the page."
+                "users to search for products."
             ]}
             pictures={[PaperPrototype]}
             horizontal={true}/>
 
+        <Section title="Final design"/>
+
         <SubsectionWithPictures
+            description={[]}
+            pictures={[GiftGiverMainPage, GiftGiverSubPage]}/>
+
+        <Subsection
             title="The result"
             description={[
                 "I have user tested my paper prototypes and wireframes with 7 different users. Results of the test " +
                 "allowed me to improve my design and arrive at the final version - High Fidelity Mockup of the app, " +
-                "which I have tested to make sure it was usable, functional and clear. Some of the Usability Problems " +
-                "with HF Mockups included the fact that some of the users didn't know that they can click on the " +
-                "picture of the item to see more details and how to shop. As a result of this finding, I have added " +
-                "a 'See More' button to highlight the interactivity of the picture."
-            ]}
-            pictures={[GiftGiverMainPage, GiftGiverSubPage]}/>
+                "which I have tested to make sure it was usable, functional and clear.",
 
-        <Subsection
-            title="What went well:"
-            description={[
-                "People were interested in using this app - it reduces time spent choosing the 'ideal' gift."
+                "I discovered a major usability problem with HF Mockups, mainly that some users didn't know that " +
+                "they could click on the picture of the item to see more details and shopping options. Therefore, " +
+                "I added a 'See More' button to the product card."
             ]}/>
 
         <Subsection
             title="What could have been better:"
             description={[
-                "Some of the design options might be changed, for example, 'Stuff they like' could have been moved " +
-                "to a separate page in order to give each page a single task. Also, some of the users were not sure " +
-                "what to type in 'Stuff they like' section (for example, should they type in an activity the " +
-                "person likes or a personal possession the person has). A question mark sign might be added there " +
-                "to offer additional explanation, if needed."
+                "Some of the design options might be changed. Some users weren't sure what to type in 'Things they " +
+                "like' section (for example, should they type in an activity the person likes or a personal " +
+                "possession of this person). A question mark sign might be added there to offer additional " +
+                "explanation, if needed.",
+
+                "A possible avenue to explore in the future would be to add a 'Save' button to the homepage, so that " +
+                "users could save their gift recipients for future reference and more shopping,"
             ]}/>
     </div>
 );
