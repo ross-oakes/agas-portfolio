@@ -3,7 +3,7 @@ import ProjectTitle from "./components/ProjectTitle";
 import SubsectionWithPictures from "./components/SubsectionWithPictures";
 import {ScrollToTop} from "../components/ReactUtils";
 import SubsectionWithoutTitle from "./components/SubsectionWithoutTitle";
-import SignUpDesign from "../resources/signup-design.png"
+import SignUpDesign from "../resources/sign-up-design.png"
 import CheckoutDesign from "../resources/checkout-design.png"
 import LandingPageDesign from "../resources/landing-page-design.png"
 
@@ -18,27 +18,31 @@ const UiChallenges = () => (
         ]}/>
 
         <SubsectionWithPictures
-            title="Challenge 1"
+            title="Challenge 1 - Sign Up Page"
             description={[
-                "Design a Sign Up page."
+                "I wanted a Sign Up page to be simple to use and clear to the user. I have included Sign up with " +
+                "Facebook and Google to save time. Sign Up buttons stand out, as they are the purpose of this page."
             ]}
             pictures={[SignUpDesign]}
             horizontal={true}
             lrg/>
 
         <SubsectionWithPictures
-            title="Challenge 2"
+            title="Challenge 2 - Credit Card Checkout"
             description={[
-                "Design a credit card checkout."
+                "My main aim was clarity. Page is user-friendly, as it can scan a card or explain what's CCV (when " +
+                "you hover about a question mark)."
             ]}
             pictures={[CheckoutDesign]}
             horizontal={true}
             lrg/>
 
         <SubsectionWithPictures
-            title="Challenge 3"
+            title="Challenge 3 - A Landing Page"
             description={[
-                "Design a landing page."
+                "I chose a striking hero image first and then designed around it. I based the colour of the logo on " +
+                "the model's dress. I decided to include black and white ‘Shop Now’ button to add contrast to it and " +
+                "make it stand out on the page. It was fun to design!"
             ]}
             pictures={[LandingPageDesign]}
             horizontal={true}
