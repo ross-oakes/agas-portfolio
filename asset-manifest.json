@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.e9b6a2e8.chunk.css",
-    "main.js": "/static/js/main.08d27f50.chunk.js",
-    "main.js.map": "/static/js/main.08d27f50.chunk.js.map",
+    "main.css": "/static/css/main.da6a9bc6.chunk.css",
+    "main.js": "/static/js/main.600d059a.chunk.js",
+    "main.js.map": "/static/js/main.600d059a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.63c1efab.js",
     "runtime-main.js.map": "/static/js/runtime-main.63c1efab.js.map",
     "static/css/2.d9253284.chunk.css": "/static/css/2.d9253284.chunk.css",
-    "static/js/2.6be709f5.chunk.js": "/static/js/2.6be709f5.chunk.js",
-    "static/js/2.6be709f5.chunk.js.map": "/static/js/2.6be709f5.chunk.js.map",
+    "static/js/2.ce65f1e9.chunk.js": "/static/js/2.ce65f1e9.chunk.js",
+    "static/js/2.ce65f1e9.chunk.js.map": "/static/js/2.ce65f1e9.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9294c7657bde61d35df0eeed26ffc111.js": "/precache-manifest.9294c7657bde61d35df0eeed26ffc111.js",
+    "precache-manifest.f73cc3742964aef4809c01291f7e14e1.js": "/precache-manifest.f73cc3742964aef4809c01291f7e14e1.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.d9253284.chunk.css.map": "/static/css/2.d9253284.chunk.css.map",
-    "static/css/main.e9b6a2e8.chunk.css.map": "/static/css/main.e9b6a2e8.chunk.css.map",
-    "static/js/2.6be709f5.chunk.js.LICENSE": "/static/js/2.6be709f5.chunk.js.LICENSE",
+    "static/css/main.da6a9bc6.chunk.css.map": "/static/css/main.da6a9bc6.chunk.css.map",
+    "static/js/2.ce65f1e9.chunk.js.LICENSE": "/static/js/2.ce65f1e9.chunk.js.LICENSE",
     "static/media/aga-in-louvre.jpg": "/static/media/aga-in-louvre.150221c4.jpg",
     "static/media/App.css": "/static/media/aga-rocks.1f1365ca.jpg",
     "static/media/checkout-design.png": "/static/media/checkout-design.3eb006b1.png",
     "static/media/gift-giver-cover.png": "/static/media/gift-giver-cover.c3141779.png",
-    "static/media/gift-giver-main-page.png": "/static/media/gift-giver-main-page.cff120ab.png",
-    "static/media/gift-giver-sub-page.png": "/static/media/gift-giver-sub-page.1ffa4183.png",
+    "static/media/gift-giver-main-page.png": "/static/media/gift-giver-main-page.2960a9f3.png",
+    "static/media/gift-giver-product-details.png": "/static/media/gift-giver-product-details.2ec4f82b.png",
+    "static/media/gift-giver-sub-page.png": "/static/media/gift-giver-sub-page.2b5c743f.png",
     "static/media/landing-page-design.png": "/static/media/landing-page-design.9ea92e04.png",
     "static/media/paper-prototype.jpg": "/static/media/paper-prototype.ccff23e2.jpg",
     "static/media/personas-ben.png": "/static/media/personas-ben.c4dbb20d.png",
@@ -30,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.63c1efab.js",
     "static/css/2.d9253284.chunk.css",
-    "static/js/2.6be709f5.chunk.js",
-    "static/css/main.e9b6a2e8.chunk.css",
-    "static/js/main.08d27f50.chunk.js"
+    "static/js/2.ce65f1e9.chunk.js",
+    "static/css/main.da6a9bc6.chunk.css",
+    "static/js/main.600d059a.chunk.js"
   ]
 }

@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "686f546dabaab9ed0a6507a01301041f",
+    "revision": "baa1f57ac755c5e6ad59ed20a649d684",
     "url": "/index.html"
   },
   {
-    "revision": "724396f8c5a648911675",
+    "revision": "bc14fd75ae43190fd0ab",
     "url": "/static/css/2.d9253284.chunk.css"
   },
   {
-    "revision": "b0aed7a81e4e8ef939b4",
-    "url": "/static/css/main.e9b6a2e8.chunk.css"
+    "revision": "2f3513e72d184721ee98",
+    "url": "/static/css/main.da6a9bc6.chunk.css"
   },
   {
-    "revision": "724396f8c5a648911675",
-    "url": "/static/js/2.6be709f5.chunk.js"
+    "revision": "bc14fd75ae43190fd0ab",
+    "url": "/static/js/2.ce65f1e9.chunk.js"
   },
   {
     "revision": "801eb6b718cfeb49e4699ab80a85e8cf",
-    "url": "/static/js/2.6be709f5.chunk.js.LICENSE"
+    "url": "/static/js/2.ce65f1e9.chunk.js.LICENSE"
   },
   {
-    "revision": "b0aed7a81e4e8ef939b4",
-    "url": "/static/js/main.08d27f50.chunk.js"
+    "revision": "2f3513e72d184721ee98",
+    "url": "/static/js/main.600d059a.chunk.js"
   },
   {
     "revision": "e738b54ffe3b15816cf3",
@@ -44,12 +44,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/gift-giver-cover.c3141779.png"
   },
   {
-    "revision": "cff120ab97eea5b63c2005c3acb9c1ad",
-    "url": "/static/media/gift-giver-main-page.cff120ab.png"
+    "revision": "2960a9f35e99db56b1e5f5d3ff75f426",
+    "url": "/static/media/gift-giver-main-page.2960a9f3.png"
   },
   {
-    "revision": "1ffa418379cff47451023868cf50dd60",
-    "url": "/static/media/gift-giver-sub-page.1ffa4183.png"
+    "revision": "2ec4f82b4038d30f42add990c697b023",
+    "url": "/static/media/gift-giver-product-details.2ec4f82b.png"
+  },
+  {
+    "revision": "2b5c743f5497c588f5715dbdc550c4e9",
+    "url": "/static/media/gift-giver-sub-page.2b5c743f.png"
   },
   {
     "revision": "9ea92e0403aa6dd8b48c33d82571b258",
