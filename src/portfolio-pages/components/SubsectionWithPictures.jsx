@@ -1,12 +1,13 @@
 import * as React from "react"
 import {Col, Container, Row} from "reactstrap";
 
-const createPictures = (pictures, horizontal, lrg) => {
+const createPictures = (pictures, horizontal, lrg, sml) => {
     var value = horizontal ? 50 : 25;
 
     value = lrg ? value*1.3 : value;
+    value = sml ? value*0.7 : value;
 
-    var spacer = <Col sm={1}></Col>;
+    var spacer = <Col sm={0.5}></Col>;
 
     var htmlPics = pictures.map(function (picture) {
         return <Col key={picture} sm="auto">
@@ -24,14 +25,14 @@ const createParagraph = (description) => (
     <p>{description}</p>
 );
 
-const SubsectionWithPictures = ({title, description: descriptions, pictures, horizontal, lrg}) => (
+const SubsectionWithPictures = ({title, description: descriptions, pictures, horizontal, lrg, sml}) => (
     <div className="description-with-title">
         <h2>{title}</h2>
         {descriptions.map(createParagraph)}
         <Container>
             <Row>
                 {
-                    createPictures(pictures, horizontal, lrg)
+                    createPictures(pictures, horizontal, lrg, sml)
                 }
             </Row>
         </Container>

@@ -2,7 +2,6 @@ import React from 'react';
 import ProjectTitle from "./components/ProjectTitle";
 import GiftGiverPic from "../resources/gift-giver-cover.png"
 import Subsection from "./components/Subsection";
-import SubsectionWithTable from "./components/SubsectionWithTable";
 import SubsectionWithPictures from "./components/SubsectionWithPictures";
 
 import Rachel from "../resources/personas-rachel.png"
@@ -10,6 +9,7 @@ import Ben from "../resources/personas-ben.png"
 import PaperPrototype from "../resources/paper-prototype.jpg"
 import GiftGiverMainPage from "../resources/gift-giver-main-page.png"
 import GiftGiverSubPage from "../resources/gift-giver-sub-page.png"
+import GiftGiverProductDetailsPage from "../resources/gift-giver-product-details.png"
 import {ScrollToTop} from "../components/ReactUtils";
 import Section from "./components/Section";
 
@@ -147,7 +147,8 @@ const GiftGiver = () => (
 
         <SubsectionWithPictures
             description={[]}
-            pictures={[GiftGiverMainPage, GiftGiverSubPage]}/>
+            pictures={[GiftGiverMainPage, GiftGiverSubPage, GiftGiverProductDetailsPage]}
+            sml/>
 
         <Subsection
             title="The result"
