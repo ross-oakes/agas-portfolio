@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d140cdc7dec01e282564e1efc7d46a75",
+    "revision": "686f546dabaab9ed0a6507a01301041f",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.d9253284.chunk.css"
   },
   {
-    "revision": "68fa1134f7265545b2c7",
+    "revision": "b0aed7a81e4e8ef939b4",
     "url": "/static/css/main.e9b6a2e8.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.6be709f5.chunk.js.LICENSE"
   },
   {
-    "revision": "68fa1134f7265545b2c7",
-    "url": "/static/js/main.2f5c2abd.chunk.js"
+    "revision": "b0aed7a81e4e8ef939b4",
+    "url": "/static/js/main.08d27f50.chunk.js"
   },
   {
     "revision": "e738b54ffe3b15816cf3",
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/checkout-design.3eb006b1.png"
   },
   {
-    "revision": "9b2e1a9c4ec43ba3d15084c7f6490d48",
-    "url": "/static/media/gift-giver-cover.9b2e1a9c.png"
+    "revision": "c3141779e8fc6c223d1ab8b85021e4df",
+    "url": "/static/media/gift-giver-cover.c3141779.png"
   },
   {
     "revision": "cff120ab97eea5b63c2005c3acb9c1ad",
