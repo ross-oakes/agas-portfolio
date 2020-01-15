@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d2d9bc0c096844c27a2f2ae2c248fa68",
+    "revision": "b0b0da5595d122cdf1bb966e98193a33",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.d9253284.chunk.css"
   },
   {
-    "revision": "2b3b178e690a0385b2e7",
+    "revision": "b36ec138cc2855b2e5f8",
     "url": "/static/css/main.e9b6a2e8.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.a0f3ba3c.chunk.js.LICENSE"
   },
   {
-    "revision": "2b3b178e690a0385b2e7",
-    "url": "/static/js/main.f88affe8.chunk.js"
+    "revision": "b36ec138cc2855b2e5f8",
+    "url": "/static/js/main.321e9f03.chunk.js"
   },
   {
     "revision": "e738b54ffe3b15816cf3",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/calculator-design.39d9a32d.png"
   },
   {
-    "revision": "3eb006b11e8190d4c6682d57faa4495e",
-    "url": "/static/media/checkout-design.3eb006b1.png"
+    "revision": "cfccc335f467ae722b101a4e3ca2438e",
+    "url": "/static/media/checkout-design.cfccc335.png"
   },
   {
     "revision": "c3141779e8fc6c223d1ab8b85021e4df",
