@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "baa1f57ac755c5e6ad59ed20a649d684",
+    "revision": "aa6ac2a5690cf5a38e1cacebf2dfd807",
     "url": "/index.html"
   },
   {
-    "revision": "bc14fd75ae43190fd0ab",
+    "revision": "0271b5add4ecd5c5bc7b",
     "url": "/static/css/2.d9253284.chunk.css"
   },
   {
-    "revision": "2f3513e72d184721ee98",
-    "url": "/static/css/main.da6a9bc6.chunk.css"
+    "revision": "683b47e502f57886614f",
+    "url": "/static/css/main.e9b6a2e8.chunk.css"
   },
   {
-    "revision": "bc14fd75ae43190fd0ab",
-    "url": "/static/js/2.ce65f1e9.chunk.js"
+    "revision": "0271b5add4ecd5c5bc7b",
+    "url": "/static/js/2.0c18e48c.chunk.js"
   },
   {
     "revision": "801eb6b718cfeb49e4699ab80a85e8cf",
-    "url": "/static/js/2.ce65f1e9.chunk.js.LICENSE"
+    "url": "/static/js/2.0c18e48c.chunk.js.LICENSE"
   },
   {
-    "revision": "2f3513e72d184721ee98",
-    "url": "/static/js/main.600d059a.chunk.js"
+    "revision": "683b47e502f57886614f",
+    "url": "/static/js/main.bb81974c.chunk.js"
   },
   {
     "revision": "e738b54ffe3b15816cf3",
@@ -76,7 +76,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/resume.ba94467d.pdf"
   },
   {
+    "revision": "09725f7b05216433b1e25e2aa8e3cad2",
+    "url": "/static/media/sign-up-design.09725f7b.png"
+  },
+  {
     "revision": "234fe1b9324c4c819f862192c3d69705",
-    "url": "/static/media/signup-design.234fe1b9.png"
+    "url": "/static/media/ui-challenges-cover.234fe1b9.png"
   }
 ]);
