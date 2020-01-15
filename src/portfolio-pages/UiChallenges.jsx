@@ -73,7 +73,7 @@ const UiChallenges = () => (
             lrg/>
 
         <SubsectionWithPictures
-            title="Challenge 5 - A user profile"
+            title="Challenge 5 - A User Profile"
             description={[
                 "I designed a User profile for a travel app. The app was entirely my idea. This was super fun! " +
                 "People on this app can add pictures of their travels, complete their World Visited Map and add " +
