@@ -12,6 +12,7 @@ import GiftGiverSubPage from "../resources/giftgiver/sub-page.png"
 import GiftGiverProductDetailsPage from "../resources/giftgiver/product-details.png"
 import {ScrollToTop} from "../components/ReactUtils";
 import Section from "./components/Section";
+import SubsectionWithoutTitle from "./components/SubsectionWithoutTitle";
 
 const GiftGiver = () => (
     <div className="portfolio-page">
@@ -67,18 +68,20 @@ const GiftGiver = () => (
                 "recipient already had."
             ]}/>
 
+        <Section title="Functionality design decisions"/>
 
-        <Section title="Prototyping and testing"/>
-
-        <Subsection
-            title="Functionality design decisions"
+        <SubsectionWithoutTitle
             description={[
                 "The main problem users were facing when trying to find gifts was the fact that they needed to go to " +
                 "many stores / websites to look for inspiration. This took a long time as there were lots of " +
                 "irrelevant options provided to them. They needed someway of reducing this selection to make their " +
                 "decision easier. I decided the way I would tackle this issue would be to use a combination of user " +
-                "input and categories buttons.",
+                "input and categories buttons."
+        ]}/>
 
+        <Subsection
+            title="Categories"
+            description={[
                 "The decision of which categories to include stemmed from the user research and competitors " +
                 "analysis. I asked participants to tell me who they bought presents for and found that the most " +
                 "common answers were their mum, boyfriend, son, friends, etc; thus, providing me with a start to my " +
@@ -88,8 +91,12 @@ const GiftGiver = () => (
                 "category to select. However, with my categorisation, the items users already have will decide on " +
                 "the most suitable gifts, rather than their gender. Overall, I decided to use three categories " +
                 "'Partner', 'Family' and 'Friend', so that they will include gifts specific to a person's " +
-                "relationship to another person. For example, a partner category will also include romantic gifts.",
+                "relationship to another person. For example, a partner category will also include romantic gifts."
+        ]}/>
 
+        <Subsection
+            title="Users input"
+            description={[
                 "I was thinking what is the best idea for users to input the person's favourite things. First of all" +
                 ", I came up with as many as possible on my own. Then, I asked a few friends for their ideas as well" +
                 ". At this stage I wanted to collect as many ideas as possible, therefore I asked them to think " +
@@ -102,8 +109,12 @@ const GiftGiver = () => (
                 "quicker, avoid typos and prompt users to type in things that are already in the system. If users " +
                 "type in an unrecognisable item, the system should come up with similar suggestions and inform the " +
                 "user that the item is not in the database ('Oops! Sorry, this item is not in our database. " +
-                "Did you mean...?').",
+                "Did you mean...?')."
+        ]}/>
 
+        <Subsection
+            title="Filter and sort"
+            description={[
                 "Once the user lands at the results page, they should be able to sort and filter results. The " +
                 "choice of what to sort by should be done by swiping through a list of available options. The " +
                 "default sort should be by 'Recommended', but users should also be able to choose to sort by 'Most " +
@@ -122,6 +133,8 @@ const GiftGiver = () => (
                 "results page (e.g. the recipient can choose 'Mum' relationship and will be shown a filtered list of " +
                 "personalised presents for Mums). Multiple filters can be applied simultaneously."
             ]}/>
+
+        <Section title="Prototyping and testing"/>
 
         <SubsectionWithPictures
             title="Paper prototypes"
