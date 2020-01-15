@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aa6ac2a5690cf5a38e1cacebf2dfd807",
+    "revision": "6b92d01d159e72435fb3e1ded23dfe5a",
     "url": "/index.html"
   },
   {
-    "revision": "0271b5add4ecd5c5bc7b",
+    "revision": "c975af6d3858418537f4",
     "url": "/static/css/2.d9253284.chunk.css"
   },
   {
-    "revision": "683b47e502f57886614f",
+    "revision": "fe8ea00377106f6cfaa2",
     "url": "/static/css/main.e9b6a2e8.chunk.css"
   },
   {
-    "revision": "0271b5add4ecd5c5bc7b",
-    "url": "/static/js/2.0c18e48c.chunk.js"
+    "revision": "c975af6d3858418537f4",
+    "url": "/static/js/2.a0f3ba3c.chunk.js"
   },
   {
     "revision": "801eb6b718cfeb49e4699ab80a85e8cf",
-    "url": "/static/js/2.0c18e48c.chunk.js.LICENSE"
+    "url": "/static/js/2.a0f3ba3c.chunk.js.LICENSE"
   },
   {
-    "revision": "683b47e502f57886614f",
-    "url": "/static/js/main.bb81974c.chunk.js"
+    "revision": "fe8ea00377106f6cfaa2",
+    "url": "/static/js/main.f70150cf.chunk.js"
   },
   {
     "revision": "e738b54ffe3b15816cf3",
@@ -36,28 +36,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/aga-rocks.1f1365ca.jpg"
   },
   {
+    "revision": "209cbcdb611b691754ef36d22b8dccd6",
+    "url": "/static/media/app-icon-design.209cbcdb.png"
+  },
+  {
+    "revision": "39d9a32d6d1732c6240c881000c5ab36",
+    "url": "/static/media/calculator-design.39d9a32d.png"
+  },
+  {
     "revision": "3eb006b11e8190d4c6682d57faa4495e",
     "url": "/static/media/checkout-design.3eb006b1.png"
   },
   {
+    "revision": "234fe1b9324c4c819f862192c3d69705",
+    "url": "/static/media/cover.234fe1b9.png"
+  },
+  {
     "revision": "c3141779e8fc6c223d1ab8b85021e4df",
-    "url": "/static/media/gift-giver-cover.c3141779.png"
-  },
-  {
-    "revision": "2960a9f35e99db56b1e5f5d3ff75f426",
-    "url": "/static/media/gift-giver-main-page.2960a9f3.png"
-  },
-  {
-    "revision": "2ec4f82b4038d30f42add990c697b023",
-    "url": "/static/media/gift-giver-product-details.2ec4f82b.png"
-  },
-  {
-    "revision": "2b5c743f5497c588f5715dbdc550c4e9",
-    "url": "/static/media/gift-giver-sub-page.2b5c743f.png"
+    "url": "/static/media/cover.c3141779.png"
   },
   {
     "revision": "9ea92e0403aa6dd8b48c33d82571b258",
     "url": "/static/media/landing-page-design.9ea92e04.png"
+  },
+  {
+    "revision": "2960a9f35e99db56b1e5f5d3ff75f426",
+    "url": "/static/media/main-page.2960a9f3.png"
   },
   {
     "revision": "ccff23e2246fc7968535a456969f5726",
@@ -72,6 +76,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/personas-rachel.96c8a70f.png"
   },
   {
+    "revision": "2ec4f82b4038d30f42add990c697b023",
+    "url": "/static/media/product-details.2ec4f82b.png"
+  },
+  {
     "revision": "ba94467dffceacc480648bcfe8085bfb",
     "url": "/static/media/resume.ba94467d.pdf"
   },
@@ -80,7 +88,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/sign-up-design.09725f7b.png"
   },
   {
-    "revision": "234fe1b9324c4c819f862192c3d69705",
-    "url": "/static/media/ui-challenges-cover.234fe1b9.png"
+    "revision": "2b5c743f5497c588f5715dbdc550c4e9",
+    "url": "/static/media/sub-page.2b5c743f.png"
+  },
+  {
+    "revision": "6e19618f67e8c026fc2fddbfe3396584",
+    "url": "/static/media/user-profile-design.6e19618f.png"
   }
 ]);
