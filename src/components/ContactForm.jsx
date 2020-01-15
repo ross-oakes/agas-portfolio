@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import {Button, Form, FormGroup} from 'reactstrap';
-import humanIcon from "../resources/human-icon.png"
-import mailIcon from "../resources/mail-icon.png"
+import humanIcon from "../resources/icons/human.png"
+import mailIcon from "../resources/icons/mail.png"
 import ContactFormBox from "./ContactFormBox";
 
 const ContactForm = ({openSuccessAlert, closeSuccessAlert,

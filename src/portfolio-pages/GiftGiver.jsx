@@ -1,15 +1,15 @@
 import React from 'react';
 import ProjectTitle from "./components/ProjectTitle";
-import GiftGiverPic from "../resources/gift-giver-cover.png"
+import GiftGiverPic from "../resources/giftgiver/cover.png"
 import Subsection from "./components/Subsection";
 import SubsectionWithPictures from "./components/SubsectionWithPictures";
 
-import Rachel from "../resources/personas-rachel.png"
-import Ben from "../resources/personas-ben.png"
-import PaperPrototype from "../resources/paper-prototype.jpg"
-import GiftGiverMainPage from "../resources/gift-giver-main-page.png"
-import GiftGiverSubPage from "../resources/gift-giver-sub-page.png"
-import GiftGiverProductDetailsPage from "../resources/gift-giver-product-details.png"
+import Rachel from "../resources/giftgiver/personas-rachel.png"
+import Ben from "../resources/giftgiver/personas-ben.png"
+import PaperPrototype from "../resources/giftgiver/paper-prototype.jpg"
+import GiftGiverMainPage from "../resources/giftgiver/main-page.png"
+import GiftGiverSubPage from "../resources/giftgiver/sub-page.png"
+import GiftGiverProductDetailsPage from "../resources/giftgiver/product-details.png"
 import {ScrollToTop} from "../components/ReactUtils";
 import Section from "./components/Section";
 

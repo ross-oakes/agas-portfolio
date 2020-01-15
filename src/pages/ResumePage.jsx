@@ -1,6 +1,6 @@
 import React from 'react';
-import downloadIcon from '../resources/download-icon.png';
-import linkedinIcon from '../resources/linkedIn-icon.png';
+import downloadIcon from '../resources/icons/download.png';
+import linkedinIcon from '../resources/icons/linkedIn.png';
 import resume from '../resources/resume.pdf';
 import {Col, Container, Row} from "reactstrap";
 import {ScrollToTop} from "../components/ReactUtils";
