@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.e9b6a2e8.chunk.css",
-    "main.js": "/static/js/main.f70150cf.chunk.js",
-    "main.js.map": "/static/js/main.f70150cf.chunk.js.map",
+    "main.js": "/static/js/main.f88affe8.chunk.js",
+    "main.js.map": "/static/js/main.f88affe8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.63c1efab.js",
     "runtime-main.js.map": "/static/js/runtime-main.63c1efab.js.map",
     "static/css/2.d9253284.chunk.css": "/static/css/2.d9253284.chunk.css",
     "static/js/2.a0f3ba3c.chunk.js": "/static/js/2.a0f3ba3c.chunk.js",
     "static/js/2.a0f3ba3c.chunk.js.map": "/static/js/2.a0f3ba3c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.94f56c068fffeb53bf8afaf07317826e.js": "/precache-manifest.94f56c068fffeb53bf8afaf07317826e.js",
+    "precache-manifest.7b28e26bae3a32d91771e61be36efdfa.js": "/precache-manifest.7b28e26bae3a32d91771e61be36efdfa.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.d9253284.chunk.css.map": "/static/css/2.d9253284.chunk.css.map",
     "static/css/main.e9b6a2e8.chunk.css.map": "/static/css/main.e9b6a2e8.chunk.css.map",
@@ -19,7 +19,7 @@
     "static/media/app-icon-design.png": "/static/media/app-icon-design.209cbcdb.png",
     "static/media/calculator-design.png": "/static/media/calculator-design.39d9a32d.png",
     "static/media/checkout-design.png": "/static/media/checkout-design.3eb006b1.png",
-    "static/media/cover.png": "/static/media/cover.c3141779.png",
+    "static/media/cover.png": "/static/media/cover.fddfe905.png",
     "static/media/landing-page-design.png": "/static/media/landing-page-design.9ea92e04.png",
     "static/media/main-page.png": "/static/media/main-page.2960a9f3.png",
     "static/media/paper-prototype.jpg": "/static/media/paper-prototype.ccff23e2.jpg",
@@ -27,7 +27,7 @@
     "static/media/personas-rachel.png": "/static/media/personas-rachel.96c8a70f.png",
     "static/media/product-details.png": "/static/media/product-details.2ec4f82b.png",
     "static/media/resume.pdf": "/static/media/resume.ba94467d.pdf",
-    "static/media/sign-up-design.png": "/static/media/sign-up-design.09725f7b.png",
+    "static/media/sign-up-design.png": "/static/media/sign-up-design.6ddbb60d.png",
     "static/media/sub-page.png": "/static/media/sub-page.2b5c743f.png",
     "static/media/user-profile-design.png": "/static/media/user-profile-design.6e19618f.png"
   },
@@ -36,6 +36,6 @@
     "static/css/2.d9253284.chunk.css",
     "static/js/2.a0f3ba3c.chunk.js",
     "static/css/main.e9b6a2e8.chunk.css",
-    "static/js/main.f70150cf.chunk.js"
+    "static/js/main.f88affe8.chunk.js"
   ]
 }
