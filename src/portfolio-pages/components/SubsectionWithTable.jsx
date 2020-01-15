@@ -9,7 +9,7 @@ const SubsectionWithTable = ({title, tableComponents}) => {
 
     return (
         <div className="description-with-title">
-            <h2>{title}</h2>
+            <h3>{title}</h3>
             <Container>
                 {tableComponents.map(createRow)}
             </Container>

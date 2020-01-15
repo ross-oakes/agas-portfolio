@@ -6,7 +6,7 @@ function createParagraph(description) {
 
 const Subsection = ({title, description: descriptions}) => (
     <div className="description-with-title">
-        <h2>{title}</h2>
+        <h3>{title}</h3>
         {descriptions.map(createParagraph)}
     </div>
 );

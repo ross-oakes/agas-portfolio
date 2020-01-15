@@ -163,7 +163,7 @@ const GiftGiver = () => (
             ]}/>
 
         <Subsection
-            title="What could have been better:"
+            title="What could have been better"
             description={[
                 "Some of the design options might be changed. Some users weren't sure what to type in 'Things they " +
                 "like' section (for example, should they type in an activity the person likes or a personal " +
