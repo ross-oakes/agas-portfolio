@@ -1,8 +1,8 @@
 import React from 'react';
 import ProjectTitle from "./components/ProjectTitle";
-import SectionWithPictures from "./components/SectionWithPictures";
+import SubsectionWithPictures from "./components/SubsectionWithPictures";
 import {ScrollToTop} from "../components/ReactUtils";
-import SectionWithoutTitle from "./components/SectionWithoutTitle";
+import SubsectionWithoutTitle from "./components/SubsectionWithoutTitle";
 import SignUpDesign from "../resources/signup-design.png"
 import CheckoutDesign from "../resources/checkout-design.png"
 import LandingPageDesign from "../resources/landing-page-design.png"
@@ -12,12 +12,12 @@ const UiChallenges = () => (
         <ScrollToTop/>
         <ProjectTitle title="UI Challenges"
                       subtitle="everyday inspiration for UI designs"/>
-        <SectionWithoutTitle description={[
+        <SubsectionWithoutTitle description={[
             "I'm taking part in Daily UI challenge - I receive a new design challenge " +
             "every day. Have a look at the results of my work below!"
         ]}/>
 
-        <SectionWithPictures
+        <SubsectionWithPictures
             title="Challenge 1"
             description={[
                 "Design a Sign Up page."
@@ -26,7 +26,7 @@ const UiChallenges = () => (
             horizontal={true}
             lrg/>
 
-        <SectionWithPictures
+        <SubsectionWithPictures
             title="Challenge 2"
             description={[
                 "Design a credit card checkout."
@@ -35,7 +35,7 @@ const UiChallenges = () => (
             horizontal={true}
             lrg/>
 
-        <SectionWithPictures
+        <SubsectionWithPictures
             title="Challenge 3"
             description={[
                 "Design a landing page."

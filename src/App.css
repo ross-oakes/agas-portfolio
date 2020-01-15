@@ -313,8 +313,9 @@
 
 .description-with-title {
     text-align: left;
-    padding: 50px;
-    padding-bottom: 0;
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-right: 50px;
 }
 
 .description-without-title {
@@ -325,6 +326,12 @@
 
 .description-with-title h2 {
     padding-bottom: 20px;
+}
+
+.section-title h1 {
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
 }
 
 .image-shading {

@@ -5,7 +5,7 @@ import {Col, Container, Row} from "reactstrap";
 const createRow = (row) => <Row>{row.map(createCell)}</Row>;
 const createCell = (value) => <Col>{value}</Col>;
 
-const SectionWithTable = ({title, tableComponents}) => {
+const SubsectionWithTable = ({title, tableComponents}) => {
 
     return (
         <div className="description-with-title">
@@ -18,4 +18,4 @@ const SectionWithTable = ({title, tableComponents}) => {
 };
 
 
-export default SectionWithTable;
+export default SubsectionWithTable;

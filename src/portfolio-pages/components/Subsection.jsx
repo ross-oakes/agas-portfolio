@@ -4,10 +4,11 @@ function createParagraph(description) {
     return <p>{description}</p>
 }
 
-const Section = ({description: descriptions}) => (
-    <div className="description-without-title">
+const Subsection = ({title, description: descriptions}) => (
+    <div className="description-with-title">
+        <h2>{title}</h2>
         {descriptions.map(createParagraph)}
     </div>
 );
 
-export default Section;
+export default Subsection;

@@ -24,7 +24,7 @@ const createParagraph = (description) => (
     <p>{description}</p>
 );
 
-const SectionWithPictures = ({title, description: descriptions, pictures, horizontal, lrg}) => (
+const SubsectionWithPictures = ({title, description: descriptions, pictures, horizontal, lrg}) => (
     <div className="description-with-title">
         <h2>{title}</h2>
         {descriptions.map(createParagraph)}
@@ -39,4 +39,4 @@ const SectionWithPictures = ({title, description: descriptions, pictures, horizo
 );
 
 
-export default SectionWithPictures;
+export default SubsectionWithPictures;

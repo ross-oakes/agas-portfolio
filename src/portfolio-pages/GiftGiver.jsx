@@ -1,9 +1,9 @@
 import React from 'react';
 import ProjectTitle from "./components/ProjectTitle";
 import GiftGiverPic from "../resources/gift-giver-cover.png"
-import Section from "./components/Section";
-import SectionWithTable from "./components/SectionWithTable";
-import SectionWithPictures from "./components/SectionWithPictures";
+import Subsection from "./components/Subsection";
+import SubsectionWithTable from "./components/SubsectionWithTable";
+import SubsectionWithPictures from "./components/SubsectionWithPictures";
 
 import Rachel from "../resources/personas-rachel.png"
 import Ben from "../resources/personas-ben.png"
@@ -11,6 +11,7 @@ import PaperPrototype from "../resources/paper-prototype.jpg"
 import GiftGiverMainPage from "../resources/gift-giver-main-page.png"
 import GiftGiverSubPage from "../resources/gift-giver-sub-page.png"
 import {ScrollToTop} from "../components/ReactUtils";
+import Section from "./components/Section";
 
 const GiftGiver = () => (
     <div className="portfolio-page">
@@ -18,16 +19,22 @@ const GiftGiver = () => (
         <ProjectTitle title="Gift Giver"
                       subtitle="a mobile app helping to select a perfect gift"/>
         <img className="portfolio-item" src={GiftGiverPic} alt=""/>
-        <Section
+
+        <Subsection
             title="The brief"
             description={[
-                "To create an app. The idea of the app was to recommend users gifts to buy for their " +
-                "loved ones. These recommendations were based on that person's preexisting preferences. Users will " +
-                "enter the items a person already owns and the app will provide a list of gifts ideal for this " +
-                "person. This project was part of a UX course I have completed."
+                "Create an app where users will be recommended what gifts to choose for their loved ones based on " +
+                "the person’s preferred things. Users should be able to enter numerous items a person already owns. " +
+                "The app should then provide a selection of gifts ideal for this person. For the purposes of this " +
+                "project, the algorithm for deciding what gifts to suggest can be considered as a black box.",
+
+                "This brief was provided by a UX course (David Travis 'User Experience (UX): The Ultimate Guide to " +
+                "Usability and UX').  However, the implementation of the project is my own."
             ]}/>
 
-        <Section
+        <Section title="Research and Analysis"/>
+
+        <Subsection
             title="What I did"
             description={[
                 "I conducted contextual research with 15 users. Then, I designed user journey maps and used affinity " +
@@ -37,15 +44,15 @@ const GiftGiver = () => (
                 "building a High Fidelity Prototype and testing it with real users."
             ]}/>
 
-        <SectionWithTable title="Key tools and deliverables"
-                          tableComponents={[
+        <SubsectionWithTable title="Key tools and deliverables"
+                             tableComponents={[
                               ["Contextual research", "Paper prototype"],
                               ["Affinity mapping", "Wireframes"],
                               ["Personas", "Usability testing"],
                               ["Red routes", "High fidelity UI"]
                           ]}/>
 
-        <SectionWithPictures
+        <SubsectionWithPictures
             title="Personas"
             description={[
                 "I conducted contextual research: I spoke to 15 users and asked them to show me how they went about " +
@@ -55,7 +62,7 @@ const GiftGiver = () => (
             ]}
             pictures={[Rachel, Ben]}/>
 
-        <SectionWithPictures
+        <SubsectionWithPictures
             title="Paper prototypes"
             description={[
                 "I developed paper prototypes of the app and tested it with users. Users were given a landing page " +
@@ -75,7 +82,7 @@ const GiftGiver = () => (
             pictures={[PaperPrototype]}
             horizontal={true}/>
 
-        <SectionWithPictures
+        <SubsectionWithPictures
             title="The result"
             description={[
                 "I have user tested my paper prototypes and wireframes with 7 different users. Results of the test " +
@@ -87,13 +94,13 @@ const GiftGiver = () => (
             ]}
             pictures={[GiftGiverMainPage, GiftGiverSubPage]}/>
 
-        <Section
+        <Subsection
             title="What went well:"
             description={[
                 "People were interested in using this app - it reduces time spent choosing the 'ideal' gift."
             ]}/>
 
-        <Section
+        <Subsection
             title="What could have been better:"
             description={[
                 "Some of the design options might be changed, for example, 'Stuff they like' could have been moved " +
