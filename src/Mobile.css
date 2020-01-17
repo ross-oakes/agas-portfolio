@@ -38,6 +38,11 @@
 
     /**********PORTFOLIO PAGE************/
 
+    .section-title h1 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
     .description-with-title {
         padding-left: 15px;
         padding-right: 15px;
