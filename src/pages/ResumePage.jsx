@@ -22,6 +22,8 @@ const ResumePage = () => {
                 <p>Angelo Todaro, Joseph. <b>Sketch from A to Z (2019): Become an app designer.</b> 2020.</p>
                 <p>Travis, David. <b>Usability Testing Boot Camp.</b> 2020.</p>
                 <p>Cooper Professional Education. <b>Cooper Crash Course: Design Thinking in 3 Steps.</b> 2020.</p>
+                <p>Sutcliffe, Rob. <b>Master Digital Product Design: UX Research & UI Design.</b> 2020.</p>
+                <p>Eyal, Nir. <b>How to Build Habit-Forming Products.</b> 2020.</p>
             </div>
             <Container className="resume-footer">
                 <Row>
