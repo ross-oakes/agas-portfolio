@@ -14,9 +14,10 @@ import filterSort3 from "../resources/giftgiver/filter-and-sort-3.png"
 import oldDesign1 from "../resources/giftgiver/old-design-1.png"
 import oldDesign2 from "../resources/giftgiver/old-design-2.png"
 import PaperPrototype from "../resources/giftgiver/paper-prototype.jpg"
-import GiftGiverMainPage from "../resources/giftgiver/main-page.png"
-import GiftGiverSubPage from "../resources/giftgiver/sub-page.png"
-import GiftGiverProductDetailsPage from "../resources/giftgiver/product-details.png"
+import newDesign1 from "../resources/giftgiver/new-design-1.png"
+import newDesign2 from "../resources/giftgiver/new-design-2.png"
+import newDesign3 from "../resources/giftgiver/new-design-3.png"
+import newDesign4 from "../resources/giftgiver/new-design-4.png"
 import {ScrollToTop} from "../components/ReactUtils";
 import Section from "./components/Section";
 import SubsectionWithoutTitle from "./components/SubsectionWithoutTitle";
@@ -195,7 +196,8 @@ const GiftGiver = () => (
                 {src: oldDesign1},
                 {src: oldDesign2}
             ]}
-            sml/>
+            sml
+            lrgSpacing/>
 
         <SubsectionWithNielsenHeuristicDescriptions
             title="Key Findings"
@@ -231,11 +233,23 @@ const GiftGiver = () => (
         <SubsectionWithPictures
             description={[]}
             pictures={[
-                {src: GiftGiverMainPage},
-                {src: GiftGiverSubPage},
-                {src: GiftGiverProductDetailsPage}
+                {src: newDesign1},
+                {src: newDesign2}
             ]}
-            sml/>
+            sml
+            lrgSpacing/>
+
+        <SubsectionWithPictures
+            description={[
+                "The user needs to type in things a recipient likes. If not, the error message appears, asking them " +
+                "to complete this section."
+            ]}
+            pictures={[
+                {src: newDesign3},
+                {src: newDesign4}
+            ]}
+            sml
+            lrgSpacing/>
 
         <Subsection
             title="The result"
