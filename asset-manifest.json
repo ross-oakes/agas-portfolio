@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.19a512f1.chunk.css",
-    "main.js": "/static/js/main.3137b9bd.chunk.js",
-    "main.js.map": "/static/js/main.3137b9bd.chunk.js.map",
+    "main.js": "/static/js/main.121b04f4.chunk.js",
+    "main.js.map": "/static/js/main.121b04f4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.63c1efab.js",
     "runtime-main.js.map": "/static/js/runtime-main.63c1efab.js.map",
     "static/css/2.d9253284.chunk.css": "/static/css/2.d9253284.chunk.css",
-    "static/js/2.99f07e2e.chunk.js": "/static/js/2.99f07e2e.chunk.js",
-    "static/js/2.99f07e2e.chunk.js.map": "/static/js/2.99f07e2e.chunk.js.map",
+    "static/js/2.b7bc784d.chunk.js": "/static/js/2.b7bc784d.chunk.js",
+    "static/js/2.b7bc784d.chunk.js.map": "/static/js/2.b7bc784d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f29a9e110d81da7a621a091aba03177a.js": "/precache-manifest.f29a9e110d81da7a621a091aba03177a.js",
+    "precache-manifest.5fe2891123f2dec121b78a79c5811c81.js": "/precache-manifest.5fe2891123f2dec121b78a79c5811c81.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.d9253284.chunk.css.map": "/static/css/2.d9253284.chunk.css.map",
     "static/css/main.19a512f1.chunk.css.map": "/static/css/main.19a512f1.chunk.css.map",
-    "static/js/2.99f07e2e.chunk.js.LICENSE": "/static/js/2.99f07e2e.chunk.js.LICENSE",
+    "static/js/2.b7bc784d.chunk.js.LICENSE": "/static/js/2.b7bc784d.chunk.js.LICENSE",
     "static/media/aga-in-louvre.jpg": "/static/media/aga-in-louvre.150221c4.jpg",
     "static/media/App.css": "/static/media/aga-rocks.1f1365ca.jpg",
     "static/media/app-icon-design.png": "/static/media/app-icon-design.209cbcdb.png",
@@ -21,6 +21,9 @@
     "static/media/categories-old-version.png": "/static/media/categories-old-version.8ee50166.png",
     "static/media/checkout-design.png": "/static/media/checkout-design.cfccc335.png",
     "static/media/cover.png": "/static/media/cover.fddfe905.png",
+    "static/media/filter-and-sort-1.png": "/static/media/filter-and-sort-1.6bf51da5.png",
+    "static/media/filter-and-sort-2.png": "/static/media/filter-and-sort-2.f4746db5.png",
+    "static/media/filter-and-sort-3.png": "/static/media/filter-and-sort-3.27dc35d7.png",
     "static/media/landing-page-design.png": "/static/media/landing-page-design.9ea92e04.png",
     "static/media/main-page.png": "/static/media/main-page.2960a9f3.png",
     "static/media/paper-prototype.jpg": "/static/media/paper-prototype.ccff23e2.jpg",
@@ -35,8 +38,8 @@
   "entrypoints": [
     "static/js/runtime-main.63c1efab.js",
     "static/css/2.d9253284.chunk.css",
-    "static/js/2.99f07e2e.chunk.js",
+    "static/js/2.b7bc784d.chunk.js",
     "static/css/main.19a512f1.chunk.css",
-    "static/js/main.3137b9bd.chunk.js"
+    "static/js/main.121b04f4.chunk.js"
   ]
 }
