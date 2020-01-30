@@ -8,6 +8,9 @@ import Rachel from "../resources/giftgiver/personas-rachel.png"
 import Ben from "../resources/giftgiver/personas-ben.png"
 import categoriesNew from "../resources/giftgiver/categories-new-version.png"
 import categoriesOld from "../resources/giftgiver/categories-old-version.png"
+import filterSort1 from "../resources/giftgiver/filter-and-sort-1.png"
+import filterSort2 from "../resources/giftgiver/filter-and-sort-2.png"
+import filterSort3 from "../resources/giftgiver/filter-and-sort-3.png"
 import PaperPrototype from "../resources/giftgiver/paper-prototype.jpg"
 import GiftGiverMainPage from "../resources/giftgiver/main-page.png"
 import GiftGiverSubPage from "../resources/giftgiver/sub-page.png"
@@ -131,7 +134,7 @@ const GiftGiver = () => (
                 "Did you mean...?')."
         ]}/>
 
-        <Subsection
+        <SubsectionWithPictures
             title="Filter and sort"
             description={[
                 "Once the user lands at the results page, they should be able to sort and filter results. The " +
@@ -151,7 +154,13 @@ const GiftGiver = () => (
                 "general term 'Family'. Therefore, I have applied the additional filter of 'Relationship' at the " +
                 "results page (e.g. the recipient can choose 'Mum' relationship and will be shown a filtered list of " +
                 "personalised presents for Mums). Multiple filters can be applied simultaneously."
-            ]}/>
+            ]}
+            pictures={[
+                {src: filterSort1},
+                {src: filterSort2},
+                {src: filterSort3}
+            ]}
+            sml/>
 
         <Section title="Prototyping and testing"/>
 
