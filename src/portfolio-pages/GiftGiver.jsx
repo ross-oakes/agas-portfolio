@@ -23,6 +23,14 @@ import saving2 from "../resources/giftgiver/saving-2.png"
 import saving3 from "../resources/giftgiver/saving-3.png"
 import saving4 from "../resources/giftgiver/saving-4.png"
 import saving5 from "../resources/giftgiver/saving-5.png"
+import shopping1 from "../resources/giftgiver/shopping-1.png"
+import shopping2 from "../resources/giftgiver/shopping-2.png"
+import shopping3 from "../resources/giftgiver/shopping-3.png"
+import shopping4 from "../resources/giftgiver/shopping-4.png"
+import shopping5 from "../resources/giftgiver/shopping-5.png"
+import shopping6 from "../resources/giftgiver/shopping-6.png"
+import shopping7 from "../resources/giftgiver/shopping-7.png"
+import shopping8 from "../resources/giftgiver/shopping-8.png"
 import {ScrollToTop} from "../components/ReactUtils";
 import Section from "./components/Section";
 import SubsectionWithoutTitle from "./components/SubsectionWithoutTitle";
@@ -201,8 +209,7 @@ const GiftGiver = () => (
                 {src: oldDesign1},
                 {src: oldDesign2}
             ]}
-            sml
-            lrgSpacing/>
+            sml/>
 
         <SubsectionWithNielsenHeuristicDescriptions
             title="Key Findings"
@@ -241,8 +248,7 @@ const GiftGiver = () => (
                 {src: newDesign1},
                 {src: newDesign2}
             ]}
-            sml
-            lrgSpacing/>
+            sml/>
 
         <SubsectionWithPictures
             description={[
@@ -253,8 +259,7 @@ const GiftGiver = () => (
                 {src: newDesign3},
                 {src: newDesign4}
             ]}
-            sml
-            lrgSpacing/>
+            sml/>
 
         <SubsectionWithPictures
             description={[
@@ -267,32 +272,56 @@ const GiftGiver = () => (
                 {src: saving4},
                 {src: saving5}
             ]}
-            sml
-            lrgSpacing/>
+            sml/>
+
+        <SubsectionWithPictures
+            description={[
+                "Next, the results page appears. Users can click on the item card to see the individual item. They " +
+                "can then either add the item to the cart and continue browsing or just go straight to buying it."
+            ]}
+            pictures={[
+                {src: shopping1},
+                {src: shopping2},
+                {src: shopping3},
+                {src: shopping4},
+                {src: shopping5},
+                {src: shopping6},
+                {src: shopping7},
+                {src: shopping8},
+            ]}
+            sml/>
 
         <Subsection
             title="The result"
             description={[
-                "I have user tested my paper prototypes and wireframes with 7 different users. Results of the test " +
-                "allowed me to improve my design and arrive at the final version - High Fidelity Mockup of the app, " +
-                "which I have tested to make sure it was usable, functional and clear.",
+                "I conducted a usability test of my final design with seven participants. Task completion rate was " +
+                "100%. I asked participant to complete SUS test, plus survey questions about overall attractiveness, " +
+                "loyalty and trust. I was careful to follow rules to make sure not to bias responses. For example, a " +
+                "question stem should ask 'How likely or unlikely', rather than 'How likely'.",
 
-                "I discovered a major usability problem with HF Mockups, mainly that some users didn't know that " +
-                "they could click on the picture of the item to see more details and shopping options. Therefore, " +
-                "I added a 'See More' button to the product card."
+                "Participants found the application easy to use (71% strongly agree, 29% agree). 100% of " +
+                "participants found it visually attractive. 43% of participants said they were ‘very likely’ to " +
+                "recommend the website to a friend or colleague, and 57% were 'likely' to do so. It does not prove " +
+                "they will recommend it, as people in general can't predict their future actions accurately. It " +
+                "does, however, show their positive feelings about the experience."
             ]}/>
 
         <Subsection
             title="What could have been better"
             description={[
-                "Some of the design options might be changed. Some users weren't sure what to type in 'Things they " +
-                "like' section (for example, should they type in an activity the person likes or a personal " +
-                "possession of this person). A question mark sign might be added there to offer additional " +
-                "explanation, if needed.",
+                "A possible avenue to explore in the future would be to send users notifications when their " +
+                "recipient's birthday is due, reminding the user about getting a gift for the upcoming event. " +
+                "Notifications can be also sent before other occasions, such as Valentine's Day or Mother's Day.",
 
-                "A possible avenue to explore in the future would be to add a 'Save' button to the homepage, so that " +
-                "users could save their gift recipients for future reference and more shopping,"
-            ]}/>
+                "I sacrificed primary button’s appearance for aesthetics in the landing page and the payment " +
+                "confirmation page. Everywhere else, primary buttons are in a vivid purple colour. On the landing " +
+                "page, the button ‘See suggestions’ is white with a lilac border. This is because the landing page " +
+                "looked flashy when ‘See suggestions’ button was purple. It is, though, an important issue to " +
+                "consider whether the primary button consistency should have been kept over the aesthetics of the " +
+                "page. With new research linking the aesthetics to the perceived functionality of the page, the " +
+                "question of which of these two, in the case of my project, is more important, remains up to further " +
+                "investigation. I would recommend A/B testing as a further step to resolve this issue."
+                ]}/>
     </div>
 );
 
