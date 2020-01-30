@@ -11,6 +11,8 @@ import categoriesOld from "../resources/giftgiver/categories-old-version.png"
 import filterSort1 from "../resources/giftgiver/filter-and-sort-1.png"
 import filterSort2 from "../resources/giftgiver/filter-and-sort-2.png"
 import filterSort3 from "../resources/giftgiver/filter-and-sort-3.png"
+import oldDesign1 from "../resources/giftgiver/old-design-1.png"
+import oldDesign2 from "../resources/giftgiver/old-design-2.png"
 import PaperPrototype from "../resources/giftgiver/paper-prototype.jpg"
 import GiftGiverMainPage from "../resources/giftgiver/main-page.png"
 import GiftGiverSubPage from "../resources/giftgiver/sub-page.png"
@@ -18,6 +20,7 @@ import GiftGiverProductDetailsPage from "../resources/giftgiver/product-details.
 import {ScrollToTop} from "../components/ReactUtils";
 import Section from "./components/Section";
 import SubsectionWithoutTitle from "./components/SubsectionWithoutTitle";
+import SubsectionWithNielsenHeuristicDescriptions from "./components/SubsectionWithNielsenHeuristicDescriptions";
 
 const GiftGiver = () => (
     <div className="portfolio-page">
@@ -184,6 +187,45 @@ const GiftGiver = () => (
             pictures={[{src: PaperPrototype}]}
             horizontal={true}/>
 
+        <Section title="Original design"/>
+
+        <SubsectionWithPictures
+            description={[]}
+            pictures={[
+                {src: oldDesign1},
+                {src: oldDesign2}
+            ]}
+            sml/>
+
+        <SubsectionWithNielsenHeuristicDescriptions
+            title="Key Findings"
+            description={[
+                {
+                    title: "Input in 'Stuff they like' section",
+                    description: "Some users weren't sure what to type in the 'Stuff they like' section (for " +
+                        "example, should they type in an activity the person likes or a personal possession of this " +
+                        "person).",
+                    heuristicViolation: "Visibility of system status. System is not clear to the user.",
+                    severity: 4,
+                    recommendation: "Include a question mark sign to offer additional explanation, if needed (when " +
+                        "users hover over a sign, the explanation will appear)."
+                },
+                {
+                    title: "'Saving' a recipient of the gift",
+                    description: "One of the participants told me they would like to save this recipient (the " +
+                        "preferences of this particular recipient) for the future, so that they would be able to buy " +
+                        "other gifts for the same person, rather than entering their information again. I thought " +
+                        "this was a brilliant idea for the improvement of the app. It makes sure participants will " +
+                        "come back more often as it decreases their cognitive load (they don’t need to type in the " +
+                        "person’s preferred things again).",
+                    heuristicViolation: "Flexibility and efficiency of use.",
+                    severity: 2,
+                    recommendation: "Add a ‘Save this gift recipient’ button or prompt the user to save the " +
+                        "recipient with a pop up window."
+                }
+            ]}
+        />
+
         <Section title="Final design"/>
 
         <SubsectionWithPictures
@@ -191,8 +233,8 @@ const GiftGiver = () => (
             pictures={[
                 {src: GiftGiverMainPage},
                 {src: GiftGiverSubPage},
-                {src: GiftGiverProductDetailsPage
-            }]}
+                {src: GiftGiverProductDetailsPage}
+            ]}
             sml/>
 
         <Subsection
