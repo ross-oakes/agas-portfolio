@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.724ea124.chunk.css",
-    "main.js": "/static/js/main.8c8ed1b4.chunk.js",
-    "main.js.map": "/static/js/main.8c8ed1b4.chunk.js.map",
+    "main.css": "/static/css/main.19a512f1.chunk.css",
+    "main.js": "/static/js/main.cc38d0c5.chunk.js",
+    "main.js.map": "/static/js/main.cc38d0c5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.63c1efab.js",
     "runtime-main.js.map": "/static/js/runtime-main.63c1efab.js.map",
     "static/css/2.d9253284.chunk.css": "/static/css/2.d9253284.chunk.css",
-    "static/js/2.a0f3ba3c.chunk.js": "/static/js/2.a0f3ba3c.chunk.js",
-    "static/js/2.a0f3ba3c.chunk.js.map": "/static/js/2.a0f3ba3c.chunk.js.map",
+    "static/js/2.99f07e2e.chunk.js": "/static/js/2.99f07e2e.chunk.js",
+    "static/js/2.99f07e2e.chunk.js.map": "/static/js/2.99f07e2e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.1072fa2bdfdec177ee217c06dbc89355.js": "/precache-manifest.1072fa2bdfdec177ee217c06dbc89355.js",
+    "precache-manifest.e903471c2aa93e636a6635e024b1d856.js": "/precache-manifest.e903471c2aa93e636a6635e024b1d856.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.d9253284.chunk.css.map": "/static/css/2.d9253284.chunk.css.map",
-    "static/css/main.724ea124.chunk.css.map": "/static/css/main.724ea124.chunk.css.map",
-    "static/js/2.a0f3ba3c.chunk.js.LICENSE": "/static/js/2.a0f3ba3c.chunk.js.LICENSE",
+    "static/css/main.19a512f1.chunk.css.map": "/static/css/main.19a512f1.chunk.css.map",
+    "static/js/2.99f07e2e.chunk.js.LICENSE": "/static/js/2.99f07e2e.chunk.js.LICENSE",
     "static/media/aga-in-louvre.jpg": "/static/media/aga-in-louvre.150221c4.jpg",
     "static/media/App.css": "/static/media/aga-rocks.1f1365ca.jpg",
     "static/media/app-icon-design.png": "/static/media/app-icon-design.209cbcdb.png",
     "static/media/calculator-design.png": "/static/media/calculator-design.39d9a32d.png",
+    "static/media/categories-old-version.png": "/static/media/categories-old-version.8ee50166.png",
     "static/media/checkout-design.png": "/static/media/checkout-design.cfccc335.png",
     "static/media/cover.png": "/static/media/cover.fddfe905.png",
     "static/media/landing-page-design.png": "/static/media/landing-page-design.9ea92e04.png",
@@ -34,8 +35,8 @@
   "entrypoints": [
     "static/js/runtime-main.63c1efab.js",
     "static/css/2.d9253284.chunk.css",
-    "static/js/2.a0f3ba3c.chunk.js",
-    "static/css/main.724ea124.chunk.css",
-    "static/js/main.8c8ed1b4.chunk.js"
+    "static/js/2.99f07e2e.chunk.js",
+    "static/css/main.19a512f1.chunk.css",
+    "static/js/main.cc38d0c5.chunk.js"
   ]
 }

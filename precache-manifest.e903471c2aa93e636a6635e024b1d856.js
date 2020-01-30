@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "879c737e8874ebaf34227b2120faac7a",
+    "revision": "af5eecbe483d042f95fd18c19298de49",
     "url": "/index.html"
   },
   {
-    "revision": "c975af6d3858418537f4",
+    "revision": "55247a955ba321b1f27c",
     "url": "/static/css/2.d9253284.chunk.css"
   },
   {
-    "revision": "1fb6791ca80d450b2805",
-    "url": "/static/css/main.724ea124.chunk.css"
+    "revision": "5fc4e6b4360a8bdcf47a",
+    "url": "/static/css/main.19a512f1.chunk.css"
   },
   {
-    "revision": "c975af6d3858418537f4",
-    "url": "/static/js/2.a0f3ba3c.chunk.js"
+    "revision": "55247a955ba321b1f27c",
+    "url": "/static/js/2.99f07e2e.chunk.js"
   },
   {
     "revision": "801eb6b718cfeb49e4699ab80a85e8cf",
-    "url": "/static/js/2.a0f3ba3c.chunk.js.LICENSE"
+    "url": "/static/js/2.99f07e2e.chunk.js.LICENSE"
   },
   {
-    "revision": "1fb6791ca80d450b2805",
-    "url": "/static/js/main.8c8ed1b4.chunk.js"
+    "revision": "5fc4e6b4360a8bdcf47a",
+    "url": "/static/js/main.cc38d0c5.chunk.js"
   },
   {
     "revision": "e738b54ffe3b15816cf3",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "39d9a32d6d1732c6240c881000c5ab36",
     "url": "/static/media/calculator-design.39d9a32d.png"
+  },
+  {
+    "revision": "8ee5016622e0e1ee55dbaea0531cf817",
+    "url": "/static/media/categories-old-version.8ee50166.png"
   },
   {
     "revision": "cfccc335f467ae722b101a4e3ca2438e",
