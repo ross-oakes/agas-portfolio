@@ -18,6 +18,11 @@ import newDesign1 from "../resources/giftgiver/new-design-1.png"
 import newDesign2 from "../resources/giftgiver/new-design-2.png"
 import newDesign3 from "../resources/giftgiver/new-design-3.png"
 import newDesign4 from "../resources/giftgiver/new-design-4.png"
+import saving1 from "../resources/giftgiver/saving-1.png"
+import saving2 from "../resources/giftgiver/saving-2.png"
+import saving3 from "../resources/giftgiver/saving-3.png"
+import saving4 from "../resources/giftgiver/saving-4.png"
+import saving5 from "../resources/giftgiver/saving-5.png"
 import {ScrollToTop} from "../components/ReactUtils";
 import Section from "./components/Section";
 import SubsectionWithoutTitle from "./components/SubsectionWithoutTitle";
@@ -247,6 +252,20 @@ const GiftGiver = () => (
             pictures={[
                 {src: newDesign3},
                 {src: newDesign4}
+            ]}
+            sml
+            lrgSpacing/>
+
+        <SubsectionWithPictures
+            description={[
+                "When the user clicks on 'See suggestions', they are prompted to save the gift recipient."
+            ]}
+            pictures={[
+                {src: saving1},
+                {src: saving2},
+                {src: saving3},
+                {src: saving4},
+                {src: saving5}
             ]}
             sml
             lrgSpacing/>

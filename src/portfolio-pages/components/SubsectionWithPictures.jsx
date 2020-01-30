@@ -31,7 +31,7 @@ const createParagraph = (description) => (
 const SubsectionWithPictures = (
     {title, description: descriptions, pictures: picturesObject, horizontal, lrg, sml, lrgSpacing}) => (
     <div className="description-with-title">
-        <h3>{title}</h3>
+        {title && <h3>{title}</h3>}
         {descriptions.map(createParagraph)}
         <Container>
             <Row>
