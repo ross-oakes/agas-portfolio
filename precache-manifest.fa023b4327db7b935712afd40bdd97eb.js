@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a7683b72cf9fddfa1f58d58b940ce59e",
+    "revision": "8bd198d0983b496d3e36a426562b9efd",
     "url": "/index.html"
   },
   {
-    "revision": "65552c793dd0b81a2e26",
+    "revision": "c9482ad98b3999a7304f",
     "url": "/static/css/2.d9253284.chunk.css"
   },
   {
-    "revision": "0515e6fdd988531a0977",
-    "url": "/static/css/main.3c9d07ff.chunk.css"
+    "revision": "2fa29f4162f2a1f6fb5d",
+    "url": "/static/css/main.285b08d7.chunk.css"
   },
   {
-    "revision": "65552c793dd0b81a2e26",
-    "url": "/static/js/2.839221bb.chunk.js"
+    "revision": "c9482ad98b3999a7304f",
+    "url": "/static/js/2.bec24d50.chunk.js"
   },
   {
     "revision": "801eb6b718cfeb49e4699ab80a85e8cf",
-    "url": "/static/js/2.839221bb.chunk.js.LICENSE"
+    "url": "/static/js/2.bec24d50.chunk.js.LICENSE"
   },
   {
-    "revision": "0515e6fdd988531a0977",
-    "url": "/static/js/main.87130bf0.chunk.js"
+    "revision": "2fa29f4162f2a1f6fb5d",
+    "url": "/static/js/main.6889a3b1.chunk.js"
   },
   {
     "revision": "e738b54ffe3b15816cf3",
@@ -76,8 +76,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/landing-page-design.9ea92e04.png"
   },
   {
-    "revision": "2960a9f35e99db56b1e5f5d3ff75f426",
-    "url": "/static/media/main-page.2960a9f3.png"
+    "revision": "b7212c88d36593f4c2a0b310c8677b69",
+    "url": "/static/media/new-design-1.b7212c88.png"
+  },
+  {
+    "revision": "652f19102ae6b6b6b002600262138bfa",
+    "url": "/static/media/new-design-2.652f1910.png"
+  },
+  {
+    "revision": "98446707ae92755c7c5330d66b7e8061",
+    "url": "/static/media/new-design-3.98446707.png"
+  },
+  {
+    "revision": "6ba5a776bf394f7bcec98916ffc528de",
+    "url": "/static/media/new-design-4.6ba5a776.png"
   },
   {
     "revision": "cff120ab97eea5b63c2005c3acb9c1ad",
@@ -100,20 +112,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/personas-rachel.96c8a70f.png"
   },
   {
-    "revision": "2ec4f82b4038d30f42add990c697b023",
-    "url": "/static/media/product-details.2ec4f82b.png"
-  },
-  {
     "revision": "95c33890fedbf36ebc640d9c31591fbd",
     "url": "/static/media/resume.95c33890.pdf"
   },
   {
     "revision": "6ddbb60da80f0dbe4758170bb101b32b",
     "url": "/static/media/sign-up-design.6ddbb60d.png"
-  },
-  {
-    "revision": "2b5c743f5497c588f5715dbdc550c4e9",
-    "url": "/static/media/sub-page.2b5c743f.png"
   },
   {
     "revision": "6e19618f67e8c026fc2fddbfe3396584",
