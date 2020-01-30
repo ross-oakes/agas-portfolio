@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b221279c3ce4ce81625eada307aa39f8",
+    "revision": "b3f1ade4e6b428a723302f52978c8bf4",
     "url": "/index.html"
   },
   {
-    "revision": "1006a3b2a1065e09eb22",
+    "revision": "b9aab0b7c5a791fdd874",
     "url": "/static/css/2.d9253284.chunk.css"
   },
   {
-    "revision": "ad971bba6ed101d44caa",
+    "revision": "8f5b39fa42923bfd629f",
     "url": "/static/css/main.2e856149.chunk.css"
   },
   {
-    "revision": "1006a3b2a1065e09eb22",
-    "url": "/static/js/2.618d5872.chunk.js"
+    "revision": "b9aab0b7c5a791fdd874",
+    "url": "/static/js/2.7d556659.chunk.js"
   },
   {
     "revision": "801eb6b718cfeb49e4699ab80a85e8cf",
-    "url": "/static/js/2.618d5872.chunk.js.LICENSE"
+    "url": "/static/js/2.7d556659.chunk.js.LICENSE"
   },
   {
-    "revision": "ad971bba6ed101d44caa",
-    "url": "/static/js/main.a95610d9.chunk.js"
+    "revision": "8f5b39fa42923bfd629f",
+    "url": "/static/js/main.36fc1155.chunk.js"
   },
   {
     "revision": "e738b54ffe3b15816cf3",
@@ -134,6 +134,38 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "03c64bfc4b80ae39b3b97df5fa1e64b5",
     "url": "/static/media/saving-5.03c64bfc.png"
+  },
+  {
+    "revision": "eae64fd86a2a9e9920a45f991535e2f5",
+    "url": "/static/media/shopping-1.eae64fd8.png"
+  },
+  {
+    "revision": "902e6b75686451285ba9a30645964012",
+    "url": "/static/media/shopping-2.902e6b75.png"
+  },
+  {
+    "revision": "f00271ab969b9ef5f88b8b6426dbde6a",
+    "url": "/static/media/shopping-3.f00271ab.png"
+  },
+  {
+    "revision": "224e1bacdfc3e44dab2f21365bd29c29",
+    "url": "/static/media/shopping-4.224e1bac.png"
+  },
+  {
+    "revision": "40540859718e98f03faf035232ecaa43",
+    "url": "/static/media/shopping-5.40540859.png"
+  },
+  {
+    "revision": "755d9882117c1b6eb39b2fd10fb463f6",
+    "url": "/static/media/shopping-6.755d9882.png"
+  },
+  {
+    "revision": "41fc677dc48a8f49a47ee6aff0a0d586",
+    "url": "/static/media/shopping-7.41fc677d.png"
+  },
+  {
+    "revision": "b77b37632f3f377295f458b68f609155",
+    "url": "/static/media/shopping-8.b77b3763.png"
   },
   {
     "revision": "6ddbb60da80f0dbe4758170bb101b32b",
