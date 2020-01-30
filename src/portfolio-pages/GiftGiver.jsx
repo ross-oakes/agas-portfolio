@@ -6,6 +6,8 @@ import SubsectionWithPictures from "./components/SubsectionWithPictures";
 
 import Rachel from "../resources/giftgiver/personas-rachel.png"
 import Ben from "../resources/giftgiver/personas-ben.png"
+import categoriesNew from "../resources/giftgiver/categories-new-version.png"
+import categoriesOld from "../resources/giftgiver/categories-old-version.png"
 import PaperPrototype from "../resources/giftgiver/paper-prototype.jpg"
 import GiftGiverMainPage from "../resources/giftgiver/main-page.png"
 import GiftGiverSubPage from "../resources/giftgiver/sub-page.png"
@@ -55,7 +57,10 @@ const GiftGiver = () => (
                 "target, as she is most likely to use the app - she already shops and looks for inspiration online, " +
                 "but none of the other websites she uses offer her gift ideas suited to someone's needs."
             ]}
-            pictures={[Rachel, Ben]}/>
+            pictures={[
+                {src: Rachel},
+                {src: Ben}
+            ]}/>
 
         <Subsection
             title="Competitor analysis"
@@ -79,20 +84,34 @@ const GiftGiver = () => (
                 "input and categories buttons."
         ]}/>
 
-        <Subsection
+        <SubsectionWithPictures
             title="Categories"
             description={[
-                "The decision of which categories to include stemmed from the user research and competitors " +
-                "analysis. I asked participants to tell me who they bought presents for and found that the most " +
-                "common answers were their mum, boyfriend, son, friends, etc; thus, providing me with a start to my " +
-                "list. Other websites offered a similar classification, for instance, Him / Her / Mum / Son. The " +
-                "problem with this classification is that it is gender binary. The issues will arise if, for example" +
-                ", a man likes makeup and dresses. With such classification, the user could be lost as to which " +
-                "category to select. However, with my categorisation, the items users already have will decide on " +
-                "the most suitable gifts, rather than their gender. Overall, I decided to use three categories " +
-                "'Partner', 'Family' and 'Friend', so that they will include gifts specific to a person's " +
-                "relationship to another person. For example, a partner category will also include romantic gifts."
-        ]}/>
+                "The decision of which categories to include stemmed from the user research and usability testing. I " +
+                "asked participants to tell me who they bought presents for and found that the most common answers " +
+                "were their mum, boyfriend, son, friends, etc; thus, providing me with a start to my list. Other " +
+                "websites offered a similar classification, for instance, Him / Her / Mum / Son. I have included " +
+                "these categories in my first Hi-Fi Prototype.",
+
+                "After usability testing, though, I discovered I had included too many buttons, which made it " +
+                "difficult for the participants to click on the correct one. Furthermore, it turned out to be " +
+                "distracting (too many options to choose from made the choice cumbersome). Another problem with this " +
+                "classification was that it was gender binary. The issues would arise if, for example, a man liked " +
+                "makeup and dresses. It was not necessary to state someone's gender as the items they already owned " +
+                "would decide on the most suitable gifts. Therefore, I designed a new categorisation. I decided to " +
+                "only include three categories: 'Partner', 'Family' and 'Friend'.",
+
+                "I wanted to keep the categories, rather than get rid of them, as they will include gifts specific " +
+                "to a person's relationship to another person. For example, a partner category will also include " +
+                "romantic gifts."
+        ]}
+            pictures={[
+                {src: categoriesOld, description:"Original Design"},
+                {src: categoriesNew, description: "Improved Design"}
+            ]}
+            lrgSpacing
+        />
+
 
         <Subsection
             title="Users input"
@@ -153,14 +172,18 @@ const GiftGiver = () => (
                 "A better option was to delete it from the landing page, but keep it on the results page to allow " +
                 "users to search for products."
             ]}
-            pictures={[PaperPrototype]}
+            pictures={[{src: PaperPrototype}]}
             horizontal={true}/>
 
         <Section title="Final design"/>
 
         <SubsectionWithPictures
             description={[]}
-            pictures={[GiftGiverMainPage, GiftGiverSubPage, GiftGiverProductDetailsPage]}
+            pictures={[
+                {src: GiftGiverMainPage},
+                {src: GiftGiverSubPage},
+                {src: GiftGiverProductDetailsPage
+            }]}
             sml/>
 
         <Subsection

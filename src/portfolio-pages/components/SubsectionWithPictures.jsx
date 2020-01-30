@@ -1,20 +1,23 @@
 import * as React from "react"
 import {Col, Container, Row} from "reactstrap";
 
-const createPictures = (pictures, horizontal, lrg, sml) => {
+const createPictures = (picturesObject, horizontal, lrg, sml, lrgSpacing) => {
     var value = horizontal ? 50 : 25;
 
     value = lrg ? value*1.3 : value;
     value = sml ? value*0.7 : value;
 
-    var spacer = <Col sm={0.5}></Col>;
+    var spacer = lrgSpacing ? <Col sm={1}></Col>: <Col sm={0.5}></Col>;
 
-    var htmlPics = pictures.map(function (picture) {
-        return <Col key={picture} sm="auto">
-            <img className="image-shading" src={picture} alt={""}
+    var htmlPics = picturesObject.map(function (pictureObject) {
+        return <Col key={pictureObject} sm="auto">
+            <div className="picture-with-description">
+            <img className="image-shading" src={pictureObject.src} alt={pictureObject.description}
                  style={{
                      width: `${value}vw`,
                  }}/>
+            {pictureObject.description}
+            </div>
         </Col>
     });
 
@@ -25,14 +28,15 @@ const createParagraph = (description) => (
     <p>{description}</p>
 );
 
-const SubsectionWithPictures = ({title, description: descriptions, pictures, horizontal, lrg, sml}) => (
+const SubsectionWithPictures = (
+    {title, description: descriptions, pictures: picturesObject, horizontal, lrg, sml, lrgSpacing}) => (
     <div className="description-with-title">
         <h3>{title}</h3>
         {descriptions.map(createParagraph)}
         <Container>
             <Row>
                 {
-                    createPictures(pictures, horizontal, lrg, sml)
+                    createPictures(picturesObject, horizontal, lrg, sml, lrgSpacing)
                 }
             </Row>
         </Container>

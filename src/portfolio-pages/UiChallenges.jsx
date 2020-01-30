@@ -26,7 +26,7 @@ const UiChallenges = () => (
                 "I wanted a Sign Up page to be simple to use and clear to the user. I have included Sign up with " +
                 "Facebook and Google to save time. Sign Up buttons stand out, as they are the purpose of this page."
             ]}
-            pictures={[SignUpDesign]}
+            pictures={[{src: SignUpDesign}]}
             horizontal={true}
             lrg/>
 
@@ -36,7 +36,7 @@ const UiChallenges = () => (
                 "My main aim was clarity. Page is user-friendly, as it can scan a card or explain what's CCV (when " +
                 "you hover about a question mark)."
             ]}
-            pictures={[CheckoutDesign]}
+            pictures={[{src: CheckoutDesign}]}
             horizontal={true}
             lrg/>
 
@@ -47,7 +47,7 @@ const UiChallenges = () => (
                 "the model's dress. I decided to include black and white ‘Shop Now’ button to add contrast to it and " +
                 "make it stand out on the page. It was fun to design!"
             ]}
-            pictures={[LandingPageDesign]}
+            pictures={[{src: LandingPageDesign}]}
             horizontal={true}
             lrg/>
 
@@ -58,7 +58,7 @@ const UiChallenges = () => (
                 "focused on bringing clarity to the design and emphasising the most important actions (I used " +
                 "orange to emphasise the equals button)."
             ]}
-            pictures={[CalculatorDesign]}
+            pictures={[{src: CalculatorDesign}]}
             horizontal={true}
             lrg/>
 
@@ -68,19 +68,19 @@ const UiChallenges = () => (
                 "I've created an icon for my own app (If I ever have one). I've included brand colours, letter 'a' " +
                 "for my name and 'x' for ux. Plus, I checked how it looks on the phone next to other icons."
             ]}
-            pictures={[AppIconDesign]}
+            pictures={[{src: AppIconDesign}]}
             horizontal={true}
             lrg/>
 
         <SubsectionWithPictures
-            title="Challenge 5 - A User Profile"
+            title="Challenge 6 - A User Profile"
             description={[
                 "I designed a User profile for a travel app. The app was entirely my idea. This was super fun! " +
                 "People on this app can add pictures of their travels, complete their World Visited Map and add " +
                 "travel destinations to their Bucket Lists! It was challenging to make some elements appear visually " +
                 "secondary, but still keeping them readable, for example the comments section."
             ]}
-            pictures={[UserProfileDesign]}
+            pictures={[{src: UserProfileDesign}]}
             horizontal={true}
             lrg/>
 

@@ -13,6 +13,9 @@ const ResumePage = () => {
                 <h3 className="resume-title"><b>Education</b></h3>
                 <p><b>Masters, </b>English Philology, Jagiellonian University, 2015-2017, Grade: Distinction.</p>
 
+                <h3 className="resume-title"><b>Postgraduate courses</b></h3>
+                <p>University of Michigan. <b>User Experience Research and Design Specialization.</b> In progress.</p>
+
                 <h3 className="resume-title"><b>Training</b></h3>
                 <p>Travis, David. <b>User Experience (UX): The Ultimate Guide to Usability and UX.</b> 2019.</p>
                 <p>Walter Scott, Daniel. <b>User Experience Design Essentials - Adobe XD UI UX Design.</b> 2019.</p>

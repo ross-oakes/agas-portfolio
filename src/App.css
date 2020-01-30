@@ -328,6 +328,10 @@
     padding-bottom: 20px;
 }
 
+.picture-with-description {
+    display: table-caption;
+}
+
 .section-title h1 {
     padding-left: 50px;
     padding-top: 70px;
