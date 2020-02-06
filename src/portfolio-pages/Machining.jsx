@@ -24,7 +24,7 @@ import SubsectionWithoutTitle from "./components/SubsectionWithoutTitle";
 const Machining = () => (
     <div className="portfolio-page">
         <ScrollToTop/>
-        <ProjectTitle title="Machining"
+        <ProjectTitle title="Precision in Machining"
                       subtitle="a website created for a client"/>
         <img className="portfolio-item" src={MachiningCover} alt=""/>
 
