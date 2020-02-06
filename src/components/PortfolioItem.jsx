@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 const PortfolioItem = ({ title, image, details, endpoint}) => (
      <div className="portfolio-cover">
          <Link to={endpoint}>
-            <img alt={title} src={image} className="portfolio-image"/>
+            <img alt={title} src={image} className="portfolio-item"/>
             <div className="hovered-filter">
                 <div className="portfolio-text">
                     <b>{title}</b>

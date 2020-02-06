@@ -65,7 +65,6 @@
     opacity: 0.9;
     position: relative;
     color: white;
-    text-shadow: 2px 2px gray;
 }
 
 .picture-title {
@@ -134,7 +133,6 @@
     padding-left: 60%;
     font-size: 5vw;
     color: white;
-    text-shadow: 2px 2px gray;
     text-align: right;
     width: 90%;
 }
