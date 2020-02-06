@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.8fea638c.chunk.css",
-    "main.js": "/static/js/main.87080c86.chunk.js",
-    "main.js.map": "/static/js/main.87080c86.chunk.js.map",
+    "main.js": "/static/js/main.1ea21668.chunk.js",
+    "main.js.map": "/static/js/main.1ea21668.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.63c1efab.js",
     "runtime-main.js.map": "/static/js/runtime-main.63c1efab.js.map",
     "static/css/2.d9253284.chunk.css": "/static/css/2.d9253284.chunk.css",
     "static/js/2.0e18db45.chunk.js": "/static/js/2.0e18db45.chunk.js",
     "static/js/2.0e18db45.chunk.js.map": "/static/js/2.0e18db45.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.bcf759c60f832a6ade6e7471a6de774a.js": "/precache-manifest.bcf759c60f832a6ade6e7471a6de774a.js",
+    "precache-manifest.a27b30c2f55f0240a9dd46f5727a98c2.js": "/precache-manifest.a27b30c2f55f0240a9dd46f5727a98c2.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.d9253284.chunk.css.map": "/static/css/2.d9253284.chunk.css.map",
     "static/css/main.8fea638c.chunk.css.map": "/static/css/main.8fea638c.chunk.css.map",
@@ -37,10 +37,10 @@
     "static/media/new-design-4.png": "/static/media/new-design-4.6ba5a776.png",
     "static/media/old-design-1.png": "/static/media/old-design-1.cff120ab.png",
     "static/media/old-design-2.png": "/static/media/old-design-2.1ffa4183.png",
-    "static/media/old-website-1.png": "/static/media/old-website-1.c423fcf6.png",
-    "static/media/old-website-2.png": "/static/media/old-website-2.8c5dfc68.png",
-    "static/media/old-website-3.png": "/static/media/old-website-3.883196f2.png",
-    "static/media/old-website-4.png": "/static/media/old-website-4.ab34ad08.png",
+    "static/media/old-website-1.png": "/static/media/old-website-1.906b424e.png",
+    "static/media/old-website-2.png": "/static/media/old-website-2.155a4366.png",
+    "static/media/old-website-3.png": "/static/media/old-website-3.209fe928.png",
+    "static/media/old-website-4.png": "/static/media/old-website-4.279076bb.png",
     "static/media/paper-prototype.jpg": "/static/media/paper-prototype.ccff23e2.jpg",
     "static/media/personas-ben.png": "/static/media/personas-ben.c4dbb20d.png",
     "static/media/personas-rachel.png": "/static/media/personas-rachel.96c8a70f.png",
@@ -69,6 +69,6 @@
     "static/css/2.d9253284.chunk.css",
     "static/js/2.0e18db45.chunk.js",
     "static/css/main.8fea638c.chunk.css",
-    "static/js/main.87080c86.chunk.js"
+    "static/js/main.1ea21668.chunk.js"
   ]
 }
