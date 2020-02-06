@@ -42,22 +42,12 @@ const Machining = () => (
         <SubsectionWithPictures
             title="Existing Website"
             description={[]}
-            pictures={[{src: oldWebsite1, description: "Landing Page"}]}
-            lrg/>
-
-        <SubsectionWithPictures
-            description={[]}
-            pictures={[{src: oldWebsite2, description: "About Us Page"}]}
-            lrg/>
-
-        <SubsectionWithPictures
-            description={[]}
-            pictures={[{src: oldWebsite3, description: "Contact Page (Before page fold)"}]}
-            lrg/>
-
-        <SubsectionWithPictures
-            description={[]}
-            pictures={[{src: oldWebsite4, description: "Contact Page (After page fold)"}]}
+            pictures={[
+                {src: oldWebsite1, description: "Landing Page"},
+                {src: oldWebsite2, description: "About Us Page"},
+                {src: oldWebsite3, description: "Contact Page (Before page fold)"},
+                {src: oldWebsite4, description: "Contact Page (After page fold)"}
+            ]}
             lrg/>
 
         <SubsectionWithPictures
