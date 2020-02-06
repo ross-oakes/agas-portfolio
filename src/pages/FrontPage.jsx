@@ -28,7 +28,7 @@ const FrontPage = () => {
                 image={giftGiverCoverPhoto}
                 endpoint="/gift-giver"/>
             <PortfolioItem
-                title="Precision in Machining"
+                title="Machining"
                 details="a website created for a client"
                 image={machiningCoverPhoto}
                 endpoint="/machining"/>
