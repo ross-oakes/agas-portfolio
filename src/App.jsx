@@ -12,6 +12,7 @@ import ContactPage from "./pages/ContactPage";
 import AboutPage from "./pages/AboutPage";
 import ResumePage from "./pages/ResumePage";
 import GiftGiver from "./portfolio-pages/GiftGiver";
+import Machining from "./portfolio-pages/Machining";
 import UiChallenges from "./portfolio-pages/UiChallenges";
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
                       <Route exact path="/resume" component={ResumePage}/>
                       <Route exact path="/contact" component={ContactPage}/>
                       <Route exact path="/gift-giver" component={GiftGiver}/>
+                      <Route exact path="/machining" component={Machining}/>
                       <Route exact path="/ui-challenges" component={UiChallenges}/>
                   </Switch>
               </>

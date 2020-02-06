@@ -44,6 +44,9 @@ const NavBar = () => {
                                 <NavLink tag={Link} to="/gift-giver" onClick={closeNavBar}>Gift Giver</NavLink>
                             </DropdownItem>
                             <DropdownItem>
+                                <NavLink tag={Link} to="/machining" onClick={closeNavBar}>Machining</NavLink>
+                            </DropdownItem>
+                            <DropdownItem>
                                 <NavLink tag={Link} to="/ui-challenges" onClick={closeNavBar}>UI Challenges</NavLink>
                             </DropdownItem>
                         </DropdownMenu>

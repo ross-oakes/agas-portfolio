@@ -1,5 +1,6 @@
 import React from 'react';
 import giftGiverCoverPhoto from '../resources/giftgiver/cover.png';
+import machiningCoverPhoto from '../resources/machining/cover.png'
 import uiChallengesCoverPhoto from '../resources/uichallenges/cover.png';
 import PortfolioItem from "../components/PortfolioItem";
 import {ScrollToTop} from "../components/ReactUtils";
@@ -26,6 +27,11 @@ const FrontPage = () => {
                 details="a mobile app helping to select a perfect gift"
                 image={giftGiverCoverPhoto}
                 endpoint="/gift-giver"/>
+            <PortfolioItem
+                title="Precision in Machining"
+                details="a website created for a client"
+                image={machiningCoverPhoto}
+                endpoint="/machining"/>
             <PortfolioItem
                 title="UI challenges"
                 details="everyday inspiration for UI designs"
