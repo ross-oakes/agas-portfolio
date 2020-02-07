@@ -27,6 +27,7 @@ const ResumePage = () => {
                 <p>Cooper Professional Education. <b>Cooper Crash Course: Design Thinking in 3 Steps.</b> 2020.</p>
                 <p>Sutcliffe, Rob. <b>Master Digital Product Design: UX Research & UI Design.</b> 2020.</p>
                 <p>Eyal, Nir. <b>How to Build Habit-Forming Products.</b> 2020.</p>
+                <p>Walter Scott, Daniel. <b>After Effects - Motion Graphics and Data Visualisation.</b> 2020.</p>
             </div>
             <Container className="resume-footer">
                 <Row>
