@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.2ebeed11.chunk.css",
-    "main.js": "/static/js/main.7575d8ee.chunk.js",
-    "main.js.map": "/static/js/main.7575d8ee.chunk.js.map",
+    "main.css": "/static/css/main.de6d675e.chunk.css",
+    "main.js": "/static/js/main.92a7bf72.chunk.js",
+    "main.js.map": "/static/js/main.92a7bf72.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.63c1efab.js",
     "runtime-main.js.map": "/static/js/runtime-main.63c1efab.js.map",
     "static/css/2.d9253284.chunk.css": "/static/css/2.d9253284.chunk.css",
-    "static/js/2.0e18db45.chunk.js": "/static/js/2.0e18db45.chunk.js",
-    "static/js/2.0e18db45.chunk.js.map": "/static/js/2.0e18db45.chunk.js.map",
+    "static/js/2.d7e335b1.chunk.js": "/static/js/2.d7e335b1.chunk.js",
+    "static/js/2.d7e335b1.chunk.js.map": "/static/js/2.d7e335b1.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7d9555135eba8ab713f089e041c00610.js": "/precache-manifest.7d9555135eba8ab713f089e041c00610.js",
+    "precache-manifest.46308128db2a97f72a2a90a728bf0072.js": "/precache-manifest.46308128db2a97f72a2a90a728bf0072.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.d9253284.chunk.css.map": "/static/css/2.d9253284.chunk.css.map",
-    "static/css/main.2ebeed11.chunk.css.map": "/static/css/main.2ebeed11.chunk.css.map",
-    "static/js/2.0e18db45.chunk.js.LICENSE": "/static/js/2.0e18db45.chunk.js.LICENSE",
+    "static/css/main.de6d675e.chunk.css.map": "/static/css/main.de6d675e.chunk.css.map",
+    "static/js/2.d7e335b1.chunk.js.LICENSE": "/static/js/2.d7e335b1.chunk.js.LICENSE",
     "static/media/about-us.png": "/static/media/about-us.38c16bd9.png",
     "static/media/ada-persona.png": "/static/media/ada-persona.5679d307.png",
     "static/media/aga-in-louvre.jpg": "/static/media/aga-in-louvre.150221c4.jpg",
@@ -29,6 +29,7 @@
     "static/media/filter-and-sort-2.png": "/static/media/filter-and-sort-2.f4746db5.png",
     "static/media/filter-and-sort-3.png": "/static/media/filter-and-sort-3.27dc35d7.png",
     "static/media/gallery.png": "/static/media/gallery.c76a01ea.png",
+    "static/media/gift-giver.gif": "/static/media/gift-giver.d4faad12.gif",
     "static/media/landing-page-design.png": "/static/media/landing-page-design.9ea92e04.png",
     "static/media/landing-page.png": "/static/media/landing-page.dbac4846.png",
     "static/media/new-design-1.png": "/static/media/new-design-1.b7212c88.png",
@@ -67,8 +68,8 @@
   "entrypoints": [
     "static/js/runtime-main.63c1efab.js",
     "static/css/2.d9253284.chunk.css",
-    "static/js/2.0e18db45.chunk.js",
-    "static/css/main.2ebeed11.chunk.css",
-    "static/js/main.7575d8ee.chunk.js"
+    "static/js/2.d7e335b1.chunk.js",
+    "static/css/main.de6d675e.chunk.css",
+    "static/js/main.92a7bf72.chunk.js"
   ]
 }
