@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectTitle from "./components/ProjectTitle";
-import GiftGiverPic from "../resources/giftgiver/cover.png"
+import GiftGiverPic from "../resources/giftgiver/gift-giver.gif"
 import Subsection from "./components/Subsection";
 import SubsectionWithPictures from "./components/SubsectionWithPictures";
 
