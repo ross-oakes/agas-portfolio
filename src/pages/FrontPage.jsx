@@ -28,13 +28,13 @@ const FrontPage = () => {
                 image={giftGiverCoverPhoto}
                 endpoint="/gift-giver"/>
             <PortfolioItem
-                title="Precision in Machining"
+                title="Machining"
                 details="a website created for a client"
                 image={machiningCoverPhoto}
                 endpoint="/machining"/>
             <PortfolioItem
                 title="UI challenges"
-                details="everyday inspiration for UI designs"
+                details="everyday practice of my design skills"
                 image={uiChallengesCoverPhoto}
                 endpoint="/ui-challenges"/>
 
