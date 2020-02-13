@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.de6d675e.chunk.css",
-    "main.js": "/static/js/main.92a7bf72.chunk.js",
-    "main.js.map": "/static/js/main.92a7bf72.chunk.js.map",
+    "main.css": "/static/css/main.cceaf69d.chunk.css",
+    "main.js": "/static/js/main.9e23452e.chunk.js",
+    "main.js.map": "/static/js/main.9e23452e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.63c1efab.js",
     "runtime-main.js.map": "/static/js/runtime-main.63c1efab.js.map",
     "static/css/2.d9253284.chunk.css": "/static/css/2.d9253284.chunk.css",
-    "static/js/2.d7e335b1.chunk.js": "/static/js/2.d7e335b1.chunk.js",
-    "static/js/2.d7e335b1.chunk.js.map": "/static/js/2.d7e335b1.chunk.js.map",
+    "static/js/2.6f89a6ca.chunk.js": "/static/js/2.6f89a6ca.chunk.js",
+    "static/js/2.6f89a6ca.chunk.js.map": "/static/js/2.6f89a6ca.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.46308128db2a97f72a2a90a728bf0072.js": "/precache-manifest.46308128db2a97f72a2a90a728bf0072.js",
+    "precache-manifest.ee4a5a7cf9083981a9590f697bd2c622.js": "/precache-manifest.ee4a5a7cf9083981a9590f697bd2c622.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.d9253284.chunk.css.map": "/static/css/2.d9253284.chunk.css.map",
-    "static/css/main.de6d675e.chunk.css.map": "/static/css/main.de6d675e.chunk.css.map",
-    "static/js/2.d7e335b1.chunk.js.LICENSE": "/static/js/2.d7e335b1.chunk.js.LICENSE",
+    "static/css/main.cceaf69d.chunk.css.map": "/static/css/main.cceaf69d.chunk.css.map",
+    "static/js/2.6f89a6ca.chunk.js.LICENSE": "/static/js/2.6f89a6ca.chunk.js.LICENSE",
     "static/media/about-us.png": "/static/media/about-us.38c16bd9.png",
     "static/media/ada-persona.png": "/static/media/ada-persona.5679d307.png",
     "static/media/aga-in-louvre.jpg": "/static/media/aga-in-louvre.150221c4.jpg",
     "static/media/App.css": "/static/media/aga-rocks.1f1365ca.jpg",
     "static/media/app-icon-design.png": "/static/media/app-icon-design.209cbcdb.png",
+    "static/media/banking-app.gif": "/static/media/banking-app.34f61fab.gif",
     "static/media/calculator-design.png": "/static/media/calculator-design.39d9a32d.png",
     "static/media/categories-old-version.png": "/static/media/categories-old-version.8ee50166.png",
     "static/media/checkout-design.png": "/static/media/checkout-design.cfccc335.png",
@@ -68,8 +69,8 @@
   "entrypoints": [
     "static/js/runtime-main.63c1efab.js",
     "static/css/2.d9253284.chunk.css",
-    "static/js/2.d7e335b1.chunk.js",
-    "static/css/main.de6d675e.chunk.css",
-    "static/js/main.92a7bf72.chunk.js"
+    "static/js/2.6f89a6ca.chunk.js",
+    "static/css/main.cceaf69d.chunk.css",
+    "static/js/main.9e23452e.chunk.js"
   ]
 }
