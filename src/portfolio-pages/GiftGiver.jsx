@@ -14,23 +14,13 @@ import filterSort3 from "../resources/giftgiver/filter-and-sort-3.png"
 import oldDesign1 from "../resources/giftgiver/old-design-1.png"
 import oldDesign2 from "../resources/giftgiver/old-design-2.png"
 import PaperPrototype from "../resources/giftgiver/paper-prototype.jpg"
-import newDesign1 from "../resources/giftgiver/new-design-1.png"
-import newDesign2 from "../resources/giftgiver/new-design-2.png"
-import newDesign3 from "../resources/giftgiver/new-design-3.png"
-import newDesign4 from "../resources/giftgiver/new-design-4.png"
-import saving1 from "../resources/giftgiver/saving-1.png"
-import saving2 from "../resources/giftgiver/saving-2.png"
-import saving3 from "../resources/giftgiver/saving-3.png"
-import saving4 from "../resources/giftgiver/saving-4.png"
-import saving5 from "../resources/giftgiver/saving-5.png"
-import shopping1 from "../resources/giftgiver/shopping-1.png"
-import shopping2 from "../resources/giftgiver/shopping-2.png"
-import shopping3 from "../resources/giftgiver/shopping-3.png"
-import shopping4 from "../resources/giftgiver/shopping-4.png"
-import shopping5 from "../resources/giftgiver/shopping-5.png"
-import shopping6 from "../resources/giftgiver/shopping-6.png"
-import shopping7 from "../resources/giftgiver/shopping-7.png"
-import shopping8 from "../resources/giftgiver/shopping-8.png"
+import giftGiverDesign1 from "../resources/giftgiver/gift-giver-new-1.png"
+import giftGiverDesign2 from "../resources/giftgiver/gift-giver-new-2.png"
+import giftGiverDesign3 from "../resources/giftgiver/gift-giver-new-3.png"
+import giftGiverDesign4 from "../resources/giftgiver/gift-giver-new-4.png"
+import giftGiverDesign5 from "../resources/giftgiver/gift-giver-new-5.png"
+import giftGiverDesign6 from "../resources/giftgiver/gift-giver-new-6.png"
+import giftGiverDesign7 from "../resources/giftgiver/gift-giver-new-7.png"
 import {ScrollToTop} from "../components/ReactUtils";
 import Section from "./components/Section";
 import SubsectionWithoutTitle from "./components/SubsectionWithoutTitle";
@@ -245,10 +235,9 @@ const GiftGiver = () => (
         <SubsectionWithPictures
             description={[]}
             pictures={[
-                {src: newDesign1},
-                {src: newDesign2}
+                {src: giftGiverDesign1}
             ]}
-            sml/>
+            xlrg/>
 
         <SubsectionWithPictures
             description={[
@@ -256,23 +245,19 @@ const GiftGiver = () => (
                 "to complete this section."
             ]}
             pictures={[
-                {src: newDesign3},
-                {src: newDesign4}
+                {src: giftGiverDesign2}
             ]}
-            sml/>
+            xlrg/>
 
         <SubsectionWithPictures
             description={[
                 "When the user clicks on 'See suggestions', they are prompted to save the gift recipient."
             ]}
             pictures={[
-                {src: saving1},
-                {src: saving2},
-                {src: saving3},
-                {src: saving4},
-                {src: saving5}
+                {src: giftGiverDesign3},
+                {src: giftGiverDesign4}
             ]}
-            sml/>
+            xlrg/>
 
         <SubsectionWithPictures
             description={[
@@ -280,16 +265,11 @@ const GiftGiver = () => (
                 "can then either add the item to the cart and continue browsing or just go straight to buying it."
             ]}
             pictures={[
-                {src: shopping1},
-                {src: shopping2},
-                {src: shopping3},
-                {src: shopping4},
-                {src: shopping5},
-                {src: shopping6},
-                {src: shopping7},
-                {src: shopping8},
+                {src: giftGiverDesign5},
+                {src: giftGiverDesign6},
+                {src: giftGiverDesign7}
             ]}
-            sml/>
+            xlrg/>
 
         <Subsection
             title="The result"
