@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e5df1c46db7335e3fb2e15da40314f0b",
+    "revision": "ea3a022a87d2c58b46e89d46d035fa21",
     "url": "/index.html"
   },
   {
-    "revision": "260faefeeab9f1f47cfc",
+    "revision": "f2823b2df6a357f1f32e",
     "url": "/static/css/2.d9253284.chunk.css"
   },
   {
-    "revision": "fce02c2740f72fca7345",
-    "url": "/static/css/main.cceaf69d.chunk.css"
+    "revision": "5fcfaa6350b157618aaa",
+    "url": "/static/css/main.d36a7eb5.chunk.css"
   },
   {
-    "revision": "260faefeeab9f1f47cfc",
-    "url": "/static/js/2.6f89a6ca.chunk.js"
+    "revision": "f2823b2df6a357f1f32e",
+    "url": "/static/js/2.81389230.chunk.js"
   },
   {
     "revision": "801eb6b718cfeb49e4699ab80a85e8cf",
-    "url": "/static/js/2.6f89a6ca.chunk.js.LICENSE"
+    "url": "/static/js/2.81389230.chunk.js.LICENSE"
   },
   {
-    "revision": "fce02c2740f72fca7345",
-    "url": "/static/js/main.887f19a6.chunk.js"
+    "revision": "5fcfaa6350b157618aaa",
+    "url": "/static/js/main.a154e951.chunk.js"
   },
   {
     "revision": "e738b54ffe3b15816cf3",
@@ -100,6 +100,34 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/gallery.c76a01ea.png"
   },
   {
+    "revision": "875c8d97308abf47f1f28703dbb42eba",
+    "url": "/static/media/gift-giver-new-1.875c8d97.png"
+  },
+  {
+    "revision": "0b20a1372f2b8d814a51ad9a91d4b0d2",
+    "url": "/static/media/gift-giver-new-2.0b20a137.png"
+  },
+  {
+    "revision": "fcc2192c3b7f7a2ffa1c066ee21d14c4",
+    "url": "/static/media/gift-giver-new-3.fcc2192c.png"
+  },
+  {
+    "revision": "5a77729b49cd6c4a993b3844dc552e7c",
+    "url": "/static/media/gift-giver-new-4.5a77729b.png"
+  },
+  {
+    "revision": "dcd40a758fbc41f512ac5d5c7ce559bc",
+    "url": "/static/media/gift-giver-new-5.dcd40a75.png"
+  },
+  {
+    "revision": "f8930b6dac8b143c484293308fd82e6e",
+    "url": "/static/media/gift-giver-new-6.f8930b6d.png"
+  },
+  {
+    "revision": "fa1e3934e092d42e8dc031b4d3355dfa",
+    "url": "/static/media/gift-giver-new-7.fa1e3934.png"
+  },
+  {
     "revision": "d4faad12dc9be1e088f8cb279046b023",
     "url": "/static/media/gift-giver.d4faad12.gif"
   },
@@ -110,22 +138,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "dbac4846548a25d09458a35d03f2df7e",
     "url": "/static/media/landing-page.dbac4846.png"
-  },
-  {
-    "revision": "b7212c88d36593f4c2a0b310c8677b69",
-    "url": "/static/media/new-design-1.b7212c88.png"
-  },
-  {
-    "revision": "652f19102ae6b6b6b002600262138bfa",
-    "url": "/static/media/new-design-2.652f1910.png"
-  },
-  {
-    "revision": "98446707ae92755c7c5330d66b7e8061",
-    "url": "/static/media/new-design-3.98446707.png"
-  },
-  {
-    "revision": "6ba5a776bf394f7bcec98916ffc528de",
-    "url": "/static/media/new-design-4.6ba5a776.png"
   },
   {
     "revision": "cff120ab97eea5b63c2005c3acb9c1ad",
@@ -168,64 +180,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/resume.3ea08ca2.pdf"
   },
   {
-    "revision": "034818cfc70e875d2d211492e7dadcdb",
-    "url": "/static/media/saving-1.034818cf.png"
-  },
-  {
-    "revision": "1ae7748bb197df5a6c89f224cffd266f",
-    "url": "/static/media/saving-2.1ae7748b.png"
-  },
-  {
-    "revision": "7bdc2dfc44837f060b737e96ada87f0e",
-    "url": "/static/media/saving-3.7bdc2dfc.png"
-  },
-  {
-    "revision": "028baa521302e71b4d4b28a03a92b92d",
-    "url": "/static/media/saving-4.028baa52.png"
-  },
-  {
-    "revision": "03c64bfc4b80ae39b3b97df5fa1e64b5",
-    "url": "/static/media/saving-5.03c64bfc.png"
-  },
-  {
     "revision": "e5810bb1a870517004bebccf10bcb586",
     "url": "/static/media/services-old.e5810bb1.png"
   },
   {
     "revision": "db59ad6b8705da95040be520697ed340",
     "url": "/static/media/services.db59ad6b.png"
-  },
-  {
-    "revision": "eae64fd86a2a9e9920a45f991535e2f5",
-    "url": "/static/media/shopping-1.eae64fd8.png"
-  },
-  {
-    "revision": "902e6b75686451285ba9a30645964012",
-    "url": "/static/media/shopping-2.902e6b75.png"
-  },
-  {
-    "revision": "f00271ab969b9ef5f88b8b6426dbde6a",
-    "url": "/static/media/shopping-3.f00271ab.png"
-  },
-  {
-    "revision": "224e1bacdfc3e44dab2f21365bd29c29",
-    "url": "/static/media/shopping-4.224e1bac.png"
-  },
-  {
-    "revision": "40540859718e98f03faf035232ecaa43",
-    "url": "/static/media/shopping-5.40540859.png"
-  },
-  {
-    "revision": "755d9882117c1b6eb39b2fd10fb463f6",
-    "url": "/static/media/shopping-6.755d9882.png"
-  },
-  {
-    "revision": "41fc677dc48a8f49a47ee6aff0a0d586",
-    "url": "/static/media/shopping-7.41fc677d.png"
-  },
-  {
-    "revision": "b77b37632f3f377295f458b68f609155",
-    "url": "/static/media/shopping-8.b77b3763.png"
   },
   {
     "revision": "6ddbb60da80f0dbe4758170bb101b32b",
