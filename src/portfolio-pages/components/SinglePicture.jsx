@@ -1,8 +1,7 @@
 import * as React from "react"
-import {Col, Container, Row} from "reactstrap";
 
 const createPicture = (pictureObject, xlrg, fullsize) => {
-    var value = 25;
+    let value = 25;
 
     value = xlrg ? value * 2 : value;
     value = fullsize ? 80 : value;

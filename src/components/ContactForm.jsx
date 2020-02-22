@@ -14,14 +14,14 @@ const ContactForm = ({openSuccessAlert, closeSuccessAlert,
         closeSuccessAlert();
         closeDangerAlert();
 
-        var template_params = {
+        let template_params = {
             "reply_to": email,
             "from_name": name,
             "message_html": content
         };
 
-        var service_id = "default_service";
-        var template_id = "template_594ZU3dk";
+        const service_id = "default_service";
+        const template_id = "template_594ZU3dk";
         try {
             window.emailjs.send(service_id, template_id, template_params);
             openSuccessAlert();
