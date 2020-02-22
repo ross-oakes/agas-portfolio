@@ -53,7 +53,7 @@ const Machining = () => (
         <SubsectionWithPictures
             title="User research and competitive analysis"
             description={[
-                "I interviewed the customers of four companys and two other participants who use machining services. " +
+                "I interviewed four company’s clients and two other participants who use machining services. " +
                 "I asked them what they look for on machining websites, what information is useful for them, what " +
                 "services they want to use and how they select which company to use. On the basis of this research, " +
                 "I organised information on the website. I also looked at other similar websites and their way of " +
