@@ -296,20 +296,44 @@
 
 /**********PORTFOLIO PAGE************/
 .portfolio-page {
-    padding-top: 68px;
     width: 100%;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 100px;
+    padding: 100px 10% 0;
 }
 
 .project-title {
     text-align: center;
-    padding-top: 40px;
+    padding: 0 10%;
+}
+.project-title h1 {
+    padding-bottom: 20px;
+}
+.project-title-image {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 3px #c2c1c1;
 }
 
-.project-title h1, h3 {
-    padding-bottom: 20px;
+.project-section {
+    margin: 60px 0;
+}
+.project-subsection {
+    margin: 20px 0;
+}
+.project-multiple-pictures {
+
+}
+.project-single-picture {
+    display: table-caption;
+    width: 80vw;
+    margin-bottom: 10px;
+}
+
+.section-title h1 {
+    padding-left: 50px;
+    padding-top: 70px;
+    padding-right: 50px;
 }
 
 .description-with-title {
@@ -333,14 +357,9 @@
     display: table-caption;
 }
 
-.section-title h1 {
-    padding-left: 50px;
-    padding-top: 70px;
-    padding-right: 50px;
-}
-
 .image-shading {
+    display: block;
     box-shadow: 1px 1px 3px #c2c1c1;
-    min-width: 200px;
-    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }

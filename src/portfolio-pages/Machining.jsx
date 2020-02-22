@@ -18,7 +18,7 @@ import contactPage from "../resources/machining/contact.png"
 import {ScrollToTop} from "../components/ReactUtils";
 import Subsection from "./components/Subsection";
 import SubsectionWithPictures from "./components/SubsectionWithPictures";
-import Section from "./components/Section";
+import ProjectSection from "./components/ProjectSection";
 import SubsectionWithoutTitle from "./components/SubsectionWithoutTitle";
 
 const Machining = () => (
@@ -70,7 +70,7 @@ const Machining = () => (
                 {src: davidPersona}
             ]}/>
 
-        <Section title="Redesign and usability testing"/>
+        <ProjectSection title="Redesign and usability testing"/>
 
         <SubsectionWithoutTitle
             description={[
