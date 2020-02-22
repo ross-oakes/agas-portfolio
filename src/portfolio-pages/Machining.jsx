@@ -95,7 +95,7 @@ const Machining = () => (
             pictures={[
                 {src: landingPage}
             ]}
-            lrg/>
+            xlrg/>
 
         <SubsectionWithPictures
             title="About Us Page"
@@ -107,7 +107,7 @@ const Machining = () => (
             pictures={[
                 {src: aboutUsPage}
             ]}
-            lrg/>
+            xlrg/>
 
         <SubsectionWithPictures
             title="Services Page"
@@ -127,7 +127,7 @@ const Machining = () => (
                 {src: servicesOldPage, description: "My first design"},
                 {src: servicesPage, description: "My final design"}
             ]}
-            lrg/>
+            xlrg/>
 
         <SubsectionWithPictures
             title="Work With Us Page"
@@ -138,7 +138,7 @@ const Machining = () => (
             pictures={[
                 {src: workWithUsPage}
             ]}
-            lrg/>
+            xlrg/>
 
         <SubsectionWithPictures
             title="Gallery Page"
@@ -148,7 +148,7 @@ const Machining = () => (
             pictures={[
                 {src: galleryPage}
             ]}
-            lrg/>
+            xlrg/>
 
         <SubsectionWithPictures
             title="Contact Page"
@@ -159,7 +159,7 @@ const Machining = () => (
             pictures={[
                 {src: contactPage}
             ]}
-            lrg/>
+            xlrg/>
 
         <Subsection
             title="The result and next steps"

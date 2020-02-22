@@ -1,9 +1,10 @@
 import * as React from "react"
 import {Col, Container, Row} from "reactstrap";
 
-const createPictures = (picturesObject, horizontal, lrg, sml, lrgSpacing) => {
+const createPictures = (picturesObject, horizontal, lrg, xlrg, sml, lrgSpacing) => {
     var value = horizontal ? 50 : 25;
 
+    value = xlrg ? value*2 : value;
     value = lrg ? value*1.3 : value;
     value = sml ? value*0.7 : value;
 
@@ -29,14 +30,14 @@ const createParagraph = (description) => (
 );
 
 const SubsectionWithPictures = (
-    {title, description: descriptions, pictures: picturesObject, horizontal, lrg, sml, lrgSpacing}) => (
+    {title, description: descriptions, pictures: picturesObject, horizontal, lrg, xlrg, sml, lrgSpacing}) => (
     <div className="description-with-title">
         {title && <h3>{title}</h3>}
         {descriptions.map(createParagraph)}
         <Container>
             <Row>
                 {
-                    createPictures(picturesObject, horizontal, lrg, sml, lrgSpacing)
+                    createPictures(picturesObject, horizontal, lrg, xlrg, sml, lrgSpacing)
                 }
             </Row>
         </Container>
