@@ -16,6 +16,12 @@ import old5 from "../resources/ieltsessays/old-collocations2.jpg"
 import affinityMap from "../resources/ieltsessays/affinity-map.jpg"
 import persona from "../resources/ieltsessays/persona.png"
 import paperPrototype from "../resources/ieltsessays/paper-prototype.jpg"
+import first1 from "../resources/ieltsessays/first-sign-up.png"
+import first2 from "../resources/ieltsessays/first-homepage.png"
+import first3 from "../resources/ieltsessays/first-essays-with-feedback.png"
+import first4 from "../resources/ieltsessays/first-vocabulary1.png"
+import first5 from "../resources/ieltsessays/first-vocabulary2.png"
+import first6 from "../resources/ieltsessays/first-vocabulary3.png"
 
 const IELTSEssays = () => (
     <PortfolioPage>
@@ -92,6 +98,16 @@ const IELTSEssays = () => (
                     or issues with navigation flow.
                 </p>
                 <SinglePicture picture={{src: paperPrototype}} xlrg/>
+            </ProjectSubsection>
+            <ProjectSubsection title="Hi-Fi Prototype - First Design">
+                <MultiplePictures pictures={[
+                    {src: first1},
+                    {src: first2},
+                    {src: first3},
+                    {src: first4},
+                    {src: first5},
+                    {src: first6}
+                ]}/>
             </ProjectSubsection>
         </ProjectSection>
     </PortfolioPage>
