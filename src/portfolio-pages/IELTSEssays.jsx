@@ -10,6 +10,9 @@ import old2 from "../resources/ieltsessays/old-essays1.jpg"
 import old3 from "../resources/ieltsessays/old-essays2.jpg"
 import old4 from "../resources/ieltsessays/old-collocations1.jpg"
 import old5 from "../resources/ieltsessays/old-collocations2.jpg"
+import affinityMap from "../resources/ieltsessays/affinity-map.jpg"
+import ProjectSection from "./components/ProjectSection";
+import SinglePicture from "./components/SinglePicture";
 
 const IELTSEssays = () => (
     <PortfolioPage>
@@ -37,6 +40,28 @@ const IELTSEssays = () => (
                 {src: old5, description: "Vocubulary collection 2"},
             ]}/>
         </ProjectSubsection>
+
+        <ProjectSection title="Research and Analysis">
+            <ProjectSubsection title="User research">
+                <p>
+                    I conducted contextual inquiry with eight participants - three users of the app and five other
+                    IELTS students. I asked participants to perform a number of tasks on an existing app, as well as
+                    to say what they liked/disliked. An example question was to find an essay to read about education.
+                    Essays weren't labelled according to categories, and there weren't any filtering options, either.
+                    Participants used a search icon to filter the essays.
+                </p>
+                <p>
+                    I asked the participants to share their opinion about the app: what they liked and what they
+                    disliked, what needed an improvement, and what was working well. Next, I organised participants'
+                    thoughts into an affinity map and developed a list of most pressing improvements needed: 1.
+                    Organising essays according to category, e.g. ecology, family, health; 2. Filter options; 3.
+                    Provide definitions for collocations/vocabulary part of the app.
+                </p>
+                <SinglePicture
+                    picture={{src: affinityMap, description: "Affinity mapping of the key issues"}} fullsize/>
+            </ProjectSubsection>
+
+        </ProjectSection>
     </PortfolioPage>
 );
 
