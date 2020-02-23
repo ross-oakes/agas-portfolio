@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.ba8eb60c.chunk.css",
-    "main.js": "/static/js/main.731a1e23.chunk.js",
-    "main.js.map": "/static/js/main.731a1e23.chunk.js.map",
+    "main.js": "/static/js/main.6558543e.chunk.js",
+    "main.js.map": "/static/js/main.6558543e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.63c1efab.js",
     "runtime-main.js.map": "/static/js/runtime-main.63c1efab.js.map",
     "static/css/2.d9253284.chunk.css": "/static/css/2.d9253284.chunk.css",
-    "static/js/2.a18d3316.chunk.js": "/static/js/2.a18d3316.chunk.js",
-    "static/js/2.a18d3316.chunk.js.map": "/static/js/2.a18d3316.chunk.js.map",
+    "static/js/2.87d51eac.chunk.js": "/static/js/2.87d51eac.chunk.js",
+    "static/js/2.87d51eac.chunk.js.map": "/static/js/2.87d51eac.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e9aabb2c665df6576e9f4d1925670bdd.js": "/precache-manifest.e9aabb2c665df6576e9f4d1925670bdd.js",
+    "precache-manifest.40da7858654df588a24e36901d8d4630.js": "/precache-manifest.40da7858654df588a24e36901d8d4630.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.d9253284.chunk.css.map": "/static/css/2.d9253284.chunk.css.map",
     "static/css/main.ba8eb60c.chunk.css.map": "/static/css/main.ba8eb60c.chunk.css.map",
-    "static/js/2.a18d3316.chunk.js.LICENSE": "/static/js/2.a18d3316.chunk.js.LICENSE",
+    "static/js/2.87d51eac.chunk.js.LICENSE": "/static/js/2.87d51eac.chunk.js.LICENSE",
     "static/media/about-us.png": "/static/media/about-us.38c16bd9.png",
     "static/media/ada-persona.png": "/static/media/ada-persona.5679d307.png",
     "static/media/affinity-map.jpg": "/static/media/affinity-map.2b7cb438.jpg",
@@ -53,6 +53,7 @@
     "static/media/old-website-3.png": "/static/media/old-website-3.209fe928.png",
     "static/media/old-website-4.png": "/static/media/old-website-4.279076bb.png",
     "static/media/paper-prototype.jpg": "/static/media/paper-prototype.ccff23e2.jpg",
+    "static/media/persona.png": "/static/media/persona.c2f6a4c8.png",
     "static/media/personas-ben.png": "/static/media/personas-ben.c4dbb20d.png",
     "static/media/personas-rachel.png": "/static/media/personas-rachel.96c8a70f.png",
     "static/media/resume.pdf": "/static/media/resume.3ea08ca2.pdf",
@@ -65,8 +66,8 @@
   "entrypoints": [
     "static/js/runtime-main.63c1efab.js",
     "static/css/2.d9253284.chunk.css",
-    "static/js/2.a18d3316.chunk.js",
+    "static/js/2.87d51eac.chunk.js",
     "static/css/main.ba8eb60c.chunk.css",
-    "static/js/main.731a1e23.chunk.js"
+    "static/js/main.6558543e.chunk.js"
   ]
 }
