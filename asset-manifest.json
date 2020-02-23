@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.ba8eb60c.chunk.css",
-    "main.js": "/static/js/main.f91126d1.chunk.js",
-    "main.js.map": "/static/js/main.f91126d1.chunk.js.map",
+    "main.css": "/static/css/main.9094f0b5.chunk.css",
+    "main.js": "/static/js/main.f35bf4c7.chunk.js",
+    "main.js.map": "/static/js/main.f35bf4c7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.63c1efab.js",
     "runtime-main.js.map": "/static/js/runtime-main.63c1efab.js.map",
     "static/css/2.d9253284.chunk.css": "/static/css/2.d9253284.chunk.css",
-    "static/js/2.e30460fb.chunk.js": "/static/js/2.e30460fb.chunk.js",
-    "static/js/2.e30460fb.chunk.js.map": "/static/js/2.e30460fb.chunk.js.map",
+    "static/js/2.e9bbca18.chunk.js": "/static/js/2.e9bbca18.chunk.js",
+    "static/js/2.e9bbca18.chunk.js.map": "/static/js/2.e9bbca18.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8b8929f7ba9219c84324d0532fdb61ba.js": "/precache-manifest.8b8929f7ba9219c84324d0532fdb61ba.js",
+    "precache-manifest.b7ad91a7dacbd5f317e3d7d0fd0eb206.js": "/precache-manifest.b7ad91a7dacbd5f317e3d7d0fd0eb206.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.d9253284.chunk.css.map": "/static/css/2.d9253284.chunk.css.map",
-    "static/css/main.ba8eb60c.chunk.css.map": "/static/css/main.ba8eb60c.chunk.css.map",
-    "static/js/2.e30460fb.chunk.js.LICENSE": "/static/js/2.e30460fb.chunk.js.LICENSE",
+    "static/css/main.9094f0b5.chunk.css.map": "/static/css/main.9094f0b5.chunk.css.map",
+    "static/js/2.e9bbca18.chunk.js.LICENSE": "/static/js/2.e9bbca18.chunk.js.LICENSE",
     "static/media/about-us.png": "/static/media/about-us.38c16bd9.png",
     "static/media/ada-persona.png": "/static/media/ada-persona.5679d307.png",
     "static/media/aga-in-louvre.jpg": "/static/media/aga-in-louvre.150221c4.jpg",
@@ -40,8 +40,13 @@
     "static/media/gift-giver.gif": "/static/media/gift-giver.d4faad12.gif",
     "static/media/landing-page-design.png": "/static/media/landing-page-design.9ea92e04.png",
     "static/media/landing-page.png": "/static/media/landing-page.dbac4846.png",
+    "static/media/old-collocations1.jpg": "/static/media/old-collocations1.18094437.jpg",
+    "static/media/old-collocations2.jpg": "/static/media/old-collocations2.d75f4bf5.jpg",
     "static/media/old-design-1.png": "/static/media/old-design-1.cff120ab.png",
     "static/media/old-design-2.png": "/static/media/old-design-2.1ffa4183.png",
+    "static/media/old-essays1.jpg": "/static/media/old-essays1.d48a29ce.jpg",
+    "static/media/old-essays2.jpg": "/static/media/old-essays2.a55e8722.jpg",
+    "static/media/old-homepage.jpg": "/static/media/old-homepage.801bf9e6.jpg",
     "static/media/old-website-1.png": "/static/media/old-website-1.906b424e.png",
     "static/media/old-website-2.png": "/static/media/old-website-2.155a4366.png",
     "static/media/old-website-3.png": "/static/media/old-website-3.209fe928.png",
@@ -59,8 +64,8 @@
   "entrypoints": [
     "static/js/runtime-main.63c1efab.js",
     "static/css/2.d9253284.chunk.css",
-    "static/js/2.e30460fb.chunk.js",
-    "static/css/main.ba8eb60c.chunk.css",
-    "static/js/main.f91126d1.chunk.js"
+    "static/js/2.e9bbca18.chunk.js",
+    "static/css/main.9094f0b5.chunk.css",
+    "static/js/main.f35bf4c7.chunk.js"
   ]
 }

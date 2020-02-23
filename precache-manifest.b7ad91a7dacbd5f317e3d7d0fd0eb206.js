@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0ecd40fce7472d4c1f470fffa801dd15",
+    "revision": "9aaf8a8df85d3d458321a456f87f6001",
     "url": "/index.html"
   },
   {
-    "revision": "4a05a59eb446341ffd50",
+    "revision": "35a5c2b44eb1f92a377c",
     "url": "/static/css/2.d9253284.chunk.css"
   },
   {
-    "revision": "de12c1939c31cf7e2226",
-    "url": "/static/css/main.ba8eb60c.chunk.css"
+    "revision": "603e21e4e6da83f1bb15",
+    "url": "/static/css/main.9094f0b5.chunk.css"
   },
   {
-    "revision": "4a05a59eb446341ffd50",
-    "url": "/static/js/2.e30460fb.chunk.js"
+    "revision": "35a5c2b44eb1f92a377c",
+    "url": "/static/js/2.e9bbca18.chunk.js"
   },
   {
     "revision": "801eb6b718cfeb49e4699ab80a85e8cf",
-    "url": "/static/js/2.e30460fb.chunk.js.LICENSE"
+    "url": "/static/js/2.e9bbca18.chunk.js.LICENSE"
   },
   {
-    "revision": "de12c1939c31cf7e2226",
-    "url": "/static/js/main.f91126d1.chunk.js"
+    "revision": "603e21e4e6da83f1bb15",
+    "url": "/static/js/main.f35bf4c7.chunk.js"
   },
   {
     "revision": "e738b54ffe3b15816cf3",
@@ -144,12 +144,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/landing-page.dbac4846.png"
   },
   {
+    "revision": "1809443712982eb07f28228ff385834a",
+    "url": "/static/media/old-collocations1.18094437.jpg"
+  },
+  {
+    "revision": "d75f4bf5e610125caa26ccb52f2366b9",
+    "url": "/static/media/old-collocations2.d75f4bf5.jpg"
+  },
+  {
     "revision": "cff120ab97eea5b63c2005c3acb9c1ad",
     "url": "/static/media/old-design-1.cff120ab.png"
   },
   {
     "revision": "1ffa418379cff47451023868cf50dd60",
     "url": "/static/media/old-design-2.1ffa4183.png"
+  },
+  {
+    "revision": "d48a29ce0ae62f09666eb55ccc6c7868",
+    "url": "/static/media/old-essays1.d48a29ce.jpg"
+  },
+  {
+    "revision": "a55e87226988ef42a4ea63f77404ac2b",
+    "url": "/static/media/old-essays2.a55e8722.jpg"
+  },
+  {
+    "revision": "801bf9e69c8e10652592c8a48d4130f9",
+    "url": "/static/media/old-homepage.801bf9e6.jpg"
   },
   {
     "revision": "906b424ecf1b4b377708134c8fddb4d1",
