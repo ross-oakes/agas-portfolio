@@ -35,23 +35,6 @@
         padding-left: 15vw;
         padding-right: 15vw;
     }
-
-    /**********PORTFOLIO PAGE************/
-
-    .section-title h1 {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
-    .description-with-title {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
-    .description-without-title {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
 }
 
 @media all and (min-width:0px) and (max-width: 680px) {

@@ -275,24 +275,6 @@
     width: 80vw;
     margin-bottom: 10px;
 }
-.section-title h1 {
-    padding-left: 50px;
-    padding-top: 70px;
-    padding-right: 50px;
-}
-.description-with-title {
-    text-align: left;
-    padding-left: 50px;
-    padding-top: 40px;
-    padding-right: 50px;
-}
-.description-without-title {
-    text-align: left;
-    padding: 50px 50px 0;
-}
-.description-with-title h3 {
-    padding-bottom: 20px;
-}
 .picture-with-description {
     display: table-caption;
     margin-bottom: 10px;
