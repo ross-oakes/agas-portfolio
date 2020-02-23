@@ -47,6 +47,9 @@ const NavBar = () => {
                                 <NavLink tag={Link} to="/machining" onClick={closeNavBar}>Machining</NavLink>
                             </DropdownItem>
                             <DropdownItem>
+                                <NavLink tag={Link} to="/ielts-essays" onClick={closeNavBar}>IELTS Essays</NavLink>
+                            </DropdownItem>
+                            <DropdownItem>
                                 <NavLink tag={Link} to="/ui-challenges" onClick={closeNavBar}>UI Challenges</NavLink>
                             </DropdownItem>
                         </DropdownMenu>

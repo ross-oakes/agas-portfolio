@@ -14,6 +14,7 @@ import ResumePage from "./pages/ResumePage";
 import GiftGiver from "./portfolio-pages/GiftGiver";
 import Machining from "./portfolio-pages/Machining";
 import UiChallenges from "./portfolio-pages/UiChallenges";
+import IELTSEssays from "./portfolio-pages/IELTSEssays";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
                       <Route exact path="/contact" component={ContactPage}/>
                       <Route exact path="/gift-giver" component={GiftGiver}/>
                       <Route exact path="/machining" component={Machining}/>
+                      <Route exact path="/ielts-essays" component={IELTSEssays}/>
                       <Route exact path="/ui-challenges" component={UiChallenges}/>
                   </Switch>
               </>
