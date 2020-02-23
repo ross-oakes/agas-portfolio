@@ -1,18 +1,19 @@
 import React from 'react';
+
 import PortfolioPage from "./components/PortfolioPage";
 import ProjectTitle from "./components/ProjectTitle";
+import ProjectSection from "./components/ProjectSection";
+import ProjectSubsection from "./components/ProjectSubsection";
+import SinglePicture from "./components/SinglePicture";
+import MultiplePictures from "./components/MultiplePictures";
 
 import IELTSEssaysCover from "../resources/ieltsessays/cover.png"
-import ProjectSubsection from "./components/ProjectSubsection";
-import MultiplePictures from "./components/MultiplePictures";
 import old1 from "../resources/ieltsessays/old-homepage.jpg"
 import old2 from "../resources/ieltsessays/old-essays1.jpg"
 import old3 from "../resources/ieltsessays/old-essays2.jpg"
 import old4 from "../resources/ieltsessays/old-collocations1.jpg"
 import old5 from "../resources/ieltsessays/old-collocations2.jpg"
 import affinityMap from "../resources/ieltsessays/affinity-map.jpg"
-import ProjectSection from "./components/ProjectSection";
-import SinglePicture from "./components/SinglePicture";
 
 const IELTSEssays = () => (
     <PortfolioPage>
@@ -60,7 +61,18 @@ const IELTSEssays = () => (
                 <SinglePicture
                     picture={{src: affinityMap, description: "Affinity mapping of the key issues"}} fullsize/>
             </ProjectSubsection>
-
+            <ProjectSubsection title="Competitive analysis and best practices">
+                <p>
+                    I analysed competitive apps and best practices for individual elements of the app. On the basis of
+                    this research, I came up with other useful improvements. For instance, all of the competitive
+                    applications split the essays into four types: Agree/Disagree, Discussion, Causes and Solutions,
+                    Advantages and Disadvantages. These types stem from the exam requirements. Another improvement
+                    originated from best practices for mobile design, The app only had one menu, which combined together
+                    main tabs for users as well as secondary information about the creators. According to best practices
+                    of app design, it is best to split up the navigation items into primary and secondary to enhance
+                    clarity.
+                </p>
+            </ProjectSubsection>
         </ProjectSection>
     </PortfolioPage>
 );
