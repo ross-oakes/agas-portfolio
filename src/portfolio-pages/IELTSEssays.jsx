@@ -109,6 +109,39 @@ const IELTSEssays = () => (
                     {src: first6}
                 ]}/>
             </ProjectSubsection>
+            <ProjectSubsection title="Improvements needed">
+                <p>
+                    After conducting usability testing on my first Hi-Fi design and liaising with my clients, we came up
+                    with a list of improvements needed to the app:
+                    <ul>
+                        <li>
+                            The 'Sign up' page needed to accommodate 'Continue as Guest', as it is not mandatory for
+                            users
+                            to sign up;
+                        </li>
+                        <li>
+                            Essays tabs should not include 'Essay 1', 'Essay 2', 'Essay 3', as there are over 200
+                            essays. It
+                            would have made it tedious for the users to slide through 200 Essays. Rather, it should
+                            include
+                            'Next' and 'Previous';
+                        </li>
+                        <li>
+                            As some users wanted a way to practice writing or/and vocabulary, I came up with a quiz for
+                            vocabulary practise. It is not the purpose of this app, though, to learn vocabulary. The
+                            reason
+                            for 'Collocations/vocabulary' page is to use these vocabulary items while writing an essay.
+                            That
+                            is why, definitions are needed. Quiz, though, seen as an additional feature, may be
+                            implemented
+                            in a later stage;
+                        </li>
+                        <li>
+                            Colour theme could be darker, as lighter colours decrease readability of white text.
+                        </li>
+                    </ul>
+                </p>
+            </ProjectSubsection>
         </ProjectSection>
     </PortfolioPage>
 );
