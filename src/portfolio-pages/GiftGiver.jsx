@@ -1,7 +1,14 @@
 import React from 'react';
-import ProjectTitle from "./components/ProjectTitle";
-import GiftGiverPic from "../resources/giftgiver/gift-giver.gif"
 
+import PortfolioPage from "./components/PortfolioPage";
+import ProjectTitle from "./components/ProjectTitle";
+import ProjectSection from "./components/ProjectSection";
+import ProjectSubsection from "./components/ProjectSubsection";
+import SinglePicture from "./components/SinglePicture";
+import MultiplePictures from "./components/MultiplePictures";
+import NielsenHeuristicDescription from "./components/NielsenHeuristicDescriptions";
+
+import GiftGiverPic from "../resources/giftgiver/gift-giver.gif"
 import Rachel from "../resources/giftgiver/personas-rachel.png"
 import Ben from "../resources/giftgiver/personas-ben.png"
 import categoriesNew from "../resources/giftgiver/categories-new-version.png"
@@ -19,12 +26,6 @@ import giftGiverDesign4 from "../resources/giftgiver/gift-giver-new-4.png"
 import giftGiverDesign5 from "../resources/giftgiver/gift-giver-new-5.png"
 import giftGiverDesign6 from "../resources/giftgiver/gift-giver-new-6.png"
 import giftGiverDesign7 from "../resources/giftgiver/gift-giver-new-7.png"
-import PortfolioPage from "./components/PortfolioPage";
-import ProjectSection from "./components/ProjectSection";
-import ProjectSubsection from "./components/ProjectSubsection";
-import SinglePicture from "./components/SinglePicture";
-import MultiplePictures from "./components/MultiplePictures";
-import NielsenHeuristicDescription from "./components/NielsenHeuristicDescriptions";
 
 const GiftGiver = () => (
     <PortfolioPage>
