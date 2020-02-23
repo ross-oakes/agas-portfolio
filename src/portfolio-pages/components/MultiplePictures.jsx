@@ -17,7 +17,7 @@ const createPictures = (picturesObject, horizontal) => {
             <div className="picture-with-description">
                 <img className="image-shading" src={pictureObject.src} alt={pictureObject.description}
                      style={{
-                         width: `${value}%`,
+                         width: `${value}vw`,
                          minWidth: `250px`,
                      }}/>
                 {pictureObject.description}

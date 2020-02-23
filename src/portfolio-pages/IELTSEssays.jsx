@@ -22,6 +22,9 @@ import first3 from "../resources/ieltsessays/first-essays-with-feedback.png"
 import first4 from "../resources/ieltsessays/first-vocabulary1.png"
 import first5 from "../resources/ieltsessays/first-vocabulary2.png"
 import first6 from "../resources/ieltsessays/first-vocabulary3.png"
+import new1 from "../resources/ieltsessays/ielts-new-1.png"
+import new2 from "../resources/ieltsessays/ielts-new-2.png"
+import new3 from "../resources/ieltsessays/ielts-new-3.png"
 
 const IELTSEssays = () => (
     <PortfolioPage>
@@ -140,6 +143,24 @@ const IELTSEssays = () => (
                             Colour theme could be darker, as lighter colours decrease readability of white text.
                         </li>
                     </ul>
+                </p>
+            </ProjectSubsection>
+        </ProjectSection>
+
+        <ProjectSection title="Final design">
+            <SinglePicture picture={{src: new1}} fullsize/>
+            <SinglePicture picture={{src: new2}} fullsize/>
+            <SinglePicture picture={{src: new3}} fullsize/>
+            <ProjectSubsection title="Result and next steps">
+                <p>
+                    The final usability test was conducted with six participants. They were selected from IELTS students
+                    and my social network.
+                </p>
+                <p>
+                    Possible future improvements to the app might include creating some practice tasks for students, so
+                    that they can work on writing small chunks of essays or practise vocabulary. It might be also useful
+                    to give students an option to grade their essays. Students might write an essay, and then, for a
+                    certain price, teachers might be able to grade it.
                 </p>
             </ProjectSubsection>
         </ProjectSection>
