@@ -28,7 +28,7 @@ const createPictures = (picturesObject, horizontal) => {
     return [...htmlPics].map((e, i) => i < htmlPics.length - 1 ? [e, spacer] : [e]).reduce((a, b) => a.concat(b));
 };
 
-const MultiplePictures = ({pictures: picturesObject, horizontal, lrg, xlrg, sml, lrgSpacing}) => (
+const MultiplePictures = ({pictures: picturesObject, horizontal}) => (
     <Container fluid>
         <Row>
             {
