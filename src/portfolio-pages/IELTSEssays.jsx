@@ -14,6 +14,7 @@ import old3 from "../resources/ieltsessays/old-essays2.jpg"
 import old4 from "../resources/ieltsessays/old-collocations1.jpg"
 import old5 from "../resources/ieltsessays/old-collocations2.jpg"
 import affinityMap from "../resources/ieltsessays/affinity-map.jpg"
+import persona from "../resources/ieltsessays/persona.png"
 
 const IELTSEssays = () => (
     <PortfolioPage>
@@ -72,6 +73,13 @@ const IELTSEssays = () => (
                     of app design, it is best to split up the navigation items into primary and secondary to enhance
                     clarity.
                 </p>
+            </ProjectSubsection>
+            <ProjectSubsection title="Persona creation">
+                <p>
+                    As there wasn't much difference between my participants - all were young IELTS students, I decided
+                    to create one persona.
+                </p>
+                <SinglePicture picture={{src: persona}}/>
             </ProjectSubsection>
         </ProjectSection>
     </PortfolioPage>
