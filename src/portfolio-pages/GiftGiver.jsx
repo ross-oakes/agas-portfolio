@@ -121,7 +121,7 @@ const GiftGiver = () => (
                         {src: categoriesOld, description: "Original Design"},
                         {src: categoriesNew, description: "Improved Design"}
                     ]}
-                    lrgSpacing/>
+                    horizontal/>
             </ProjectSubsection>
             <ProjectSubsection title="Users input">
                 <p>
@@ -167,7 +167,7 @@ const GiftGiver = () => (
                         {src: filterSort2},
                         {src: filterSort3}
                     ]}
-                    sml/>
+                />
             </ProjectSubsection>
         </ProjectSection>
 
@@ -196,8 +196,7 @@ const GiftGiver = () => (
                     pictures={[
                         {src: oldDesign1},
                         {src: oldDesign2}
-                    ]}
-                    sml/>
+                    ]}/>
             </ProjectSubsection>
             <ProjectSubsection title="Key Findings">
                 <NielsenHeuristicDescription
