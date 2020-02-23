@@ -15,6 +15,7 @@ import old4 from "../resources/ieltsessays/old-collocations1.jpg"
 import old5 from "../resources/ieltsessays/old-collocations2.jpg"
 import affinityMap from "../resources/ieltsessays/affinity-map.jpg"
 import persona from "../resources/ieltsessays/persona.png"
+import paperPrototype from "../resources/ieltsessays/paper-prototype.jpg"
 
 const IELTSEssays = () => (
     <PortfolioPage>
@@ -80,6 +81,17 @@ const IELTSEssays = () => (
                     to create one persona.
                 </p>
                 <SinglePicture picture={{src: persona}}/>
+            </ProjectSubsection>
+        </ProjectSection>
+
+        <ProjectSection title="Prototyping and Testing">
+            <ProjectSubsection title="Paper prototypes">
+                <p>
+                    Basing on previous user research, client goals and competitive analysis, I created paper prototypes
+                    and tested them with five users. Testing was conducted in order to exclude any functionality flaws
+                    or issues with navigation flow.
+                </p>
+                <SinglePicture picture={{src: paperPrototype}} xlrg/>
             </ProjectSubsection>
         </ProjectSection>
     </PortfolioPage>
