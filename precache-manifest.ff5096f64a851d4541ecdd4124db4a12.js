@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "26f10f3367c7483f2569372a7f254656",
+    "revision": "df4d29d74a0a20a655542c1245466946",
     "url": "/index.html"
   },
   {
-    "revision": "f1c2844ab7bc59a54735",
+    "revision": "cacffbd39340580173ad",
     "url": "/static/css/2.d9253284.chunk.css"
   },
   {
-    "revision": "6ea5c39347b7aab44bfc",
-    "url": "/static/css/main.41b6b002.chunk.css"
+    "revision": "59c51508fac66d9985fb",
+    "url": "/static/css/main.ba8eb60c.chunk.css"
   },
   {
-    "revision": "f1c2844ab7bc59a54735",
-    "url": "/static/js/2.b5623ef7.chunk.js"
+    "revision": "cacffbd39340580173ad",
+    "url": "/static/js/2.f472c5d0.chunk.js"
   },
   {
     "revision": "801eb6b718cfeb49e4699ab80a85e8cf",
-    "url": "/static/js/2.b5623ef7.chunk.js.LICENSE"
+    "url": "/static/js/2.f472c5d0.chunk.js.LICENSE"
   },
   {
-    "revision": "6ea5c39347b7aab44bfc",
-    "url": "/static/js/main.36548311.chunk.js"
+    "revision": "59c51508fac66d9985fb",
+    "url": "/static/js/main.2f18c30c.chunk.js"
   },
   {
     "revision": "e738b54ffe3b15816cf3",
@@ -102,6 +102,30 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "27dc35d708fe13e6309bd44946f9f3e2",
     "url": "/static/media/filter-and-sort-3.27dc35d7.png"
+  },
+  {
+    "revision": "13a8aa5b95d86c99defa8f679e460301",
+    "url": "/static/media/first-essays-with-feedback.13a8aa5b.png"
+  },
+  {
+    "revision": "e05a9297283046613eb43e7fd7949f8c",
+    "url": "/static/media/first-homepage.e05a9297.png"
+  },
+  {
+    "revision": "530eb650dacfc0d5a214f9c909479172",
+    "url": "/static/media/first-sign-up.530eb650.png"
+  },
+  {
+    "revision": "afcb64edbf1cea23ea9a72ae3932db72",
+    "url": "/static/media/first-vocabulary1.afcb64ed.png"
+  },
+  {
+    "revision": "70050c0cbb6261ef9dc32584aa859155",
+    "url": "/static/media/first-vocabulary2.70050c0c.png"
+  },
+  {
+    "revision": "ebb642c0471631184582f271f346d0da",
+    "url": "/static/media/first-vocabulary3.ebb642c0.png"
   },
   {
     "revision": "c76a01ea87430fb550279df1db8f3f9d",
