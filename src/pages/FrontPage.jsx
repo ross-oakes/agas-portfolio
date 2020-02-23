@@ -1,6 +1,7 @@
 import React from 'react';
 import giftGiverCoverPhoto from '../resources/giftgiver/cover.png';
-import machiningCoverPhoto from '../resources/machining/cover.png'
+import machiningCoverPhoto from '../resources/machining/cover.png';
+import ieltsEssaysCoverPhoto from '../resources/ieltsessays/cover.png';
 import uiChallengesCoverPhoto from '../resources/uichallenges/cover.png';
 import PortfolioItem from "../components/PortfolioItem";
 import {ScrollToTop} from "../components/ReactUtils";
@@ -32,6 +33,11 @@ const FrontPage = () => {
                 details="a website created for a client"
                 image={machiningCoverPhoto}
                 endpoint="/machining"/>
+            <PortfolioItem
+                title="IELTS Essays"
+                details="an app to help students prepare for IELTS English exam"
+                image={ieltsEssaysCoverPhoto}
+                endpoint="/ielts-essays"/>
             <PortfolioItem
                 title="UI challenges"
                 details="everyday practice of my design skills"
