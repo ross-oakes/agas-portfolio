@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.ba8eb60c.chunk.css",
-    "main.js": "/static/js/main.a49aeb4c.chunk.js",
-    "main.js.map": "/static/js/main.a49aeb4c.chunk.js.map",
+    "main.css": "/static/css/main.9094f0b5.chunk.css",
+    "main.js": "/static/js/main.89904595.chunk.js",
+    "main.js.map": "/static/js/main.89904595.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.63c1efab.js",
     "runtime-main.js.map": "/static/js/runtime-main.63c1efab.js.map",
     "static/css/2.d9253284.chunk.css": "/static/css/2.d9253284.chunk.css",
-    "static/js/2.f472c5d0.chunk.js": "/static/js/2.f472c5d0.chunk.js",
-    "static/js/2.f472c5d0.chunk.js.map": "/static/js/2.f472c5d0.chunk.js.map",
+    "static/js/2.611d32ab.chunk.js": "/static/js/2.611d32ab.chunk.js",
+    "static/js/2.611d32ab.chunk.js.map": "/static/js/2.611d32ab.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.019fdb59fc19a23c22b6ff86ca5ab744.js": "/precache-manifest.019fdb59fc19a23c22b6ff86ca5ab744.js",
+    "precache-manifest.30eee03c9886f8a9f864fb9b6d04bdda.js": "/precache-manifest.30eee03c9886f8a9f864fb9b6d04bdda.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.d9253284.chunk.css.map": "/static/css/2.d9253284.chunk.css.map",
-    "static/css/main.ba8eb60c.chunk.css.map": "/static/css/main.ba8eb60c.chunk.css.map",
-    "static/js/2.f472c5d0.chunk.js.LICENSE": "/static/js/2.f472c5d0.chunk.js.LICENSE",
+    "static/css/main.9094f0b5.chunk.css.map": "/static/css/main.9094f0b5.chunk.css.map",
+    "static/js/2.611d32ab.chunk.js.LICENSE": "/static/js/2.611d32ab.chunk.js.LICENSE",
     "static/media/about-us.png": "/static/media/about-us.38c16bd9.png",
     "static/media/ada-persona.png": "/static/media/ada-persona.5679d307.png",
     "static/media/affinity-map.jpg": "/static/media/affinity-map.2b7cb438.jpg",
@@ -45,6 +45,9 @@
     "static/media/gift-giver-new-6.png": "/static/media/gift-giver-new-6.f8930b6d.png",
     "static/media/gift-giver-new-7.png": "/static/media/gift-giver-new-7.fa1e3934.png",
     "static/media/gift-giver.gif": "/static/media/gift-giver.d4faad12.gif",
+    "static/media/ielts-new-1.png": "/static/media/ielts-new-1.cd33a54a.png",
+    "static/media/ielts-new-2.png": "/static/media/ielts-new-2.e2bb5922.png",
+    "static/media/ielts-new-3.png": "/static/media/ielts-new-3.43f5e176.png",
     "static/media/landing-page-design.png": "/static/media/landing-page-design.9ea92e04.png",
     "static/media/landing-page.png": "/static/media/landing-page.dbac4846.png",
     "static/media/old-collocations1.jpg": "/static/media/old-collocations1.18094437.jpg",
@@ -72,8 +75,8 @@
   "entrypoints": [
     "static/js/runtime-main.63c1efab.js",
     "static/css/2.d9253284.chunk.css",
-    "static/js/2.f472c5d0.chunk.js",
-    "static/css/main.ba8eb60c.chunk.css",
-    "static/js/main.a49aeb4c.chunk.js"
+    "static/js/2.611d32ab.chunk.js",
+    "static/css/main.9094f0b5.chunk.css",
+    "static/js/main.89904595.chunk.js"
   ]
 }
