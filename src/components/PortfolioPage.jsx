@@ -1,5 +1,5 @@
 import React from 'react';
-import {ScrollToTop} from "../../components/ReactUtils";
+import {ScrollToTop} from "./ReactUtils";
 
 const PortfolioPage = (props) => (
     <div className="portfolio-page">

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import PortfolioPage from "./components/PortfolioPage";
+import PortfolioPage from "../components/PortfolioPage";
 import ProjectTitle from "./components/ProjectTitle";
 import ProjectSection from "./components/ProjectSection";
 import ProjectSubsection from "./components/ProjectSubsection";

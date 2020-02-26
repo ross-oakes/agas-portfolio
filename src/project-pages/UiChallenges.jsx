@@ -1,7 +1,7 @@
 import React from 'react';
 
+import PortfolioPage from "../components/PortfolioPage";
 import ProjectTitle from "./components/ProjectTitle";
-import PortfolioPage from "./components/PortfolioPage";
 import ProjectSubsection from "./components/ProjectSubsection";
 import SinglePicture from "./components/SinglePicture";
 
