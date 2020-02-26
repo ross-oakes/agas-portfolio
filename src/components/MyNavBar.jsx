@@ -55,7 +55,7 @@ const NavBar = () => {
                         </DropdownMenu>
                     </Dropdown>
                     <NavItem>
-                        <NavLink tag={Link} to="/about" onClick={closeNavBar}>About</NavLink>
+                        <NavLink tag={Link} to="/about-me" onClick={closeNavBar}>About Me</NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink tag={Link} to="/resume/" onClick={closeNavBar}>Resume</NavLink>

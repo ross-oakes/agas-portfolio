@@ -4,11 +4,11 @@ import {ScrollToTop} from "../components/ReactUtils";
 
 const AboutPage = () => {
     return (
-        <div className="about-page">
+        <div className="about-me-page">
             <ScrollToTop/>
-            <img className="about-picture" src={AgaLouvre} alt=""/>
-            <div className="about-text">
-                <h3 className="about-title">About</h3>
+            <img className="about-me-picture" src={AgaLouvre} alt=""/>
+            <div className="about-me-text">
+                <h3 className="about-me-title">About Me</h3>
 
                 <p>I am a UX designer with a passion to learn and improve myself and my work.</p>
 
@@ -22,7 +22,6 @@ const AboutPage = () => {
 
                 <p>I spend my free time travelling and exploring the globe.</p>
             </div>
-
         </div>
     );
 };
