@@ -16,7 +16,10 @@ const AboutPage = () => {
 
                 <p>I love conducting user research, as it provides me guidance when refining my designs. This means
                     they become more functional, clear and pleasing to the eye.</p>
+
                 <p>I'm a modern art enthusiast.</p>
+
+                <p>Sports: skiing, pilates, gym.</p>
 
                 <p>Coffee lover.</p>
 
