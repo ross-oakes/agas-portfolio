@@ -44,7 +44,7 @@ const IELTSEssays = () => (
         </ProjectSubsection>
 
         <ProjectSubsection title="Original app">
-            <MultiplePictures pictures={[
+            <MultiplePictures sml pictures={[
                 {src: old1, description: "Homepage"},
                 {src: old2, description: "Essay collection 1"},
                 {src: old3, description: "Essay collection 2"},
@@ -103,7 +103,7 @@ const IELTSEssays = () => (
                 <SinglePicture picture={{src: paperPrototype}} xlrg/>
             </ProjectSubsection>
             <ProjectSubsection title="Hi-Fi Prototype - First Design">
-                <MultiplePictures pictures={[
+                <MultiplePictures sml pictures={[
                     {src: first1},
                     {src: first2},
                     {src: first3},
