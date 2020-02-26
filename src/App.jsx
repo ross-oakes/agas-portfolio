@@ -11,10 +11,10 @@ import {
 import ContactPage from "./pages/ContactPage";
 import AboutPage from "./pages/AboutPage";
 import ResumePage from "./pages/ResumePage";
-import GiftGiver from "./portfolio-pages/GiftGiver";
-import Machining from "./portfolio-pages/Machining";
-import UiChallenges from "./portfolio-pages/UiChallenges";
-import IELTSEssays from "./portfolio-pages/IELTSEssays";
+import GiftGiver from "./project-pages/GiftGiver";
+import Machining from "./project-pages/Machining";
+import UiChallenges from "./project-pages/UiChallenges";
+import IELTSEssays from "./project-pages/IELTSEssays";
 
 function App() {
   return (

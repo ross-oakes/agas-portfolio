@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ProjectPage from "./components/ProjectPage";
+import PortfolioPage from "./components/PortfolioPage";
 import ProjectTitle from "./components/ProjectTitle";
 import ProjectSection from "./components/ProjectSection";
 import ProjectSubsection from "./components/ProjectSubsection";
@@ -27,7 +27,7 @@ import new2 from "../resources/ieltsessays/ielts-new-2.png"
 import new3 from "../resources/ieltsessays/ielts-new-3.png"
 
 const IELTSEssays = () => (
-    <ProjectPage>
+    <PortfolioPage>
         <ProjectTitle title="IELTS Essays"
                       subtitle="an app to help students prepare for IELTS English exam"
                       picture={IELTSEssaysCover}/>
@@ -164,7 +164,7 @@ const IELTSEssays = () => (
                 </p>
             </ProjectSubsection>
         </ProjectSection>
-    </ProjectPage>
+    </PortfolioPage>
 );
 
 export default IELTSEssays;

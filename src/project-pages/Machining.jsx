@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ProjectPage from "./components/ProjectPage";
+import PortfolioPage from "./components/PortfolioPage";
 import ProjectTitle from "./components/ProjectTitle";
 import ProjectSection from "./components/ProjectSection";
 import ProjectSubsection from "./components/ProjectSubsection";
@@ -24,7 +24,7 @@ import contactPage from "../resources/machining/contact.png"
 
 
 const Machining = () => (
-    <ProjectPage>
+    <PortfolioPage>
         <ProjectTitle title="Machining"
                       subtitle="a website created for a client"
                       picture={MachiningCover}/>
@@ -154,7 +154,7 @@ const Machining = () => (
                 </p>
             </ProjectSubsection>
         </ProjectSection>
-    </ProjectPage>
+    </PortfolioPage>
 );
 
 export default Machining;

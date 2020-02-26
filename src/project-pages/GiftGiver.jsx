@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ProjectPage from "./components/ProjectPage";
+import PortfolioPage from "./components/PortfolioPage";
 import ProjectTitle from "./components/ProjectTitle";
 import ProjectSection from "./components/ProjectSection";
 import ProjectSubsection from "./components/ProjectSubsection";
@@ -28,7 +28,7 @@ import giftGiverDesign6 from "../resources/giftgiver/gift-giver-new-6.png"
 import giftGiverDesign7 from "../resources/giftgiver/gift-giver-new-7.png"
 
 const GiftGiver = () => (
-    <ProjectPage>
+    <PortfolioPage>
         <ProjectTitle title="Gift Giver"
                       subtitle="a mobile app helping to select a perfect gift"
                       picture={GiftGiverPic}/>
@@ -286,7 +286,7 @@ const GiftGiver = () => (
                 </p>
             </ProjectSubsection>
         </ProjectSection>
-    </ProjectPage>
+    </PortfolioPage>
 );
 
 export default GiftGiver;

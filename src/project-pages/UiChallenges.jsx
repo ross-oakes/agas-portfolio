@@ -1,7 +1,7 @@
 import React from 'react';
 
 import ProjectTitle from "./components/ProjectTitle";
-import ProjectPage from "./components/ProjectPage";
+import PortfolioPage from "./components/PortfolioPage";
 import ProjectSubsection from "./components/ProjectSubsection";
 import SinglePicture from "./components/SinglePicture";
 
@@ -14,7 +14,7 @@ import AppIconDesign from "../resources/uichallenges/app-icon-design.png"
 import UserProfileDesign from "../resources/uichallenges/user-profile-design.png"
 
 const UiChallenges = () => (
-    <ProjectPage>
+    <PortfolioPage>
         <ProjectTitle title="UI Challenges"
                       subtitle="everyday practice of my design skills"/>
 
@@ -87,7 +87,7 @@ const UiChallenges = () => (
             </p>
             <SinglePicture picture={{src: UserProfileDesign}} fullsize/>
         </ProjectSubsection>
-    </ProjectPage>
+    </PortfolioPage>
 );
 
 export default UiChallenges;
