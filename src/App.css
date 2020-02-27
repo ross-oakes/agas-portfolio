@@ -147,16 +147,8 @@
 }
 
 /**********ABOUT PAGE************/
-.about-me-page {
-    width: 100%;
-    text-align: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background-size: cover;
-    background-position: inherit;
-}
 .about-me-picture {
-    width: 60%;
+    width: 80%;
 }
 .about-me-title {
     font-size: calc(18px + 3vw);
@@ -165,8 +157,8 @@
 .about-me-text {
     margin-top: 40px;
     font-size: calc(12px + 0.6vw);
-    padding-left: 25vw;
-    padding-right: 25vw;
+    padding-left: 20%;
+    padding-right: 20%;
     text-align: left;
 }
 .about-me-text p {

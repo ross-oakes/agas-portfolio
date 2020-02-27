@@ -9,7 +9,7 @@ import {
     Route,
 } from "react-router-dom";
 import ContactPage from "./pages/ContactPage";
-import AboutPage from "./pages/AboutPage";
+import AboutMePage from "./pages/AboutMePage";
 import ResumePage from "./pages/ResumePage";
 import GiftGiver from "./project-pages/GiftGiver";
 import Machining from "./project-pages/Machining";
@@ -24,7 +24,7 @@ function App() {
                   <NavBar/>
                   <Switch>
                       <Route exact path="/" component={FrontPage}/>
-                      <Route exact path="/about-me" component={AboutPage}/>
+                      <Route exact path="/about-me" component={AboutMePage}/>
                       <Route exact path="/resume" component={ResumePage}/>
                       <Route exact path="/contact" component={ContactPage}/>
                       <Route exact path="/gift-giver" component={GiftGiver}/>

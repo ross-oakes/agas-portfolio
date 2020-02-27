@@ -1,11 +1,11 @@
 import React from 'react';
 import AgaLouvre from '../resources/aga-in-louvre.jpg'
 import {ScrollToTop} from "../components/ReactUtils";
+import PortfolioPage from "../components/PortfolioPage";
 
-const AboutPage = () => {
+const AboutMePage = () => {
     return (
-        <div className="about-me-page">
-            <ScrollToTop/>
+        <PortfolioPage centered>
             <img className="about-me-picture" src={AgaLouvre} alt=""/>
             <div className="about-me-text">
                 <h3 className="about-me-title">About Me</h3>
@@ -25,8 +25,8 @@ const AboutPage = () => {
 
                 <p>I spend my free time travelling and exploring the globe.</p>
             </div>
-        </div>
+        </PortfolioPage>
     );
 };
 
-export default AboutPage;
+export default AboutMePage;
