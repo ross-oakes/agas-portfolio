@@ -43,7 +43,7 @@ const UiChallenges = () => (
                 destinations are presented on a carousel. Text integrates with the background, making it an unusual and
                 eye-catching sight. It was fun to design this page and use some After Effects magic!
             </p>
-            <SinglePicture picture={{src: TravelWebsiteDesign}} fullsize/>
+            <SinglePicture picture={{src: TravelWebsiteDesign}} xlrg/>
         </ProjectSubsection>
 
         <ProjectSubsection title="Sign Up Page">
