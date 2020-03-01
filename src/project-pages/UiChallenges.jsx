@@ -6,6 +6,7 @@ import ProjectSubsection from "./components/ProjectSubsection";
 import SinglePicture from "./components/SinglePicture";
 
 import BankingAppDesign from "../resources/uichallenges/banking-app.gif"
+import TravelWebsiteDesign from "../resources/uichallenges/travel-website.gif"
 import SignUpDesign from "../resources/uichallenges/sign-up-design.png"
 import CheckoutDesign from "../resources/uichallenges/checkout-design.png"
 import LandingPageDesign from "../resources/uichallenges/landing-page-design.png"
@@ -34,6 +35,15 @@ const UiChallenges = () => (
                 month. These questions served as a basis for my design.
             </p>
             <SinglePicture picture={{src: BankingAppDesign}} fullsize/>
+        </ProjectSubsection>
+
+        <ProjectSubsection title="Travel inspiration landing page">
+            <p>
+                The main purpose of this landing page is to get inspired as to where to travel. That is why, different
+                destinations are presented on a carousel. Text integrates with the background, making it an unusual and
+                eye-catching sight. It was fun to design this page and use some After Effects magic!
+            </p>
+            <SinglePicture picture={{src: TravelWebsiteDesign}} fullsize/>
         </ProjectSubsection>
 
         <ProjectSubsection title="Sign Up Page">
