@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.847d9dda.chunk.css",
-    "main.js": "/static/js/main.ca6ca3bd.chunk.js",
-    "main.js.map": "/static/js/main.ca6ca3bd.chunk.js.map",
+    "main.js": "/static/js/main.e14d600c.chunk.js",
+    "main.js.map": "/static/js/main.e14d600c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.63c1efab.js",
     "runtime-main.js.map": "/static/js/runtime-main.63c1efab.js.map",
     "static/css/2.d9253284.chunk.css": "/static/css/2.d9253284.chunk.css",
     "static/js/2.7f3e9a25.chunk.js": "/static/js/2.7f3e9a25.chunk.js",
     "static/js/2.7f3e9a25.chunk.js.map": "/static/js/2.7f3e9a25.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.1277c467190ea9e1187fef8cc74eecf2.js": "/precache-manifest.1277c467190ea9e1187fef8cc74eecf2.js",
+    "precache-manifest.74caa2f0dc4eb950db30baaa70104955.js": "/precache-manifest.74caa2f0dc4eb950db30baaa70104955.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.d9253284.chunk.css.map": "/static/css/2.d9253284.chunk.css.map",
     "static/css/main.847d9dda.chunk.css.map": "/static/css/main.847d9dda.chunk.css.map",
@@ -20,12 +20,12 @@
     "static/media/aga-in-louvre.jpg": "/static/media/aga-in-louvre.150221c4.jpg",
     "static/media/App.css": "/static/media/aga-rocks.1f1365ca.jpg",
     "static/media/app-icon-design.png": "/static/media/app-icon-design.209cbcdb.png",
-    "static/media/banking-app.gif": "/static/media/banking-app.34f61fab.gif",
+    "static/media/banking-app.gif": "/static/media/banking-app.8b297f6f.gif",
     "static/media/calculator-design.png": "/static/media/calculator-design.39d9a32d.png",
     "static/media/categories-old-version.png": "/static/media/categories-old-version.8ee50166.png",
     "static/media/checkout-design.png": "/static/media/checkout-design.cfccc335.png",
     "static/media/contact.png": "/static/media/contact.d53f932a.png",
-    "static/media/cover.png": "/static/media/cover.fddfe905.png",
+    "static/media/cover.png": "/static/media/cover.d4a0e889.png",
     "static/media/david-persona.png": "/static/media/david-persona.49b17540.png",
     "static/media/filter-and-sort-1.png": "/static/media/filter-and-sort-1.6bf51da5.png",
     "static/media/filter-and-sort-2.png": "/static/media/filter-and-sort-2.f4746db5.png",
@@ -78,6 +78,6 @@
     "static/css/2.d9253284.chunk.css",
     "static/js/2.7f3e9a25.chunk.js",
     "static/css/main.847d9dda.chunk.css",
-    "static/js/main.ca6ca3bd.chunk.js"
+    "static/js/main.e14d600c.chunk.js"
   ]
 }
