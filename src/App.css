@@ -1,9 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Allura&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:500&display=swap');
+
 
 .common-app {
     color: #515C6F;
     font-family: 'Playfair Display', serif;
+}
+.primary-button-display {
+    border-radius: 19px !important;
+    background-color: #FF6969 !important;
+    border-color: #FF6969 !important;
+    box-shadow: 2px 2px 8px #FF6969;
+    color: white;
+    height: 40px;
+    font-family: 'Roboto';
+}
+.skip-button {
+    text-align: center;
+    margin-top: 20px;
 }
 
 /*************Nav Bar*************/
@@ -40,13 +54,7 @@
     font-size: calc(16px + 1vw);
     width: inherit;
 }
-.frontpage-button-display {
-    width: 200px;
-    box-shadow: 2px 2px 8px #515c6f;
-    border-radius: 19px !important;
-    background-color: #FF6969 !important;
-    border-color: #FF6969 !important;
-}
+
 .background-with-aga {
     width: 100%;
     height: 100vh;
@@ -217,6 +225,7 @@
     border-color: #FF6969 !important;
     min-width: 110px;
     width: 12vw;
+    font-family: 'Roboto';
 }
 .details-title h3 {
     padding-bottom: 5px;

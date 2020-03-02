@@ -26,6 +26,7 @@ import giftGiverDesign4 from "../resources/giftgiver/gift-giver-new-4.png"
 import giftGiverDesign5 from "../resources/giftgiver/gift-giver-new-5.png"
 import giftGiverDesign6 from "../resources/giftgiver/gift-giver-new-6.png"
 import giftGiverDesign7 from "../resources/giftgiver/gift-giver-new-7.png"
+import SkipButton from "./components/SkipButton";
 
 const GiftGiver = () => (
     <PortfolioPage>
@@ -44,6 +45,8 @@ const GiftGiver = () => (
                 This brief was provided by a UX course (David Travis 'User Experience (UX): The Ultimate Guide to
                 Usability and UX'). However, the implementation of the project is my own.
             </p>
+
+            <SkipButton link="#final-design"/>
         </ProjectSubsection>
 
         <ProjectSection title="Research and Analysis">
@@ -226,7 +229,7 @@ const GiftGiver = () => (
             </ProjectSubsection>
         </ProjectSection>
 
-        <ProjectSection title="Final design">
+        <ProjectSection id="final-design" title="Final design">
             <ProjectSubsection>
                 <SinglePicture picture={{src: giftGiverDesign1}} fullsize/>
             </ProjectSubsection>

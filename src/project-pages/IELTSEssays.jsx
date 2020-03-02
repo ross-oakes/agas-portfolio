@@ -25,6 +25,7 @@ import first6 from "../resources/ieltsessays/first-vocabulary3.png"
 import new1 from "../resources/ieltsessays/ielts-new-1.png"
 import new2 from "../resources/ieltsessays/ielts-new-2.png"
 import new3 from "../resources/ieltsessays/ielts-new-3.png"
+import SkipButton from "./components/SkipButton";
 
 const IELTSEssays = () => (
     <PortfolioPage>
@@ -41,6 +42,7 @@ const IELTSEssays = () => (
                 feature was to present students with a list of vocabulary, so that they can use it when they write
                 their own essays.
             </p>
+            <SkipButton link="#final-design"/>
         </ProjectSubsection>
 
         <ProjectSubsection title="Original app">
@@ -147,7 +149,7 @@ const IELTSEssays = () => (
             </ProjectSubsection>
         </ProjectSection>
 
-        <ProjectSection title="Final design">
+        <ProjectSection id="final-design" title="Final design">
             <SinglePicture picture={{src: new1}} fullsize/>
             <SinglePicture picture={{src: new2}} fullsize/>
             <SinglePicture picture={{src: new3}} fullsize/>
