@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dd5d64abb396cf8381df3dee56cee099",
+    "revision": "912eba790aa51daa573e21e9ef64b530",
     "url": "/index.html"
   },
   {
-    "revision": "ce9ec14c369d92da95f3",
+    "revision": "47edf7e9e46f532bfa88",
     "url": "/static/css/2.d9253284.chunk.css"
   },
   {
-    "revision": "882bad641db2c8f773b3",
-    "url": "/static/css/main.6e3433c1.chunk.css"
+    "revision": "242af98f129c80672084",
+    "url": "/static/css/main.b494d57b.chunk.css"
   },
   {
-    "revision": "ce9ec14c369d92da95f3",
-    "url": "/static/js/2.52d7aa54.chunk.js"
+    "revision": "47edf7e9e46f532bfa88",
+    "url": "/static/js/2.806f8133.chunk.js"
   },
   {
     "revision": "801eb6b718cfeb49e4699ab80a85e8cf",
-    "url": "/static/js/2.52d7aa54.chunk.js.LICENSE"
+    "url": "/static/js/2.806f8133.chunk.js.LICENSE"
   },
   {
-    "revision": "882bad641db2c8f773b3",
-    "url": "/static/js/main.e88c0d01.chunk.js"
+    "revision": "242af98f129c80672084",
+    "url": "/static/js/main.ff655424.chunk.js"
   },
   {
     "revision": "e738b54ffe3b15816cf3",
@@ -92,16 +92,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/david-persona.49b17540.png"
   },
   {
-    "revision": "6bf51da5af0fffc4aba65781d83c5c13",
-    "url": "/static/media/filter-and-sort-1.6bf51da5.png"
-  },
-  {
-    "revision": "f4746db5ae3485f42cf5a0ccd2f8cc25",
-    "url": "/static/media/filter-and-sort-2.f4746db5.png"
-  },
-  {
-    "revision": "27dc35d708fe13e6309bd44946f9f3e2",
-    "url": "/static/media/filter-and-sort-3.27dc35d7.png"
+    "revision": "d1dc8701c3f2f1fd723ad2097ebc0f18",
+    "url": "/static/media/filter-and-sort.d1dc8701.png"
   },
   {
     "revision": "13a8aa5b95d86c99defa8f679e460301",
@@ -192,14 +184,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/old-collocations2.d75f4bf5.jpg"
   },
   {
-    "revision": "cff120ab97eea5b63c2005c3acb9c1ad",
-    "url": "/static/media/old-design-1.cff120ab.png"
-  },
-  {
-    "revision": "1ffa418379cff47451023868cf50dd60",
-    "url": "/static/media/old-design-2.1ffa4183.png"
-  },
-  {
     "revision": "d48a29ce0ae62f09666eb55ccc6c7868",
     "url": "/static/media/old-essays1.d48a29ce.jpg"
   },
@@ -226,6 +210,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "279076bbf92ba5946cb422be94fc1fac",
     "url": "/static/media/old-website-4.279076bb.png"
+  },
+  {
+    "revision": "ace5155fe951827306bddbc7136edd12",
+    "url": "/static/media/original-design.ace5155f.png"
   },
   {
     "revision": "c171dbe1aa7c288ca8866bf9b6776023",
