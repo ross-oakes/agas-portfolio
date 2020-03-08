@@ -41,3 +41,9 @@
 .multi-picture-spacing {
     padding: 10px;
 }
+
+@media all and (min-width: 0px) and (max-width: 500px) {
+    .project-title h3 {
+        font-size: 1.4rem;
+    }
+}
