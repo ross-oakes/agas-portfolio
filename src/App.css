@@ -124,12 +124,12 @@
 }
 .portfolio-text {
     position: absolute;
-    padding-top: 10%;
-    padding-left: 50%;
+    margin-top: 10%;
+    margin-left: 50%;
+    margin-right: 5%;
     font-size: 5vw;
     color: white;
     text-align: right;
-    width: 90%;
 }
 .portfolio-details {
     font-size: 2.4vw;
