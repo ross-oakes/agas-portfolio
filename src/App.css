@@ -6,6 +6,10 @@
     color: #515C6F;
     font-family: 'Playfair Display', serif;
 }
+.portfolio-page {
+    width: 80%;
+    margin: 100px 10%;
+}
 .primary-button-display {
     border-radius: 19px !important;
     background-color: #FF6969 !important;
@@ -163,10 +167,8 @@
     text-align: center;
 }
 .about-me-text {
-    margin-top: 40px;
     font-size: calc(12px + 0.6vw);
-    padding-left: 20%;
-    padding-right: 20%;
+    margin: 40px 10%;
     text-align: left;
 }
 .about-me-text p {
@@ -246,11 +248,7 @@
     border-radius:0
 }
 
-/**********PORTFOLIO PAGE************/
-.portfolio-page {
-    width: 100%;
-    padding: 100px 10% 0;
-}
+/**********PROJECT PAGE************/
 .project-title {
     text-align: center;
     padding: 0 10%;
