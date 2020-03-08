@@ -8,9 +8,6 @@
 }
 .navbar {
     background-color: #F3F2F2;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
     border-bottom: 1px solid #D7D0D0;
 }
 .navbar a {
