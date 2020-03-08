@@ -1,5 +1,11 @@
 @media all and (min-width:0px) and (max-width: 500px) {
 
+
+    .portfolio-page {
+        width: 80%;
+        margin: 80px 10%;
+    }
+
     /***********Front PAGE************/
 
     .portfolio-title {
@@ -28,12 +34,11 @@
     /**********ABOUT PAGE************/
 
     .about-me-picture {
-        width: 80%;
+        width: 100%;
     }
 
     .about-me-text {
-        padding-left: 15vw;
-        padding-right: 15vw;
+        margin: 40px 0;
     }
 }
 
