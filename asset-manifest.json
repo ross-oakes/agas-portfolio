@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.1d9adafa.chunk.css",
-    "main.js": "/static/js/main.67a5b1aa.chunk.js",
-    "main.js.map": "/static/js/main.67a5b1aa.chunk.js.map",
+    "main.css": "/static/css/main.cbd94ea0.chunk.css",
+    "main.js": "/static/js/main.e88c0d01.chunk.js",
+    "main.js.map": "/static/js/main.e88c0d01.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.63c1efab.js",
     "runtime-main.js.map": "/static/js/runtime-main.63c1efab.js.map",
     "static/css/2.d9253284.chunk.css": "/static/css/2.d9253284.chunk.css",
-    "static/js/2.7f3e9a25.chunk.js": "/static/js/2.7f3e9a25.chunk.js",
-    "static/js/2.7f3e9a25.chunk.js.map": "/static/js/2.7f3e9a25.chunk.js.map",
+    "static/js/2.52d7aa54.chunk.js": "/static/js/2.52d7aa54.chunk.js",
+    "static/js/2.52d7aa54.chunk.js.map": "/static/js/2.52d7aa54.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d0a2fec0d70d38c95bce3bbf589a31b7.js": "/precache-manifest.d0a2fec0d70d38c95bce3bbf589a31b7.js",
+    "precache-manifest.9f12cfbe2058f90e35ed066d39a3e02b.js": "/precache-manifest.9f12cfbe2058f90e35ed066d39a3e02b.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.d9253284.chunk.css.map": "/static/css/2.d9253284.chunk.css.map",
-    "static/css/main.1d9adafa.chunk.css.map": "/static/css/main.1d9adafa.chunk.css.map",
-    "static/js/2.7f3e9a25.chunk.js.LICENSE": "/static/js/2.7f3e9a25.chunk.js.LICENSE",
+    "static/css/main.cbd94ea0.chunk.css.map": "/static/css/main.cbd94ea0.chunk.css.map",
+    "static/js/2.52d7aa54.chunk.js.LICENSE": "/static/js/2.52d7aa54.chunk.js.LICENSE",
     "static/media/about-us.png": "/static/media/about-us.38c16bd9.png",
     "static/media/ada-persona.png": "/static/media/ada-persona.5679d307.png",
     "static/media/affinity-map.jpg": "/static/media/affinity-map.2b7cb438.jpg",
     "static/media/aga-in-louvre.jpg": "/static/media/aga-in-louvre.150221c4.jpg",
-    "static/media/App.css": "/static/media/aga-rocks.1f1365ca.jpg",
+    "static/media/front-page.css": "/static/media/aga-rocks.1f1365ca.jpg",
     "static/media/app-icon-design.png": "/static/media/app-icon-design.209cbcdb.png",
     "static/media/banking-app.gif": "/static/media/banking-app.8b297f6f.gif",
     "static/media/calculator-design.png": "/static/media/calculator-design.39d9a32d.png",
@@ -76,8 +76,8 @@
   "entrypoints": [
     "static/js/runtime-main.63c1efab.js",
     "static/css/2.d9253284.chunk.css",
-    "static/js/2.7f3e9a25.chunk.js",
-    "static/css/main.1d9adafa.chunk.css",
-    "static/js/main.67a5b1aa.chunk.js"
+    "static/js/2.52d7aa54.chunk.js",
+    "static/css/main.cbd94ea0.chunk.css",
+    "static/js/main.e88c0d01.chunk.js"
   ]
 }
