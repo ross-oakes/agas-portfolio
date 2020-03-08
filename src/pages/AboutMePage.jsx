@@ -1,6 +1,5 @@
 import React from 'react';
 import AgaLouvre from '../resources/aga-in-louvre.jpg'
-import {ScrollToTop} from "../components/ReactUtils";
 import PortfolioPage from "../components/PortfolioPage";
 
 const AboutMePage = () => {

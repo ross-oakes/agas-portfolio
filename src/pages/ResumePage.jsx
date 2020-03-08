@@ -3,12 +3,11 @@ import downloadIcon from '../resources/icons/download.png';
 import linkedinIcon from '../resources/icons/linkedIn.png';
 import resume from '../resources/resume.pdf';
 import {Col, Container, Row} from "reactstrap";
-import {ScrollToTop} from "../components/ReactUtils";
+import PortfolioPage from "../components/PortfolioPage";
 
 const ResumePage = () => {
     return (
-        <div className="resume-page">
-            <ScrollToTop/>
+        <PortfolioPage>
             <div className="resume-text">
                 <h3 className="resume-title"><b>Education</b></h3>
                 <p><b>Masters, </b>English Philology, Jagiellonian University, 2015-2017, Grade: Distinction.</p>
@@ -47,7 +46,7 @@ const ResumePage = () => {
                 </Row>
             </Container>
 
-        </div>
+        </PortfolioPage>
     );
 };
 
