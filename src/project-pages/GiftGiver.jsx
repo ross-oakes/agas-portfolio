@@ -13,11 +13,8 @@ import Rachel from "../resources/giftgiver/personas-rachel.png"
 import Ben from "../resources/giftgiver/personas-ben.png"
 import categoriesNew from "../resources/giftgiver/categories-new-version.png"
 import categoriesOld from "../resources/giftgiver/categories-old-version.png"
-import filterSort1 from "../resources/giftgiver/filter-and-sort-1.png"
-import filterSort2 from "../resources/giftgiver/filter-and-sort-2.png"
-import filterSort3 from "../resources/giftgiver/filter-and-sort-3.png"
-import oldDesign1 from "../resources/giftgiver/old-design-1.png"
-import oldDesign2 from "../resources/giftgiver/old-design-2.png"
+import filterSort from "../resources/giftgiver/filter-and-sort.png"
+import originalDesign from "../resources/giftgiver/original-design.png"
 import PaperPrototype from "../resources/giftgiver/paper-prototype.jpg"
 import giftGiverDesign1 from "../resources/giftgiver/gift-giver-new-1.png"
 import giftGiverDesign2 from "../resources/giftgiver/gift-giver-new-2.png"
@@ -165,13 +162,7 @@ const GiftGiver = () => (
                     results page (e.g. the recipient can choose 'Mum' relationship and will be shown a filtered list of
                     personalised presents for Mums). Multiple filters can be applied simultaneously.
                 </p>
-                <MultiplePictures
-                    pictures={[
-                        {src: filterSort1},
-                        {src: filterSort2},
-                        {src: filterSort3}
-                    ]}
-                />
+                <SinglePicture picture={{src: filterSort}} fullsize/>
             </ProjectSubsection>
         </ProjectSection>
 
@@ -196,11 +187,7 @@ const GiftGiver = () => (
 
         <ProjectSection title="Original design">
             <ProjectSubsection>
-                <MultiplePictures
-                    pictures={[
-                        {src: oldDesign1},
-                        {src: oldDesign2}
-                    ]}/>
+                <SinglePicture picture={{src: originalDesign}} fullsize/>
             </ProjectSubsection>
             <ProjectSubsection title="Key Findings">
                 <NielsenHeuristicDescription
