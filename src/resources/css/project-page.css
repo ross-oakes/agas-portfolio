@@ -28,6 +28,7 @@
     margin: 10px;
 }
 .image-shading {
+    width: 35%;
     display: block;
     box-shadow: 1px 1px 3px #c2c1c1;
     margin-left: auto;

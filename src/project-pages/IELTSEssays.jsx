@@ -5,23 +5,15 @@ import ProjectTitle from "./components/ProjectTitle";
 import ProjectSection from "./components/ProjectSection";
 import ProjectSubsection from "./components/ProjectSubsection";
 import SinglePicture from "./components/SinglePicture";
-import MultiplePictures from "./components/MultiplePictures";
 
 import IELTSEssaysCover from "../resources/ieltsessays/cover.png"
-import old1 from "../resources/ieltsessays/old-homepage.jpg"
-import old2 from "../resources/ieltsessays/old-essays1.jpg"
-import old3 from "../resources/ieltsessays/old-essays2.jpg"
-import old4 from "../resources/ieltsessays/old-collocations1.jpg"
-import old5 from "../resources/ieltsessays/old-collocations2.jpg"
+import old1 from "../resources/ieltsessays/old-ielts-1.png"
+import old2 from "../resources/ieltsessays/old-ielts-2.png"
 import affinityMap from "../resources/ieltsessays/affinity-map.jpg"
 import persona from "../resources/ieltsessays/persona.png"
 import paperPrototype from "../resources/ieltsessays/paper-prototype.jpg"
-import first1 from "../resources/ieltsessays/first-sign-up.png"
-import first2 from "../resources/ieltsessays/first-homepage.png"
-import first3 from "../resources/ieltsessays/first-essays-with-feedback.png"
-import first4 from "../resources/ieltsessays/first-vocabulary1.png"
-import first5 from "../resources/ieltsessays/first-vocabulary2.png"
-import first6 from "../resources/ieltsessays/first-vocabulary3.png"
+import first1 from "../resources/ieltsessays/first-ielts-1.png"
+import first2 from "../resources/ieltsessays/first-ielts-2.png"
 import new1 from "../resources/ieltsessays/ielts-new-1.png"
 import new2 from "../resources/ieltsessays/ielts-new-2.png"
 import new3 from "../resources/ieltsessays/ielts-new-3.png"
@@ -46,13 +38,8 @@ const IELTSEssays = () => (
         </ProjectSubsection>
 
         <ProjectSubsection title="Original app">
-            <MultiplePictures sml pictures={[
-                {src: old1, description: "Homepage"},
-                {src: old2, description: "Essay collection 1"},
-                {src: old3, description: "Essay collection 2"},
-                {src: old4, description: "Vocabulary collection 1"},
-                {src: old5, description: "Vocubulary collection 2"},
-            ]}/>
+            <SinglePicture picture={{src: old1}} fullsize/>
+            <SinglePicture picture={{src: old2}} fullsize/>
         </ProjectSubsection>
 
         <ProjectSection title="Research and Analysis">
@@ -105,14 +92,8 @@ const IELTSEssays = () => (
                 <SinglePicture picture={{src: paperPrototype}} xlrg/>
             </ProjectSubsection>
             <ProjectSubsection title="Hi-Fi Prototype - First Design">
-                <MultiplePictures sml pictures={[
-                    {src: first1},
-                    {src: first2},
-                    {src: first3},
-                    {src: first4},
-                    {src: first5},
-                    {src: first6}
-                ]}/>
+                <SinglePicture picture={{src: first1}} fullsize/>
+                <SinglePicture picture={{src: first2}} fullsize/>
             </ProjectSubsection>
             <ProjectSubsection title="Improvements needed">
                 <p>
