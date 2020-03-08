@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4d0c5341ffc0a4e31e6ba2a78bcf3630",
+    "revision": "49456d731bf04e0c802932850b066839",
     "url": "/index.html"
   },
   {
-    "revision": "47edf7e9e46f532bfa88",
+    "revision": "9e82963ca0f6aaee479b",
     "url": "/static/css/2.d9253284.chunk.css"
   },
   {
-    "revision": "9cccac9281908338d38a",
-    "url": "/static/css/main.a49f1d27.chunk.css"
+    "revision": "fb6f22c4a96e8862bc9b",
+    "url": "/static/css/main.4dd71c33.chunk.css"
   },
   {
-    "revision": "47edf7e9e46f532bfa88",
-    "url": "/static/js/2.806f8133.chunk.js"
+    "revision": "9e82963ca0f6aaee479b",
+    "url": "/static/js/2.0f2979cc.chunk.js"
   },
   {
     "revision": "801eb6b718cfeb49e4699ab80a85e8cf",
-    "url": "/static/js/2.806f8133.chunk.js.LICENSE"
+    "url": "/static/js/2.0f2979cc.chunk.js.LICENSE"
   },
   {
-    "revision": "9cccac9281908338d38a",
-    "url": "/static/js/main.a5dfebe3.chunk.js"
+    "revision": "fb6f22c4a96e8862bc9b",
+    "url": "/static/js/main.74c0a61b.chunk.js"
   },
   {
     "revision": "e738b54ffe3b15816cf3",
@@ -96,28 +96,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/filter-and-sort.d1dc8701.png"
   },
   {
-    "revision": "13a8aa5b95d86c99defa8f679e460301",
-    "url": "/static/media/first-essays-with-feedback.13a8aa5b.png"
+    "revision": "170c5b07333e5fe7c9440489334c9ad0",
+    "url": "/static/media/first-ielts-1.170c5b07.png"
   },
   {
-    "revision": "e05a9297283046613eb43e7fd7949f8c",
-    "url": "/static/media/first-homepage.e05a9297.png"
-  },
-  {
-    "revision": "530eb650dacfc0d5a214f9c909479172",
-    "url": "/static/media/first-sign-up.530eb650.png"
-  },
-  {
-    "revision": "afcb64edbf1cea23ea9a72ae3932db72",
-    "url": "/static/media/first-vocabulary1.afcb64ed.png"
-  },
-  {
-    "revision": "70050c0cbb6261ef9dc32584aa859155",
-    "url": "/static/media/first-vocabulary2.70050c0c.png"
-  },
-  {
-    "revision": "ebb642c0471631184582f271f346d0da",
-    "url": "/static/media/first-vocabulary3.ebb642c0.png"
+    "revision": "033e09d92fd1593727b233fdeb6cebed",
+    "url": "/static/media/first-ielts-2.033e09d9.png"
   },
   {
     "revision": "c76a01ea87430fb550279df1db8f3f9d",
@@ -176,24 +160,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/landing-page.dbac4846.png"
   },
   {
-    "revision": "1809443712982eb07f28228ff385834a",
-    "url": "/static/media/old-collocations1.18094437.jpg"
+    "revision": "31b5e8c03bf55a669ada2b9981e6a56a",
+    "url": "/static/media/old-ielts-1.31b5e8c0.png"
   },
   {
-    "revision": "d75f4bf5e610125caa26ccb52f2366b9",
-    "url": "/static/media/old-collocations2.d75f4bf5.jpg"
-  },
-  {
-    "revision": "d48a29ce0ae62f09666eb55ccc6c7868",
-    "url": "/static/media/old-essays1.d48a29ce.jpg"
-  },
-  {
-    "revision": "a55e87226988ef42a4ea63f77404ac2b",
-    "url": "/static/media/old-essays2.a55e8722.jpg"
-  },
-  {
-    "revision": "801bf9e69c8e10652592c8a48d4130f9",
-    "url": "/static/media/old-homepage.801bf9e6.jpg"
+    "revision": "c4c9633688fd45dc52fc092607ee9739",
+    "url": "/static/media/old-ielts-2.c4c96336.png"
   },
   {
     "revision": "906b424ecf1b4b377708134c8fddb4d1",
