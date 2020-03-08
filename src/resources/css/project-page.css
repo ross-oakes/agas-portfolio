@@ -33,6 +33,12 @@
     margin-left: auto;
     margin-right: auto;
 }
+.single-picture-xlrg {
+    width: 65%;
+}
+.single-picture-fullsize {
+    width: 100%;
+}
 .image-description {
     display: block;
     margin-left: auto;
@@ -46,8 +52,10 @@
     .project-title {
         padding: 0;
     }
-
     .project-title h3 {
         font-size: 1.4rem;
+    }
+    .single-picture-xlrg {
+        width: 85%;
     }
 }

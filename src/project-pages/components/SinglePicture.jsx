@@ -1,27 +1,23 @@
 import * as React from "react"
 
-const createDescription = (description, width) => {
+const createDescription = (description, additionalClassName) => {
+    const className = "image-description";
 
-    return <div className="image-description"
-                style={{
-                    width: `${width}vw`,
-                }}>
+    return <div className={className + additionalClassName}>
         {description}
     </div>
 };
 
 const createPicture = (pictureObject, xlrg, fullsize) => {
-    let value = 25;
+    const className = "image-shading";
+    let additionalClassName = "";
 
-    value = xlrg ? value * 2 : value;
-    value = fullsize ? 80 : value;
+    additionalClassName = xlrg ? " single-picture-xlrg" : additionalClassName;
+    additionalClassName = fullsize ? " single-picture-fullsize" : additionalClassName;
 
     return <>
-        <img className="image-shading" src={pictureObject.src} alt={pictureObject.description}
-             style={{
-                 width: `${value}vw`,
-             }}/>
-        {createDescription(pictureObject.description, value)}
+        <img className={className + additionalClassName} src={pictureObject.src} alt={pictureObject.description}/>
+        {createDescription(pictureObject.description, additionalClassName)}
     </>
 };
 
