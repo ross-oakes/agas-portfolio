@@ -10,7 +10,7 @@ const createDescription = (description, additionalClassName) => {
 
 const createPicture = (pictureObject, xlrg, fullsize) => {
     const className = "image-shading";
-    let additionalClassName = "";
+    let additionalClassName = " single-picture-normal";
 
     additionalClassName = xlrg ? " single-picture-xlrg" : additionalClassName;
     additionalClassName = fullsize ? " single-picture-fullsize" : additionalClassName;
