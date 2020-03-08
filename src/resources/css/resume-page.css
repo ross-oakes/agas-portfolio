@@ -1,0 +1,31 @@
+.resume-page {
+    padding: 62px 15% 100px;
+    font-size: calc(14px + 0.4vw);
+    width: 100%;
+    height: 100%;
+}
+.resume-title {
+    padding-top: 5%;
+    padding-bottom: 2.3%;
+    font-size: calc(18px + 1vw);
+}
+.resume-text {
+    padding-bottom: 100px
+}
+.resume-footer {
+    margin-left: 0 !important;
+}
+.resume-footer a {
+    color: #515C6F;
+    padding-right: 100px;
+}
+
+@media all and (min-width: 0px) and (max-width: 500px) {
+    .resume-text {
+        padding-bottom: 50px
+    }
+
+    .resume-footer-spacing {
+        padding-bottom: 20px;
+    }
+}

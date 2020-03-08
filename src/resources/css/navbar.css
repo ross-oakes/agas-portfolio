@@ -1,0 +1,28 @@
+
+.navbar-name {
+    vertical-align: middle;
+    font-family: 'Allura', cursive;
+    font-size: 15pt;
+    letter-spacing: 0.1em;
+    padding-left: 30px;
+}
+.navbar {
+    background-color: #F3F2F2;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid #D7D0D0;
+}
+.navbar a {
+    color: #515C6F;
+    font-size: 20px;
+    margin-right: 50px;
+}
+.sub-navbar {
+    background-color: #F6F6F6 !important;
+    font-size: 10px !important;
+    width: 170px;
+}
+.sub-navbar a {
+    font-size: 18px !important;
+}

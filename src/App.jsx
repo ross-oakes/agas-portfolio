@@ -1,6 +1,12 @@
 import React from 'react';
-import './App.css';
-import './Mobile.css';
+import './resources/css/common.css';
+import './resources/css/front-page.css'
+import './resources/css/about-me-page.css'
+import './resources/css/project-page.css'
+import './resources/css/resume-page.css'
+import './resources/css/contact-page.css'
+import './resources/css/navbar.css'
+import './resources/css/fonts.css'
 import NavBar from "./components/MyNavBar";
 import FrontPage from "./pages/FrontPage"
 import {

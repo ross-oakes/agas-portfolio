@@ -1,0 +1,25 @@
+.about-me-picture {
+    width: 80%;
+}
+.about-me-title {
+    font-size: calc(18px + 3vw);
+    text-align: center;
+}
+.about-me-text {
+    font-size: calc(12px + 0.6vw);
+    margin: 40px 10%;
+    text-align: left;
+}
+.about-me-text p {
+    margin-bottom: 30px;
+}
+
+@media all and (min-width: 0px) and (max-width: 500px) {
+    .about-me-picture {
+        width: 100%;
+    }
+
+    .about-me-text {
+        margin: 40px 0;
+    }
+}

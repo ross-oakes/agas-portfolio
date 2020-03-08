@@ -1,0 +1,28 @@
+.common-app {
+    color: #515C6F;
+    font-family: 'Playfair Display', serif;
+}
+.portfolio-page {
+    width: 80%;
+    margin: 100px 10%;
+}
+.primary-button-display {
+    border-radius: 19px !important;
+    background-color: #FF6969 !important;
+    border-color: #FF6969 !important;
+    box-shadow: 2px 2px 8px #FF6969;
+    color: white;
+    height: 40px;
+    font-family: 'Roboto', serif;
+}
+.skip-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media all and (min-width: 0px) and (max-width: 500px) {
+    .portfolio-page {
+        width: 80%;
+        margin: 80px 10%;
+    }
+}
