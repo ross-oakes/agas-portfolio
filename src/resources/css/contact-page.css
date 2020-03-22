@@ -8,10 +8,6 @@
 .contact-page-container {
     margin: 0 !important;
 }
-.contact-form {
-    max-width: 500px !important;
-    min-width: 500px !important;
-}
 .details-contact-form {
     max-width: 500px !important;
     min-width: 240px !important;
@@ -28,7 +24,8 @@
     padding: 39px !important;
 }
 .form-display {
-    padding-left: 0 !important;
+    padding: 0 !important;
+    width: calc(100% - 78px) !important;
 }
 .label-display {
     margin-top: 8px !important;
@@ -38,7 +35,6 @@
     border-color: white !important;
     padding: 0 !important;
     margin-bottom: 2px !important;
-    width: 400px !important;
     font-size: calc(12px + 0.2vw) !important;
     min-height: 40px;
 }
@@ -68,24 +64,4 @@
     width: 100%;
     z-index:9999;
     border-radius:0
-}
-
-@media all and (min-width: 0px) and (max-width: 500px) {
-    .contact-form {
-        max-width: 70vw !important;
-        min-width: 70vw !important;
-    }
-    .input-display {
-        width: 45vw !important;
-    }
-}
-
-@media all and (min-width: 0px) and (max-width: 680px) {
-    .contact-form {
-        max-width: 70vw !important;
-        min-width: 70vw !important;
-    }
-    .input-display {
-        width: 45vw !important;
-    }
 }
