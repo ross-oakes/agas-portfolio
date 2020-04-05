@@ -15,9 +15,3 @@
     color: #515C6F;
     padding-right: 100px;
 }
-
-@media all and (min-width: 0px) and (max-width: 500px) {
-    .resume-footer-spacing {
-        padding-bottom: 20px;
-    }
-}

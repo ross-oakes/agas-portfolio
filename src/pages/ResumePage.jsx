@@ -1,6 +1,5 @@
 import React from 'react';
 import downloadIcon from '../resources/icons/download.png';
-import linkedinIcon from '../resources/icons/linkedIn.png';
 import resume from '../resources/resume.pdf';
 import {Col, Container, Row} from "reactstrap";
 import PortfolioPage from "../components/PortfolioPage";
@@ -31,16 +30,9 @@ const ResumePage = () => {
             </div>
             <Container className="resume-footer">
                 <Row>
-                    <Col xs className="resume-footer-spacing">
+                    <Col>
                         <a href={resume} download>
                             <img src={downloadIcon} alt="" height="25px" width="25px"/> Download My Resume
-                        </a>
-                    </Col>
-                    <Col xs>
-                        <a href="https://www.linkedin.com/in/agnieszka-matyja-09b07b198/"
-                           target="_blank"
-                           rel="noopener noreferrer">
-                            <img src={linkedinIcon} alt="" height="25px" width="25px"/> LinkedIn profile
                         </a>
                     </Col>
                 </Row>

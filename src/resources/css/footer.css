@@ -1,0 +1,21 @@
+.logo-copyright-display {
+    display: grid;
+}
+
+.logo-display {
+    width: 130px;
+}
+
+.footer-display {
+    width: 80%;
+    margin: 0 10% 50px;
+    display: block;
+}
+
+.tall-lines {
+    line-height: 300%;
+}
+
+.contact-details-display {
+    line-height: 300%;
+}

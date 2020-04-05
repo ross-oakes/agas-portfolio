@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import ContactForm from "../components/ContactForm";
 import MyDetails from "../components/MyDetails";
-import {ScrollToTop} from "../components/ReactUtils";
 import {Alert, Col, Container, Row} from "reactstrap";
 import PortfolioPage from "../components/PortfolioPage";
 
