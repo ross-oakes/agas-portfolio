@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.e47a8591.chunk.css",
-    "main.js": "/static/js/main.901cca41.chunk.js",
-    "main.js.map": "/static/js/main.901cca41.chunk.js.map",
+    "main.css": "/static/css/main.fd0ff4ac.chunk.css",
+    "main.js": "/static/js/main.8ddfc0ab.chunk.js",
+    "main.js.map": "/static/js/main.8ddfc0ab.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.63c1efab.js",
     "runtime-main.js.map": "/static/js/runtime-main.63c1efab.js.map",
     "static/css/2.d9253284.chunk.css": "/static/css/2.d9253284.chunk.css",
-    "static/js/2.f66c71d7.chunk.js": "/static/js/2.f66c71d7.chunk.js",
-    "static/js/2.f66c71d7.chunk.js.map": "/static/js/2.f66c71d7.chunk.js.map",
+    "static/js/2.4b181510.chunk.js": "/static/js/2.4b181510.chunk.js",
+    "static/js/2.4b181510.chunk.js.map": "/static/js/2.4b181510.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0b81ea81bb27574e0bfb85a583bba913.js": "/precache-manifest.0b81ea81bb27574e0bfb85a583bba913.js",
+    "precache-manifest.a33f81e93c50b838736188e3e47b34bf.js": "/precache-manifest.a33f81e93c50b838736188e3e47b34bf.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.d9253284.chunk.css.map": "/static/css/2.d9253284.chunk.css.map",
-    "static/css/main.e47a8591.chunk.css.map": "/static/css/main.e47a8591.chunk.css.map",
-    "static/js/2.f66c71d7.chunk.js.LICENSE": "/static/js/2.f66c71d7.chunk.js.LICENSE",
+    "static/css/main.fd0ff4ac.chunk.css.map": "/static/css/main.fd0ff4ac.chunk.css.map",
+    "static/js/2.4b181510.chunk.js.LICENSE": "/static/js/2.4b181510.chunk.js.LICENSE",
     "static/media/about-us.png": "/static/media/about-us.38c16bd9.png",
     "static/media/ada-persona.png": "/static/media/ada-persona.5679d307.png",
     "static/media/affinity-map.jpg": "/static/media/affinity-map.2b7cb438.jpg",
     "static/media/aga-in-louvre.jpg": "/static/media/aga-in-louvre.150221c4.jpg",
     "static/media/front-page.css": "/static/media/aga-rocks.1f1365ca.jpg",
+    "static/media/agaux-inline-logo.png": "/static/media/agaux-inline-logo.9cf08b15.png",
     "static/media/agaux-logo.png": "/static/media/agaux-logo.34cfe078.png",
     "static/media/app-icon-design.png": "/static/media/app-icon-design.209cbcdb.png",
     "static/media/banking-app.gif": "/static/media/banking-app.8b297f6f.gif",
@@ -67,8 +68,8 @@
   "entrypoints": [
     "static/js/runtime-main.63c1efab.js",
     "static/css/2.d9253284.chunk.css",
-    "static/js/2.f66c71d7.chunk.js",
-    "static/css/main.e47a8591.chunk.css",
-    "static/js/main.901cca41.chunk.js"
+    "static/js/2.4b181510.chunk.js",
+    "static/css/main.fd0ff4ac.chunk.css",
+    "static/js/main.8ddfc0ab.chunk.js"
   ]
 }
