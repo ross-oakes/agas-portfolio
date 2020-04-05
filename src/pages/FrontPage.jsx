@@ -6,11 +6,11 @@ import uiChallengesCoverPhoto from '../resources/uichallenges/cover.png';
 import PortfolioItem from "../components/PortfolioItem";
 import {ScrollToTop} from "../components/ReactUtils";
 import {Button} from "reactstrap";
+import PortfolioPage from "../components/PortfolioPage";
 
 const FrontPage = () => {
     return (
-        <div className="front-page">
-            <ScrollToTop/>
+        <div>
             <div className="background-with-aga">
                 <div className="picture-title">
                     <p>Hi! I'm Aga!</p>
@@ -22,28 +22,31 @@ const FrontPage = () => {
                     </a>
                 </div>
             </div>
-            <h1 id="my-portfolio" className="portfolio-title">My Portfolio</h1>
-            <PortfolioItem
-                title="Gift Giver"
-                details="a mobile app helping to select a perfect gift"
-                image={giftGiverCoverPhoto}
-                endpoint="/gift-giver"/>
-            <PortfolioItem
-                title="Machining"
-                details="a website created for a client"
-                image={machiningCoverPhoto}
-                endpoint="/machining"/>
-            <PortfolioItem
-                title="IELTS Essays"
-                details="an app to help students prepare for IELTS English exam"
-                image={ieltsEssaysCoverPhoto}
-                endpoint="/ielts-essays"/>
-            <PortfolioItem
-                title="UI challenges"
-                details="everyday practice of my design skills"
-                image={uiChallengesCoverPhoto}
-                endpoint="/ui-challenges"/>
 
+            <PortfolioPage centered>
+                <h1 id="my-portfolio">My Portfolio</h1>
+                <PortfolioItem
+                    title="Gift Giver"
+                    details="a mobile app helping to select a perfect gift"
+                    image={giftGiverCoverPhoto}
+                    endpoint="/gift-giver"/>
+                <PortfolioItem
+                    title="Machining"
+                    details="a website created for a client"
+                    image={machiningCoverPhoto}
+                    endpoint="/machining"/>
+                <PortfolioItem
+                    title="IELTS Essays"
+                    details="an app to help students prepare for IELTS English exam"
+                    image={ieltsEssaysCoverPhoto}
+                    endpoint="/ielts-essays"/>
+                <PortfolioItem
+                    title="UI challenges"
+                    details="everyday practice of my design skills"
+                    image={uiChallengesCoverPhoto}
+                    endpoint="/ui-challenges"/>
+
+            </PortfolioPage>
         </div>
     );
 };

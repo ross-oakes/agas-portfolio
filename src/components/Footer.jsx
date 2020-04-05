@@ -24,7 +24,7 @@ const Footer = () => (
                         Connect with me
                         <Row>
                             <Col>
-                                <a href="https://www.instagram.com/aga.matyja/"
+                                <a href="https://www.instagram.com/aga.ux/"
                                    target="_blank"
                                    rel="noopener noreferrer">
                                     <img src={instagram} alt="" height="25px" width="25px"/>
