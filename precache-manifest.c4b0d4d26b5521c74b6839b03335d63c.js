@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7be2b53ed37bab02cc7059eba01cbf6a",
+    "revision": "ee04fc33f811c9068ff210ab498ad3ba",
     "url": "/index.html"
   },
   {
-    "revision": "9e82963ca0f6aaee479b",
+    "revision": "2adb3e84ad533638dd62",
     "url": "/static/css/2.d9253284.chunk.css"
   },
   {
-    "revision": "9e02cb794aac4b3728aa",
-    "url": "/static/css/main.4b6b1632.chunk.css"
+    "revision": "5d8e8ae4c6c831f854cb",
+    "url": "/static/css/main.b5130fae.chunk.css"
   },
   {
-    "revision": "9e82963ca0f6aaee479b",
-    "url": "/static/js/2.0f2979cc.chunk.js"
+    "revision": "2adb3e84ad533638dd62",
+    "url": "/static/js/2.f66c71d7.chunk.js"
   },
   {
     "revision": "801eb6b718cfeb49e4699ab80a85e8cf",
-    "url": "/static/js/2.0f2979cc.chunk.js.LICENSE"
+    "url": "/static/js/2.f66c71d7.chunk.js.LICENSE"
   },
   {
-    "revision": "9e02cb794aac4b3728aa",
-    "url": "/static/js/main.b4db9c20.chunk.js"
+    "revision": "5d8e8ae4c6c831f854cb",
+    "url": "/static/js/main.aa40b369.chunk.js"
   },
   {
     "revision": "e738b54ffe3b15816cf3",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1f1365caea39762315e3c7591bb73b35",
     "url": "/static/media/aga-rocks.1f1365ca.jpg"
+  },
+  {
+    "revision": "34cfe07844142000ec8276d2654c96e5",
+    "url": "/static/media/agaux-logo.34cfe078.png"
   },
   {
     "revision": "209cbcdb611b691754ef36d22b8dccd6",
