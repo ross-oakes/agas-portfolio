@@ -14,6 +14,7 @@ import {
 } from 'reactstrap';
 import {Link} from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
+import logo from '../resources/agaux-inline-logo.png'
 
 const NavBar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -25,7 +26,9 @@ const NavBar = () => {
 
     return (
         <Navbar className="navbar" expand="md" light fixed="top">
-            <NavbarBrand className="navbar-name" tag={Link} to="/" onClick={closeNavBar}>aga ux</NavbarBrand>
+            <NavbarBrand className="navbar-name" tag={Link} to="/" onClick={closeNavBar}>
+                <img src={logo} alt="" style={{height: "30px"}}/>
+            </NavbarBrand>
             <NavbarToggler onClick={toggleNavBar}/>
             <Collapse isOpen={isOpen} navbar>
                 <Nav navbar>
