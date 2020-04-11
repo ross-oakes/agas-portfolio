@@ -64,9 +64,10 @@ const UiChallenges = () => (
 
         <ProjectSubsection title="Landing Page">
             <p>
-                I chose a striking hero image first and then designed around it. I based the colour of the logo on
-                the model's dress. I decided to include black and white ‘Shop Now’ button to add contrast to it and
-                make it stand out on the page. It was fun to design!
+                This landing page for an e-commerce website was fun to create. I chose the model and designed around it.
+                I decided the CTA needs to have a different colour to that of the model’s dress, to provide clarity
+                between images and clickable elements. The background and other elements of the page are kept visually
+                simple. Photograph of the model: Melody Jacob, unsplash.
             </p>
             <SinglePicture picture={{src: LandingPageDesign}} fullsize/>
         </ProjectSubsection>

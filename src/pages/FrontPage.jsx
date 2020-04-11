@@ -4,7 +4,6 @@ import machiningCoverPhoto from '../resources/machining/cover.png';
 import ieltsEssaysCoverPhoto from '../resources/ieltsessays/cover.png';
 import uiChallengesCoverPhoto from '../resources/uichallenges/cover.png';
 import PortfolioItem from "../components/PortfolioItem";
-import {ScrollToTop} from "../components/ReactUtils";
 import {Button} from "reactstrap";
 import PortfolioPage from "../components/PortfolioPage";
 
