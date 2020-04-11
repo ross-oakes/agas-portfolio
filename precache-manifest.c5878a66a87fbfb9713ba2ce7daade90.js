@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0e393f1c2ade2e71721751cccf3bca9f",
+    "revision": "4c07ce29a6aed0d272b91520f80513fe",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.d9253284.chunk.css"
   },
   {
-    "revision": "15b885a391c73b5cc7d3",
+    "revision": "571e7f078143dc239e95",
     "url": "/static/css/main.405e1882.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.4b181510.chunk.js.LICENSE"
   },
   {
-    "revision": "15b885a391c73b5cc7d3",
-    "url": "/static/js/main.1b75fea3.chunk.js"
+    "revision": "571e7f078143dc239e95",
+    "url": "/static/js/main.b985a8e0.chunk.js"
   },
   {
     "revision": "e738b54ffe3b15816cf3",
@@ -212,8 +212,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/personas-rachel.96c8a70f.png"
   },
   {
-    "revision": "573cae22f4193b4f2a60cf20de429510",
-    "url": "/static/media/resume.573cae22.pdf"
+    "revision": "50d008c4749ee0c59dfab4934c12e19c",
+    "url": "/static/media/resume.50d008c4.pdf"
   },
   {
     "revision": "e5810bb1a870517004bebccf10bcb586",
