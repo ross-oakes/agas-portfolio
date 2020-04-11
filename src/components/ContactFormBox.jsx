@@ -1,7 +1,7 @@
 import * as React from "react";
 import {Col, FormGroup, Input, Label, Row} from "reactstrap";
 
-const ContactFormBox = ({icon, inputType, label, hintText, height, value, onChange}) => {
+const ContactFormBox = ({icon, inputType, label, height, value, onChange}) => {
 
     return <FormGroup>
         <Row className="form-group-display">
@@ -23,7 +23,6 @@ const ContactFormBox = ({icon, inputType, label, hintText, height, value, onChan
                        type={inputType || "text"}
                        name="user name"
                        id="username"
-                       placeholder={hintText}
                        value={value}
                        style={{height: height + 'px'}}
                        onChange={onChange}

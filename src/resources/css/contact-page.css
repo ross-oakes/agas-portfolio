@@ -18,14 +18,14 @@
 }
 .form-display {
     padding: 0 !important;
-    width: calc(100% - 78px) !important;
+    width: calc(100% - 84px) !important;
 }
 .label-display {
     margin-top: 8px !important;
     margin-bottom: 0 !important;
 }
 .input-display {
-    border-color: white !important;
+    border-color: lightgray !important;
     padding: 0 !important;
     margin-bottom: 2px !important;
     font-size: calc(12px + 0.2vw) !important;
