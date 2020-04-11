@@ -1,8 +1,12 @@
 import * as React from "react";
-import {Col, FormGroup, Input, Label, Row} from "reactstrap";
+import {Col, FormFeedback, FormGroup, Input, Label, Row} from "reactstrap";
+import {useState} from "react";
 
-const ContactFormBox = ({icon, inputType, label, height, value, onChange}) => {
+const isInputInvalid = (value) => {
+    return !value;
+};
 
+const ContactFormBox = ({icon, inputType, label, height, value, onChange, isInvalid, invalidText}) => {
     return <FormGroup>
         <Row className="form-group-display">
             {icon &&
@@ -26,7 +30,9 @@ const ContactFormBox = ({icon, inputType, label, height, value, onChange}) => {
                        value={value}
                        style={{height: height + 'px'}}
                        onChange={onChange}
+                       invalid={isInvalid}
                 />
+                <FormFeedback>{invalidText}</FormFeedback>
             </Col>
         </Row>
     </FormGroup>
