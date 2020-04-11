@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b6cb205f41565c6d1766468cb6cc1dcc",
+    "revision": "8634d61edc0ed28b9cb12160c631e205",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.d9253284.chunk.css"
   },
   {
-    "revision": "1b45e408f3bf64ec166d",
+    "revision": "55c48980506aaa11e389",
     "url": "/static/css/main.fd0ff4ac.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.4b181510.chunk.js.LICENSE"
   },
   {
-    "revision": "1b45e408f3bf64ec166d",
-    "url": "/static/js/main.30345f6b.chunk.js"
+    "revision": "55c48980506aaa11e389",
+    "url": "/static/js/main.1d67cbd4.chunk.js"
   },
   {
     "revision": "e738b54ffe3b15816cf3",
@@ -156,8 +156,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ielts-new-3.43f5e176.png"
   },
   {
-    "revision": "9ea92e0403aa6dd8b48c33d82571b258",
-    "url": "/static/media/landing-page-design.9ea92e04.png"
+    "revision": "17775d2abee09257c212d7ff538c5c79",
+    "url": "/static/media/landing-page-design.17775d2a.png"
   },
   {
     "revision": "dbac4846548a25d09458a35d03f2df7e",
