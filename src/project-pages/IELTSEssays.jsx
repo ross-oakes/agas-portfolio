@@ -18,6 +18,9 @@ import new1 from "../resources/ieltsessays/ielts-new-1.png"
 import new2 from "../resources/ieltsessays/ielts-new-2.png"
 import new3 from "../resources/ieltsessays/ielts-new-3.png"
 import SkipButton from "./components/SkipButton";
+import Recommendations from "./components/Recommendations";
+import GiftGiverCover from "../resources/giftgiver/cover.png"
+import MachiningCover from "../resources/machining/cover.png"
 
 const IELTSEssays = () => (
     <PortfolioPage>
@@ -147,6 +150,9 @@ const IELTSEssays = () => (
                 </p>
             </ProjectSubsection>
         </ProjectSection>
+        <Recommendations
+            recommendation1={{src:GiftGiverCover, link:"/gift-giver"}}
+            recommendation2={{src:MachiningCover, link:"/machining"}}/>
     </PortfolioPage>
 );
 

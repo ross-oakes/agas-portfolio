@@ -24,6 +24,9 @@ import giftGiverDesign5 from "../resources/giftgiver/gift-giver-new-5.png"
 import giftGiverDesign6 from "../resources/giftgiver/gift-giver-new-6.png"
 import giftGiverDesign7 from "../resources/giftgiver/gift-giver-new-7.png"
 import SkipButton from "./components/SkipButton";
+import Recommendations from "./components/Recommendations";
+import MachiningCover from "../resources/machining/cover.png"
+import IeltsEssaysCover from "../resources/ieltsessays/cover.png"
 
 const GiftGiver = () => (
     <PortfolioPage>
@@ -276,6 +279,9 @@ const GiftGiver = () => (
                 </p>
             </ProjectSubsection>
         </ProjectSection>
+        <Recommendations
+            recommendation1={{src:MachiningCover, link:"/machining"}}
+            recommendation2={{src:IeltsEssaysCover, link:"/ielts-essays"}}/>
     </PortfolioPage>
 );
 

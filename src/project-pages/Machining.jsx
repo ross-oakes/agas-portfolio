@@ -21,6 +21,9 @@ import servicesPage from "../resources/machining/services.png"
 import workWithUsPage from "../resources/machining/work-with-us.png"
 import galleryPage from "../resources/machining/gallery.png"
 import contactPage from "../resources/machining/contact.png"
+import Recommendations from "./components/Recommendations";
+import GiftGiverCover from "../resources/giftgiver/cover.png"
+import IeltsEssaysCover from "../resources/ieltsessays/cover.png"
 
 
 const Machining = () => (
@@ -154,6 +157,9 @@ const Machining = () => (
                 </p>
             </ProjectSubsection>
         </ProjectSection>
+        <Recommendations
+            recommendation1={{src:GiftGiverCover, link:"/gift-giver"}}
+            recommendation2={{src:IeltsEssaysCover, link:"/ielts-essays"}}/>
     </PortfolioPage>
 );
 
