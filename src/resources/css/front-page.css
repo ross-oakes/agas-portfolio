@@ -1,27 +1,36 @@
 .background-with-aga {
     width: 100%;
     height: 100vh;
-    background: url("../aga-rocks.jpg") no-repeat center center;
+    background: url("../aga-frontpage.jpg") no-repeat center center;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     margin: unset;
     opacity: 0.9;
     position: relative;
-    color: white;
 }
-.picture-title {
-    position: absolute;
-    padding-top: 40vh;
-    padding-left: 5vw;
-    font-size: calc(18px + 3vw);
+.background-with-aga2 {
+    margin: unset;
+    position: relative;
+    margin-top: 56px;
+    min-height: 430px !important;
 }
-.picture-extra-information {
+.overlay-box {
     position: absolute;
-    padding-top: 80vh;
-    padding-left: 5vw;
-    font-size: calc(16px + 1vw);
+    top: 10%;
+    left: 5%;
+    padding: 15px;
+    min-width: 300px;
+    width: 40%;
+    background: rgba(196, 196, 196, 0.7);
+    color: #2D394E;
+}
+.overlay-title {
+    font-size: calc(40px + 1vw);
+}
+.overlay-subtitle {
+    font-size: calc(26px + 1vw);
+}
+.overlay-description {
+    font-size: calc(12px + 1vw);
 }
 .portfolio-item {
     width: 80%;
@@ -67,6 +76,23 @@
 }
 .portfolio-details {
     font-size: 2.4vw;
+}
+
+@media all and (min-width: 700px) and (max-width: 1000px) {
+    .overlay-box {
+        width: 45%;
+    }
+}
+
+@media all and (min-width: 0px) and (max-width: 700px) {
+    .overlay-box {
+        position: relative;
+        left: 0;
+        padding: 10%;
+        min-width: 300px;
+        width: 100%;
+        background-color: #F3F2F2;
+    }
 }
 
 @media all and (min-width: 0px) and (max-width: 500px) {

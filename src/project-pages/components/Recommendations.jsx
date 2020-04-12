@@ -1,5 +1,5 @@
 import * as React from "react"
-import {Col, Container, NavLink, Row} from "reactstrap";
+import {Col, Container, Row} from "reactstrap";
 import ProjectSection from "./ProjectSection";
 import ProjectSubsection from "./ProjectSubsection";
 import {Link} from "react-router-dom";

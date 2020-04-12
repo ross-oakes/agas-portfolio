@@ -4,25 +4,27 @@ import machiningCoverPhoto from '../resources/machining/cover.png';
 import ieltsEssaysCoverPhoto from '../resources/ieltsessays/cover.png';
 import uiChallengesCoverPhoto from '../resources/uichallenges/cover.png';
 import PortfolioItem from "../components/PortfolioItem";
-import {Button} from "reactstrap";
 import PortfolioPage from "../components/PortfolioPage";
+import OverlayBox from "../components/OverlayBox";
+import Image from 'react-bootstrap/Image'
+import CoverImage from '../resources/aga-frontpage.jpg'
 
 const FrontPage = () => {
     return (
-        <div>
-            <div className="background-with-aga">
-                <div className="picture-title">
-                    <p>Hi! I'm Aga!</p>
-                    <p>A passionate UX designer</p>
-                </div>
-                <div className="picture-extra-information">
-                    <a href="#my-portfolio">
-                        <Button className="primary-button-display"><b>SEE MY PORTFOLIO</b></Button>
-                    </a>
-                </div>
+        <>
+            <div className="background-with-aga2">
+                <Image src={CoverImage} fluid style={{position: "relative"}}/>
+                <OverlayBox
+                    title="Hi, I’m Aga!"
+                    subtitle="A UX designer."
+                    description="I design websites and mobile applications on the basis of solid user research. I live by
+                    the rule: There is no UI without UX."
+                    buttonText="SEE MY PORTFOLIO"
+                    link="#my-portfolio"
+                />
             </div>
-
             <PortfolioPage centered>
+
                 <h1 id="my-portfolio">My Portfolio</h1>
                 <PortfolioItem
                     title="Gift Giver"
@@ -46,7 +48,7 @@ const FrontPage = () => {
                     endpoint="/ui-challenges"/>
 
             </PortfolioPage>
-        </div>
+        </>
     );
 };
 

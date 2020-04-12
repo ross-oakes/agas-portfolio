@@ -1,10 +1,5 @@
 import * as React from "react";
 import {Col, FormFeedback, FormGroup, Input, Label, Row} from "reactstrap";
-import {useState} from "react";
-
-const isInputInvalid = (value) => {
-    return !value;
-};
 
 const ContactFormBox = ({icon, inputType, label, height, value, onChange, isInvalid, invalidText}) => {
     return <FormGroup>

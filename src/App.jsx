@@ -8,6 +8,7 @@ import './resources/css/contact-page.css'
 import './resources/css/navbar.css'
 import './resources/css/fonts.css'
 import './resources/css/footer.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from "./components/MyNavBar";
 import FrontPage from "./pages/FrontPage"
 import {
