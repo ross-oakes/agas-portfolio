@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2fda36bbfca23f2037a21db9fe246090",
+    "revision": "103c964b9a5feaa0d737491f10974398",
     "url": "/index.html"
   },
   {
-    "revision": "9570815f11631474efb5",
-    "url": "/static/css/2.d9253284.chunk.css"
+    "revision": "dccf3dcc68942ed18b39",
+    "url": "/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "46991e67ad6dcacf18d6",
-    "url": "/static/css/main.a19e18b1.chunk.css"
+    "revision": "be21d790d7c818fd90a5",
+    "url": "/static/css/main.1effd8c8.chunk.css"
   },
   {
-    "revision": "9570815f11631474efb5",
-    "url": "/static/js/2.b05c1d52.chunk.js"
+    "revision": "dccf3dcc68942ed18b39",
+    "url": "/static/js/2.e8e1eb70.chunk.js"
   },
   {
     "revision": "801eb6b718cfeb49e4699ab80a85e8cf",
-    "url": "/static/js/2.b05c1d52.chunk.js.LICENSE"
+    "url": "/static/js/2.e8e1eb70.chunk.js.LICENSE"
   },
   {
-    "revision": "46991e67ad6dcacf18d6",
-    "url": "/static/js/main.307a5e33.chunk.js"
+    "revision": "be21d790d7c818fd90a5",
+    "url": "/static/js/main.035b58a9.chunk.js"
   },
   {
     "revision": "e738b54ffe3b15816cf3",
@@ -40,12 +40,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/affinity-map.2b7cb438.jpg"
   },
   {
-    "revision": "150221c4011124cf6186aae425017ffe",
-    "url": "/static/media/aga-in-louvre.150221c4.jpg"
+    "revision": "b076d915b2ea567822b0b8ed87a8508d",
+    "url": "/static/media/aga-frontpage.b076d915.jpg"
   },
   {
-    "revision": "1f1365caea39762315e3c7591bb73b35",
-    "url": "/static/media/aga-rocks.1f1365ca.jpg"
+    "revision": "150221c4011124cf6186aae425017ffe",
+    "url": "/static/media/aga-in-louvre.150221c4.jpg"
   },
   {
     "revision": "34cfe07844142000ec8276d2654c96e5",
