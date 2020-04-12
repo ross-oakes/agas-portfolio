@@ -12,7 +12,7 @@ import CoverImage from '../resources/aga-frontpage.jpg'
 const FrontPage = () => {
     return (
         <>
-            <div className="background-with-aga2">
+            <div className="background-with-aga">
                 <Image src={CoverImage} fluid style={{position: "relative"}}/>
                 <OverlayBox
                     title="Hi, I’m Aga!"

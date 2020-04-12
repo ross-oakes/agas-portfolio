@@ -1,25 +1,18 @@
+
 .background-with-aga {
-    width: 100%;
-    height: 100vh;
-    background: url("../aga-frontpage.jpg") no-repeat center center;
-    -webkit-background-size: cover;
-    margin: unset;
-    opacity: 0.9;
-    position: relative;
-}
-.background-with-aga2 {
-    margin: unset;
     position: relative;
     margin-top: 56px;
-    min-height: 430px !important;
 }
 .overlay-box {
     position: absolute;
     top: 10%;
     left: 5%;
-    padding: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 30px;
     min-width: 300px;
-    width: 40%;
+    width: 35%;
     background: rgba(196, 196, 196, 0.7);
     color: #2D394E;
 }
@@ -28,9 +21,13 @@
 }
 .overlay-subtitle {
     font-size: calc(26px + 1vw);
+    margin-bottom: 5px;
 }
 .overlay-description {
-    font-size: calc(12px + 1vw);
+    font-size: calc(8px + 1vw);
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    margin-bottom: 30px;
 }
 .portfolio-item {
     width: 80%;
