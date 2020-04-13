@@ -21,6 +21,7 @@ import servicesPage from "../resources/machining/services.png"
 import workWithUsPage from "../resources/machining/work-with-us.png"
 import galleryPage from "../resources/machining/gallery.png"
 import contactPage from "../resources/machining/contact.png"
+import DoubleDiamond from "../resources/machining/double-diamond.png"
 import Recommendations from "./components/Recommendations";
 import GiftGiverCover from "../resources/gift-giver-recommendation.png"
 import IeltsEssaysCover from "../resources/ielts-recommendation.png"
@@ -75,12 +76,14 @@ const Machining = () => (
         </ProjectSubsection>
 
         <ProjectSection title="Redesign and usability testing">
-            <ProjectSubsection>
+            <ProjectSubsection title="My design process">
+                <SinglePicture picture={{src: DoubleDiamond}} xlrg noShadow />
                 <p>
-                    User research provided me with useful insights, which led to the development of the Low-Fi
-                    prototype,
-                    usability testing, Hi-Fi prototype, and more usability testing. I will present pictures of the final
-                    design and discuss the process of arriving at this version.
+                    My design process started with gaining data from user research and the analysis of it. Affinity
+                    diagram classification of user needs and persona creation was the analysis stage. Next, I used
+                    sketching to come up with different ideas for the website functionality (ideation stage). This led
+                    to the development of the Low-Fi prototype and usability testing. Next, I developed a Hi-Fi
+                    prototype and tested it with users.
                 </p>
             </ProjectSubsection>
             <ProjectSubsection title="Landing Page">
@@ -158,8 +161,8 @@ const Machining = () => (
             </ProjectSubsection>
         </ProjectSection>
         <Recommendations
-            recommendation1={{src:GiftGiverCover, link:"/gift-giver"}}
-            recommendation2={{src:IeltsEssaysCover, link:"/ielts-essays"}}/>
+            recommendation1={{src: GiftGiverCover, link: "/gift-giver"}}
+            recommendation2={{src: IeltsEssaysCover, link: "/ielts-essays"}}/>
     </PortfolioPage>
 );
 

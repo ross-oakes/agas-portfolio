@@ -8,8 +8,8 @@ const createDescription = (description, additionalClassName) => {
     </div>
 };
 
-const createPicture = (pictureObject, xlrg, fullsize) => {
-    const className = "image-shading";
+const createPicture = (pictureObject, xlrg, fullsize, noShadow) => {
+    const className = noShadow ? "image-no-shading" : "image-shading";
     let additionalClassName = " single-picture-normal";
 
     additionalClassName = xlrg ? " single-picture-xlrg" : additionalClassName;
@@ -21,9 +21,9 @@ const createPicture = (pictureObject, xlrg, fullsize) => {
     </>
 };
 
-const SinglePicture = ({picture: pictureObject, xlrg, fullsize}) => (
+const SinglePicture = ({picture: pictureObject, xlrg, fullsize, noShadow}) => (
     <div className="project-single-picture">
-        {createPicture(pictureObject, xlrg, fullsize)}
+        {createPicture(pictureObject, xlrg, fullsize, noShadow)}
     </div>
 );
 

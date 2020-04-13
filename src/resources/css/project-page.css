@@ -33,6 +33,11 @@
     margin-left: auto;
     margin-right: auto;
 }
+.image-no-shading {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .single-picture-normal {
     width: 35%;
 }
