@@ -7,7 +7,7 @@ const SkipButton = (props) => (
             Skip the full case study
             <a href={props.link}>
                 <Button className="primary-button-display" style={{fontSize: "12px"}}>
-                    <b>GO STRAIGHT TO THE FINAL DESIGN</b>
+                    GO STRAIGHT TO THE FINAL DESIGN
                 </Button>
             </a>
         </div>

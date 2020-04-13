@@ -100,7 +100,7 @@ const ContactForm = ({
                         required/>
         <FormGroup align="right">
             <Button className="contact-me-button" onClick={validateThenSend}>
-                <b>SEND</b>
+                SEND
             </Button>
         </FormGroup>
     </Form>

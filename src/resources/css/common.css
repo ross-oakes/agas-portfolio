@@ -13,7 +13,10 @@
     box-shadow: 2px 2px 8px #FF6969;
     color: white;
     height: 40px;
-    font-family: 'Roboto', serif;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: bold !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
 }
 
 @media all and (min-width: 0px) and (max-width: 500px) {

@@ -10,7 +10,7 @@ const OverlayBox = (props) => {
         <p className="overlay-description">
             {props.description}</p>
         <a href={props.link}>
-            <Button className="primary-button-display"><b>{props.buttonText}</b></Button>
+            <Button className="primary-button-display">{props.buttonText}</Button>
         </a>
     </div>
 };
