@@ -19,3 +19,10 @@
 .contact-details-display {
     line-height: 300%;
 }
+
+@media all and (min-width: 0px) and (max-width: 575px) {
+    .contact-details-display {
+        margin: 12px 0;
+        line-height: 150%;
+    }
+}
