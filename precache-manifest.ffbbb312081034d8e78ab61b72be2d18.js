@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "74db19fc6da8b240fa93bb60b611c49d",
+    "revision": "681528620c266be9fda1300bd868eb22",
     "url": "/index.html"
   },
   {
-    "revision": "dccf3dcc68942ed18b39",
+    "revision": "4584cf2785caf46e1747",
     "url": "/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "a74afb71ea70593ff446",
-    "url": "/static/css/main.4a0e16ba.chunk.css"
+    "revision": "1d3171723a1e278fec3e",
+    "url": "/static/css/main.75ebfbd6.chunk.css"
   },
   {
-    "revision": "dccf3dcc68942ed18b39",
-    "url": "/static/js/2.e8e1eb70.chunk.js"
+    "revision": "4584cf2785caf46e1747",
+    "url": "/static/js/2.db776c3a.chunk.js"
   },
   {
     "revision": "801eb6b718cfeb49e4699ab80a85e8cf",
-    "url": "/static/js/2.e8e1eb70.chunk.js.LICENSE"
+    "url": "/static/js/2.db776c3a.chunk.js.LICENSE"
   },
   {
-    "revision": "a74afb71ea70593ff446",
-    "url": "/static/js/main.7cc85825.chunk.js"
+    "revision": "1d3171723a1e278fec3e",
+    "url": "/static/js/main.aa22b9bf.chunk.js"
   },
   {
     "revision": "e738b54ffe3b15816cf3",
@@ -140,6 +140,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/gift-giver-new-7.fa1e3934.png"
   },
   {
+    "revision": "3b2eb8d7a92ade33991cd0fe8f5564f8",
+    "url": "/static/media/gift-giver-recommendation.3b2eb8d7.png"
+  },
+  {
     "revision": "d4faad12dc9be1e088f8cb279046b023",
     "url": "/static/media/gift-giver.d4faad12.gif"
   },
@@ -156,12 +160,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ielts-new-3.43f5e176.png"
   },
   {
+    "revision": "c175c2f370305f1f0d77a3386bbb255b",
+    "url": "/static/media/ielts-recommendation.c175c2f3.png"
+  },
+  {
     "revision": "17775d2abee09257c212d7ff538c5c79",
     "url": "/static/media/landing-page-design.17775d2a.png"
   },
   {
     "revision": "dbac4846548a25d09458a35d03f2df7e",
     "url": "/static/media/landing-page.dbac4846.png"
+  },
+  {
+    "revision": "0fb7e9e0d87c30f2b7e1bbfb83e47c6b",
+    "url": "/static/media/machining-recommendation.0fb7e9e0.png"
   },
   {
     "revision": "c4c9633688fd45dc52fc092607ee9739",
