@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.75ebfbd6.chunk.css",
-    "main.js": "/static/js/main.aa22b9bf.chunk.js",
-    "main.js.map": "/static/js/main.aa22b9bf.chunk.js.map",
+    "main.css": "/static/css/main.ff6ad825.chunk.css",
+    "main.js": "/static/js/main.28478740.chunk.js",
+    "main.js.map": "/static/js/main.28478740.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.63c1efab.js",
     "runtime-main.js.map": "/static/js/runtime-main.63c1efab.js.map",
     "static/css/2.17e5ed98.chunk.css": "/static/css/2.17e5ed98.chunk.css",
-    "static/js/2.db776c3a.chunk.js": "/static/js/2.db776c3a.chunk.js",
-    "static/js/2.db776c3a.chunk.js.map": "/static/js/2.db776c3a.chunk.js.map",
+    "static/js/2.147077d0.chunk.js": "/static/js/2.147077d0.chunk.js",
+    "static/js/2.147077d0.chunk.js.map": "/static/js/2.147077d0.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ffbbb312081034d8e78ab61b72be2d18.js": "/precache-manifest.ffbbb312081034d8e78ab61b72be2d18.js",
+    "precache-manifest.152c642bd37abaf463ca2e0d5a2acd10.js": "/precache-manifest.152c642bd37abaf463ca2e0d5a2acd10.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.17e5ed98.chunk.css.map": "/static/css/2.17e5ed98.chunk.css.map",
-    "static/css/main.75ebfbd6.chunk.css.map": "/static/css/main.75ebfbd6.chunk.css.map",
-    "static/js/2.db776c3a.chunk.js.LICENSE": "/static/js/2.db776c3a.chunk.js.LICENSE",
+    "static/css/main.ff6ad825.chunk.css.map": "/static/css/main.ff6ad825.chunk.css.map",
+    "static/js/2.147077d0.chunk.js.LICENSE": "/static/js/2.147077d0.chunk.js.LICENSE",
     "static/media/about-us.png": "/static/media/about-us.38c16bd9.png",
     "static/media/ada-persona.png": "/static/media/ada-persona.5679d307.png",
     "static/media/affinity-map.jpg": "/static/media/affinity-map.2b7cb438.jpg",
@@ -28,6 +28,7 @@
     "static/media/contact.png": "/static/media/contact.d53f932a.png",
     "static/media/cover.png": "/static/media/cover.d4a0e889.png",
     "static/media/david-persona.png": "/static/media/david-persona.49b17540.png",
+    "static/media/double-diamond.png": "/static/media/double-diamond.784300f3.png",
     "static/media/filter-and-sort.png": "/static/media/filter-and-sort.d1dc8701.png",
     "static/media/first-ielts-1.png": "/static/media/first-ielts-1.170c5b07.png",
     "static/media/first-ielts-2.png": "/static/media/first-ielts-2.033e09d9.png",
@@ -70,8 +71,8 @@
   "entrypoints": [
     "static/js/runtime-main.63c1efab.js",
     "static/css/2.17e5ed98.chunk.css",
-    "static/js/2.db776c3a.chunk.js",
-    "static/css/main.75ebfbd6.chunk.css",
-    "static/js/main.aa22b9bf.chunk.js"
+    "static/js/2.147077d0.chunk.js",
+    "static/css/main.ff6ad825.chunk.css",
+    "static/js/main.28478740.chunk.js"
   ]
 }
