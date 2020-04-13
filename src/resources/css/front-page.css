@@ -108,12 +108,13 @@
     .portfolio-text {
         background-color: #FF6969;
         opacity: 0.7;
-        padding-right: 5%
+        padding-right: 5%;
     }
 
     .portfolio-details {
         margin-bottom: 0;
         font-size: 3.8vw;
+        line-height: 125%;
     }
 
     .hovered-filter {
