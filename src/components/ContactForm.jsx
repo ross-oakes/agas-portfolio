@@ -88,14 +88,16 @@ const ContactForm = ({
                         value={email}
                         onChange={validateAndSetValue(setEmail, validateEmail)}
                         isInvalid={emailInvalid}
-                        invalidText="Ooops! Please enter a valid email address"/>
+                        invalidText="Ooops! Please enter a valid email address"
+                        required/>
         <ContactFormBox label="Message"
                         inputType="textarea"
                         height="180"
                         value={content}
                         onChange={validateAndSetValue(setContent, validateContent)}
                         isInvalid={contentInvalid}
-                        invalidText="Ooops! Please enter your message."/>
+                        invalidText="Ooops! Please enter your message."
+                        required/>
         <FormGroup align="right">
             <Button className="contact-me-button" onClick={validateThenSend}>
                 <b>SEND</b>

@@ -1,7 +1,7 @@
 import * as React from "react";
 import {Col, FormFeedback, FormGroup, Input, Label, Row} from "reactstrap";
 
-const ContactFormBox = ({icon, inputType, label, height, value, onChange, isInvalid, invalidText}) => {
+const ContactFormBox = ({icon, inputType, label, height, value, onChange, isInvalid, invalidText, required}) => {
     return <FormGroup>
         <Row className="form-group-display">
             {icon &&
@@ -18,6 +18,7 @@ const ContactFormBox = ({icon, inputType, label, height, value, onChange, isInva
             }
             <Col xs="auto" className="form-display">
                 <Label className="label-display"> {label}</Label>
+                {required && <text style={{color:"red"}}>*</text>}
                 <Input className="input-display"
                        type={inputType || "text"}
                        name="user name"
