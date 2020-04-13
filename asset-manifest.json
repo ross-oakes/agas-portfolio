@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.ff6ad825.chunk.css",
-    "main.js": "/static/js/main.28478740.chunk.js",
-    "main.js.map": "/static/js/main.28478740.chunk.js.map",
+    "main.js": "/static/js/main.48db1e65.chunk.js",
+    "main.js.map": "/static/js/main.48db1e65.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.63c1efab.js",
     "runtime-main.js.map": "/static/js/runtime-main.63c1efab.js.map",
     "static/css/2.17e5ed98.chunk.css": "/static/css/2.17e5ed98.chunk.css",
     "static/js/2.147077d0.chunk.js": "/static/js/2.147077d0.chunk.js",
     "static/js/2.147077d0.chunk.js.map": "/static/js/2.147077d0.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.152c642bd37abaf463ca2e0d5a2acd10.js": "/precache-manifest.152c642bd37abaf463ca2e0d5a2acd10.js",
+    "precache-manifest.f1729c840c10b44affd42a3505a2b615.js": "/precache-manifest.f1729c840c10b44affd42a3505a2b615.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.17e5ed98.chunk.css.map": "/static/css/2.17e5ed98.chunk.css.map",
     "static/css/main.ff6ad825.chunk.css.map": "/static/css/main.ff6ad825.chunk.css.map",
@@ -45,10 +45,10 @@
     "static/media/ielts-new-1.png": "/static/media/ielts-new-1.cd33a54a.png",
     "static/media/ielts-new-2.png": "/static/media/ielts-new-2.e2bb5922.png",
     "static/media/ielts-new-3.png": "/static/media/ielts-new-3.43f5e176.png",
-    "static/media/ielts-recommendation.png": "/static/media/ielts-recommendation.c175c2f3.png",
+    "static/media/ielts-recommendation.png": "/static/media/ielts-recommendation.0fb7e9e0.png",
     "static/media/landing-page-design.png": "/static/media/landing-page-design.17775d2a.png",
     "static/media/landing-page.png": "/static/media/landing-page.dbac4846.png",
-    "static/media/machining-recommendation.png": "/static/media/machining-recommendation.0fb7e9e0.png",
+    "static/media/machining-recommendation.png": "/static/media/machining-recommendation.c175c2f3.png",
     "static/media/old-ielts-1.png": "/static/media/old-ielts-1.c4c96336.png",
     "static/media/old-ielts-2.png": "/static/media/old-ielts-2.31b5e8c0.png",
     "static/media/old-website-1.png": "/static/media/old-website-1.906b424e.png",
@@ -73,6 +73,6 @@
     "static/css/2.17e5ed98.chunk.css",
     "static/js/2.147077d0.chunk.js",
     "static/css/main.ff6ad825.chunk.css",
-    "static/js/main.28478740.chunk.js"
+    "static/js/main.48db1e65.chunk.js"
   ]
 }
