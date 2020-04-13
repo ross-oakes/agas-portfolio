@@ -25,8 +25,8 @@ import giftGiverDesign6 from "../resources/giftgiver/gift-giver-new-6.png"
 import giftGiverDesign7 from "../resources/giftgiver/gift-giver-new-7.png"
 import SkipButton from "./components/SkipButton";
 import Recommendations from "./components/Recommendations";
-import MachiningCover from "../resources/machining/cover.png"
-import IeltsEssaysCover from "../resources/ieltsessays/cover.png"
+import MachiningCover from "../resources/machining-recommendation.png"
+import IeltsEssaysCover from "../resources/ielts-recommendation.png"
 
 const GiftGiver = () => (
     <PortfolioPage>

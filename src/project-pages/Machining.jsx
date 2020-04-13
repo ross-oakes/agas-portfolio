@@ -22,8 +22,8 @@ import workWithUsPage from "../resources/machining/work-with-us.png"
 import galleryPage from "../resources/machining/gallery.png"
 import contactPage from "../resources/machining/contact.png"
 import Recommendations from "./components/Recommendations";
-import GiftGiverCover from "../resources/giftgiver/cover.png"
-import IeltsEssaysCover from "../resources/ieltsessays/cover.png"
+import GiftGiverCover from "../resources/gift-giver-recommendation.png"
+import IeltsEssaysCover from "../resources/ielts-recommendation.png"
 
 
 const Machining = () => (

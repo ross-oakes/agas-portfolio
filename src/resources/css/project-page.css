@@ -60,6 +60,7 @@
     width: 100%;
     min-width: 250px;
     margin-bottom: 20px;
+    box-shadow: 1px 1px 3px #c2c1c1;
 }
 
 @media all and (min-width: 0px) and (max-width: 500px) {
