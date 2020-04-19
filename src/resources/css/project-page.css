@@ -18,6 +18,9 @@
 .project-subsection {
     margin: 20px 0;
 }
+.project-subsection p {
+    font-size: 25px;
+}
 .project-single-picture {
     display: table-caption;
     width: 80vw;
