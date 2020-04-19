@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.220c9ab1.chunk.css",
-    "main.js": "/static/js/main.48db1e65.chunk.js",
-    "main.js.map": "/static/js/main.48db1e65.chunk.js.map",
+    "main.css": "/static/css/main.3ac5da6b.chunk.css",
+    "main.js": "/static/js/main.6a78b522.chunk.js",
+    "main.js.map": "/static/js/main.6a78b522.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.63c1efab.js",
     "runtime-main.js.map": "/static/js/runtime-main.63c1efab.js.map",
     "static/css/2.17e5ed98.chunk.css": "/static/css/2.17e5ed98.chunk.css",
     "static/js/2.147077d0.chunk.js": "/static/js/2.147077d0.chunk.js",
     "static/js/2.147077d0.chunk.js.map": "/static/js/2.147077d0.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9c695f5fbb64c97a7362665e642fda8a.js": "/precache-manifest.9c695f5fbb64c97a7362665e642fda8a.js",
+    "precache-manifest.4385499da6b98a188e2df3f9832d5e80.js": "/precache-manifest.4385499da6b98a188e2df3f9832d5e80.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.17e5ed98.chunk.css.map": "/static/css/2.17e5ed98.chunk.css.map",
-    "static/css/main.220c9ab1.chunk.css.map": "/static/css/main.220c9ab1.chunk.css.map",
+    "static/css/main.3ac5da6b.chunk.css.map": "/static/css/main.3ac5da6b.chunk.css.map",
     "static/js/2.147077d0.chunk.js.LICENSE": "/static/js/2.147077d0.chunk.js.LICENSE",
     "static/media/about-us.png": "/static/media/about-us.38c16bd9.png",
     "static/media/ada-persona.png": "/static/media/ada-persona.5679d307.png",
@@ -20,7 +20,6 @@
     "static/media/aga-frontpage.jpg": "/static/media/aga-frontpage.b076d915.jpg",
     "static/media/aga-in-louvre.jpg": "/static/media/aga-in-louvre.150221c4.jpg",
     "static/media/agaux-logo.png": "/static/media/agaux-logo.34cfe078.png",
-    "static/media/app-icon-design.png": "/static/media/app-icon-design.209cbcdb.png",
     "static/media/banking-app.gif": "/static/media/banking-app.8b297f6f.gif",
     "static/media/calculator-design.png": "/static/media/calculator-design.39d9a32d.png",
     "static/media/categories-old-version.png": "/static/media/categories-old-version.8ee50166.png",
@@ -32,6 +31,7 @@
     "static/media/filter-and-sort.png": "/static/media/filter-and-sort.d1dc8701.png",
     "static/media/first-ielts-1.png": "/static/media/first-ielts-1.170c5b07.png",
     "static/media/first-ielts-2.png": "/static/media/first-ielts-2.033e09d9.png",
+    "static/media/fitness-app-design.png": "/static/media/fitness-app-design.5256cd9f.png",
     "static/media/gallery.png": "/static/media/gallery.c76a01ea.png",
     "static/media/gift-giver-new-1.png": "/static/media/gift-giver-new-1.875c8d97.png",
     "static/media/gift-giver-new-2.png": "/static/media/gift-giver-new-2.0b20a137.png",
@@ -72,7 +72,7 @@
     "static/js/runtime-main.63c1efab.js",
     "static/css/2.17e5ed98.chunk.css",
     "static/js/2.147077d0.chunk.js",
-    "static/css/main.220c9ab1.chunk.css",
-    "static/js/main.48db1e65.chunk.js"
+    "static/css/main.3ac5da6b.chunk.css",
+    "static/js/main.6a78b522.chunk.js"
   ]
 }

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c90da4efa098b908fe89ac44133cec9d",
+    "revision": "f2a62ffdab0d217d7103bf8b9877d8db",
     "url": "/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "31e5c2da3033a907bb26",
-    "url": "/static/css/main.220c9ab1.chunk.css"
+    "revision": "33fc44c767a7a5189281",
+    "url": "/static/css/main.3ac5da6b.chunk.css"
   },
   {
     "revision": "349be6213bf8933c0dfd",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.147077d0.chunk.js.LICENSE"
   },
   {
-    "revision": "31e5c2da3033a907bb26",
-    "url": "/static/js/main.48db1e65.chunk.js"
+    "revision": "33fc44c767a7a5189281",
+    "url": "/static/js/main.6a78b522.chunk.js"
   },
   {
     "revision": "e738b54ffe3b15816cf3",
@@ -50,10 +50,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "34cfe07844142000ec8276d2654c96e5",
     "url": "/static/media/agaux-logo.34cfe078.png"
-  },
-  {
-    "revision": "209cbcdb611b691754ef36d22b8dccd6",
-    "url": "/static/media/app-icon-design.209cbcdb.png"
   },
   {
     "revision": "8b297f6feb49dd33d53cff2be957e3b0",
@@ -110,6 +106,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "033e09d92fd1593727b233fdeb6cebed",
     "url": "/static/media/first-ielts-2.033e09d9.png"
+  },
+  {
+    "revision": "5256cd9f61572a439f5e561095ec58aa",
+    "url": "/static/media/fitness-app-design.5256cd9f.png"
   },
   {
     "revision": "c76a01ea87430fb550279df1db8f3f9d",
