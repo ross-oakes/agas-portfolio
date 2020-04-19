@@ -2,7 +2,6 @@ import React from 'react';
 
 import PortfolioPage from "../components/PortfolioPage";
 import ProjectTitle from "./components/ProjectTitle";
-import ProjectSubsection from "./components/ProjectSubsection";
 import SinglePicture from "./components/SinglePicture";
 
 import BankingAppDesign from "../resources/uichallenges/banking-app.gif"
