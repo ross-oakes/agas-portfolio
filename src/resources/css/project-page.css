@@ -2,9 +2,11 @@
     text-align: center;
     padding: 0 10%;
 }
+
 .project-title h1 {
     padding-bottom: 20px;
 }
+
 .project-title-image {
     display: block;
     width: 100%;
@@ -12,52 +14,57 @@
     margin-right: auto;
     box-shadow: 1px 1px 3px #c2c1c1;
 }
+
 .project-section {
     margin: 60px 0;
 }
-.project-section p {
-    font-size: 25px;
-}
+
 .project-subsection {
     margin: 20px 0;
 }
-.project-subsection p {
-    font-size: 25px;
-}
+
 .project-single-picture {
     display: table-caption;
     width: 80vw;
     margin-bottom: 10px;
 }
+
 .picture-with-description {
     display: table-caption;
     margin: 10px;
 }
+
 .image-shading {
     display: block;
     box-shadow: 1px 1px 3px #c2c1c1;
     margin-left: auto;
     margin-right: auto;
 }
+
 .image-no-shading {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+
 .single-picture-normal {
     width: 35%;
 }
+
 .single-picture-xlrg {
     width: 65%;
 }
+
 .single-picture-fullsize {
     width: 100%;
 }
+
 .image-description {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+
 .multi-picture-spacing {
     padding: 10px;
 }
@@ -78,13 +85,26 @@
     .project-title {
         padding: 0;
     }
+
     .project-title h3 {
         font-size: 1.4rem;
     }
+
     .single-picture-normal {
         width: 60%;
     }
+
     .single-picture-xlrg {
         width: 100%;
+    }
+}
+
+@media all and (min-width: 501px) {
+    .project-subsection p {
+        font-size: 25px;
+    }
+
+    .project-section p {
+        font-size: 25px;
     }
 }
