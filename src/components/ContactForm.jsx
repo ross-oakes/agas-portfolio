@@ -99,7 +99,7 @@ const ContactForm = ({
                         invalidText="Ooops! Please enter your message."
                         required/>
         <FormGroup align="right">
-            <Button className="contact-me-button" onClick={validateThenSend}>
+            <Button className="primary-button-display contact-me-button" onClick={validateThenSend}>
                 SEND
             </Button>
         </FormGroup>

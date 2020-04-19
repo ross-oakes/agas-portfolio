@@ -32,13 +32,7 @@
     min-height: 40px;
 }
 .contact-me-button {
-    box-shadow: 2px 2px 8px #FF6969;
-    border-radius: 19px !important;
-    background-color: #FF6969 !important;
-    border-color: #FF6969 !important;
     min-width: 110px;
-    width: 12vw;
-    font-family: 'Roboto';
 }
 .details-title h3 {
     padding-bottom: 5px;
