@@ -17,9 +17,11 @@
     color: #2D394E;
 }
 .overlay-title {
+    font-family: 'Playfair Display', serif;
     font-size: calc(40px + 1vw);
 }
 .overlay-subtitle {
+    font-family: 'Playfair Display', serif;
     font-size: calc(26px + 1vw);
     margin-bottom: 5px;
 }

@@ -8,6 +8,7 @@ import PortfolioPage from "../components/PortfolioPage";
 import OverlayBox from "../components/OverlayBox";
 import Image from 'react-bootstrap/Image'
 import CoverImage from '../resources/aga-frontpage.jpg'
+import PortfolioPageTitle from "../components/PortfolioPageTitle";
 
 const FrontPage = () => {
     return (
@@ -25,7 +26,7 @@ const FrontPage = () => {
             </div>
             <PortfolioPage centered>
 
-                <h1 id="my-portfolio">My Portfolio</h1>
+                <PortfolioPageTitle id="my-portfolio" title="My Portfolio"/>
                 <PortfolioItem
                     title="Gift Giver"
                     details="a mobile app helping to select a perfect gift"
