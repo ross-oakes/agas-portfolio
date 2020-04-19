@@ -36,6 +36,9 @@
 }
 .details-title h3 {
     padding-bottom: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #D09D94;
 }
 .details-content {
     padding-bottom: 30px;

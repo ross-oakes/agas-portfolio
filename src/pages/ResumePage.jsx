@@ -3,10 +3,12 @@ import downloadIcon from '../resources/icons/download.png';
 import resume from '../resources/resume.pdf';
 import {Col, Container, Row} from "reactstrap";
 import PortfolioPage from "../components/PortfolioPage";
+import PortfolioPageTitle from "../components/PortfolioPageTitle";
 
 const ResumePage = () => {
     return (
         <PortfolioPage>
+            <PortfolioPageTitle title="Resume"/>
             <div className="resume-text">
                 <h3 className="resume-title"><b>Education</b></h3>
                 <p><b>Masters, </b>English Philology, Jagiellonian University, 2015-2017, Grade: Distinction.</p>

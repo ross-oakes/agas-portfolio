@@ -1,11 +1,11 @@
 .resume-title {
-    margin-top: 5%;
-    margin-bottom: 2.3%;
-    font-size: calc(18px + 1vw);
+    margin: 20px 0;
+    color: #D09D94;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
 }
 .resume-text {
     margin-bottom: 50px;
-    font-size: calc(14px + 0.4vw);
 }
 .resume-footer {
     margin-left: 0 !important;

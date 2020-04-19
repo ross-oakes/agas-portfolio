@@ -3,6 +3,7 @@ import ContactForm from "../components/ContactForm";
 import MyDetails from "../components/MyDetails";
 import {Alert, Col, Container, Row} from "reactstrap";
 import PortfolioPage from "../components/PortfolioPage";
+import PortfolioPageTitle from "../components/PortfolioPageTitle";
 
 const ContactPage = () => {
 
@@ -29,7 +30,7 @@ const ContactPage = () => {
             <Alert className="toast-display alert-fixed" color="danger" isOpen={dangerAlertVisible} toggle={closeDangerAlert}>
                 Your message has failed. Please try again.
             </Alert>
-            <h2>Contact me</h2>
+            <PortfolioPageTitle title="Contact me"/>
             <Container className="contact-page-container">
                 <Row>
                     <Col>

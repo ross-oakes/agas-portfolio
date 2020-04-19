@@ -4,7 +4,7 @@ import {Row} from "reactstrap";
 const MyDetails = () => {
     return (
         <>
-            <Row className="justify-content-end details-title ">
+            <Row className="justify-content-end details-title">
                 <h3>Email</h3>
             </Row>
             <Row className="justify-content-end details-content">

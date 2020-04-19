@@ -1,10 +1,6 @@
 .about-me-picture {
     width: 80%;
 }
-.about-me-title {
-    font-size: calc(18px + 3vw);
-    text-align: center;
-}
 .about-me-text {
     font-size: calc(12px + 0.6vw);
     margin: 40px 10%;

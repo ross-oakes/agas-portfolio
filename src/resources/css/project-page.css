@@ -4,7 +4,14 @@
 }
 
 .project-title h1 {
-    padding-bottom: 20px;
+    margin: 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+.project-title h4 {
+    font-weight: normal;
+    margin: 30px;
 }
 
 .project-title-image {

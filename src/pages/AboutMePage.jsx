@@ -1,14 +1,14 @@
 import React from 'react';
 import AgaLouvre from '../resources/aga-in-louvre.jpg'
 import PortfolioPage from "../components/PortfolioPage";
+import PortfolioPageTitle from "../components/PortfolioPageTitle";
 
 const AboutMePage = () => {
     return (
         <PortfolioPage centered>
             <img className="about-me-picture" src={AgaLouvre} alt=""/>
+            <PortfolioPageTitle title="About Me"/>
             <div className="about-me-text">
-                <h3 className="about-me-title">About Me</h3>
-
                 <p>
                     I am a UX designer with a passion to constantly learn and improve myself and my work.
                 </p>
