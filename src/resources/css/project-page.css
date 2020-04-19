@@ -29,14 +29,6 @@
     margin: 20px 0;
 }
 
-.project-subsection p {
-    font-family: 'Roboto', sans-serif;
-}
-
-.project-section p {
-    font-family: 'Roboto', sans-serif;
-}
-
 .project-single-picture {
     display: table-caption;
     width: 80vw;
@@ -86,7 +78,6 @@
 .skip-button {
     text-align: center;
     margin: 20px 0 60px;
-    font-family: 'Roboto', sans-serif;
 }
 
 .recommendation-picture {
