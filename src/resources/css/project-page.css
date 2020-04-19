@@ -18,6 +18,11 @@
 .project-section {
     margin: 60px 0;
 }
+.project-section h2 {
+    color: #D09D94;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
 
 .project-subsection {
     margin: 20px 0;

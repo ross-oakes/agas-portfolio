@@ -2,7 +2,7 @@ import * as React from "react"
 
 const ProjectSection = (props) => (
     <div className="project-section" id={props.id}>
-        <h1>{props.title}</h1>
+        <h2>{props.title}</h2>
         {props.children}
     </div>
 );
