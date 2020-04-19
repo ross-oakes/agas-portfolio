@@ -18,6 +18,7 @@
 .project-section {
     margin: 60px 0;
 }
+
 .project-section h2 {
     color: #D09D94;
     text-transform: uppercase;
@@ -26,6 +27,14 @@
 
 .project-subsection {
     margin: 20px 0;
+}
+
+.project-subsection p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.project-section p {
+    font-family: 'Roboto', sans-serif;
 }
 
 .project-single-picture {
@@ -77,6 +86,7 @@
 .skip-button {
     text-align: center;
     margin: 20px 0 60px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .recommendation-picture {
