@@ -11,7 +11,7 @@ import SignUpDesign from "../resources/uichallenges/sign-up-design.png"
 import CheckoutDesign from "../resources/uichallenges/checkout-design.png"
 import LandingPageDesign from "../resources/uichallenges/landing-page-design.png"
 import CalculatorDesign from "../resources/uichallenges/calculator-design.png"
-import AppIconDesign from "../resources/uichallenges/app-icon-design.png"
+import FitnessAppDashboardDesign from "../resources/uichallenges/fitness-app-design.png"
 import UserProfileDesign from "../resources/uichallenges/user-profile-design.png"
 
 const UiChallenges = () => (
@@ -81,12 +81,13 @@ const UiChallenges = () => (
             <SinglePicture picture={{src: CalculatorDesign}} fullsize/>
         </ProjectSubsection>
 
-        <ProjectSubsection title="App Icon">
+        <ProjectSubsection title="Fitness App Dashboard">
             <p>
-                I've created an icon for my own app (If I ever have one). I've included brand colours, letter 'a'
-                for my name and 'x' for ux. Plus, I checked how it looks on the phone next to other icons.
+                This is a dashboard screen for a Pilates app. It offers a personalised workout plan, so that a user does
+                not have to spend time searching for a workout. They set up their preferences and are presented with a
+                few workouts a week to complete.
             </p>
-            <SinglePicture picture={{src: AppIconDesign}} fullsize/>
+            <SinglePicture picture={{src: FitnessAppDashboardDesign}} fullsize/>
         </ProjectSubsection>
 
         <ProjectSubsection title="User Profile">
