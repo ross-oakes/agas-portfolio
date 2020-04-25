@@ -36,16 +36,15 @@ const GiftGiver = () => (
 
         <ProjectSection title="The brief">
             <p>
-                Create an app where users will be recommended what gifts to choose for their loved ones based on
-                the person’s preferred things. Users should be able to enter numerous items a person already owns.
-                The app should then provide a selection of gifts ideal for this person. For the purposes of this
-                project, the algorithm for deciding what gifts to suggest can be considered as a black box
+                Create an app where users will be recommended what gifts to choose for their loved ones based on the
+                person’s preferred things. Users should be able to enter 1-5 items a person already owns. The app should
+                then provide a selection of gifts ideal for this person. For the purposes of this project, the algorithm
+                for deciding what gifts to suggest can be considered as a black box
             </p>
             <p>
                 This brief was provided by a UX course (David Travis 'User Experience (UX): The Ultimate Guide to
                 Usability and UX'). However, the implementation of the project is my own.
             </p>
-
             <SkipButton link="#final-design"/>
         </ProjectSection>
         <ProjectSection title="Personas">
