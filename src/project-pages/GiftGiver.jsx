@@ -23,6 +23,8 @@ import SkipButton from "./components/SkipButton";
 import Recommendations from "./components/Recommendations";
 import MachiningCover from "../resources/machining-recommendation.png"
 import IeltsEssaysCover from "../resources/ielts-recommendation.png"
+import DownloadIcon from "../resources/icons/download.png"
+import FunctionalityDecisions from "../resources/giftgiver/functionality-decisions.pdf"
 
 const GiftGiver = () => (
     <PortfolioPage>
@@ -206,6 +208,12 @@ const GiftGiver = () => (
                 recipient's birthday is due, reminding the user about getting a gift for the upcoming event.
                 Notifications can be also sent before other occasions, such as Valentine's Day or Mother's Day.
             </p>
+        </ProjectSection>
+        <ProjectSection>
+            <a href={FunctionalityDecisions} download>
+                <img src={DownloadIcon} alt="" style={{marginRight:"10px"}}/>
+            </a>
+            Download this PDF to see the analysis of some functionality decisions.
         </ProjectSection>
         <Recommendations
             recommendation1={{src: MachiningCover, link: "/machining"}}
