@@ -139,6 +139,15 @@ const GiftGiver = () => (
                 "users hover over a sign, the explanation will appear)."}
             />
             <NielsenHeuristicDescription
+                title="‘Stuff they like’ and ‘Gift for’ on one screen"
+                description={"The participants didn’t have enough space to write down their input to ‘Stuff they like" +
+                "’. As ‘Stuff they like’ and ‘Gift for’ are two separate steps, they can be separated into two " +
+                "subsequent screens."}
+                heuristicViolation="Flexibility and efficiency of use."
+                severity="4"
+                recommendation={"Separate ‘Stuff they like’ and ‘Gift for’ into two subsequent screens."}
+            />
+            <NielsenHeuristicDescription
                 title="'Saving' a recipient of the gift"
                 description={"One of the participants told me they would like to save this recipient (the " +
                 "preferences of this particular recipient) for the future, so that they would be able to buy " +
