@@ -189,17 +189,16 @@ const GiftGiver = () => (
         </ProjectSection>
         <ProjectSection title="The result">
             <p>
-                I conducted a usability test of my final design with seven participants. Task completion rate was
-                100%. I asked participant to complete SUS test, plus survey questions about overall attractiveness,
-                loyalty and trust. I was careful to follow rules to make sure not to bias responses. For example, a
-                question stem should ask 'How likely or unlikely', rather than 'How likely'.
+                I conducted a usability test of my final design with seven participants. <b>Task completion rate was
+                100%.</b> I asked the participant to complete a <b>SUS test</b>, plus survey questions about overall
+                attractiveness, loyalty and trust. I was careful to follow rules to make sure not to bias responses. For
+                example, a question stem should ask 'How likely or unlikely', rather than 'How likely'.
             </p>
             <p>
-                Participants found the application easy to use (71% strongly agree, 29% agree). 100% of
-                participants found it visually attractive. 43% of participants said they were ‘very likely’ to
-                recommend the website to a friend or colleague, and 57% were 'likely' to do so. It does not prove
-                they will recommend it, as people in general can't predict their future actions accurately. It
-                does, however, show their positive feelings about the experience.
+                Participants found the application <b>easy to use</b> (71% strongly agree, 29% agree). <b>43% of
+                participants said they were ‘very likely’ to recommend</b> the website to a friend or colleague, and <b>57%
+                were 'likely'</b> to do so. It does not prove they will recommend it, as people in general can't predict
+                their future actions accurately. It does, however, show their positive feelings about the experience.
             </p>
         </ProjectSection>
         <ProjectSection title="What could have been better">
