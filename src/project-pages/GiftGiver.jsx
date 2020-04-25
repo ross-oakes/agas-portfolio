@@ -95,11 +95,11 @@ const GiftGiver = () => (
         </ProjectSection>
         <ProjectSection title="User pain points">
             <p>
-                The main problem users were facing when trying to find gifts was the fact that they needed to go to
-                many stores / websites to look for inspiration. This took a long time as there were lots of
-                irrelevant options provided to them. They needed someway of reducing this selection to make their
-                decision easier. I decided the way I would tackle this issue would be to use a combination of user
-                input and categories buttons.
+                The main problem users were facing when trying to find gifts was the fact that they needed to <b>go to
+                many stores / websites to look for inspiration.</b> This took a long time as there were lots of <b>irrelevant
+                options</b> provided to them. They needed someway of reducing this selection to make their
+                decision easier. I decided the way I would tackle this issue would be to use a combination of user input
+                and categories buttons.
             </p>
         </ProjectSection>
         <ProjectSection title="Categories">
