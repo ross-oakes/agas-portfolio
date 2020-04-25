@@ -13,13 +13,12 @@ import Rachel from "../resources/giftgiver/personas-rachel.png"
 import Ben from "../resources/giftgiver/personas-ben.png"
 import originalDesign from "../resources/giftgiver/original-design.png"
 import PaperPrototype from "../resources/giftgiver/paper-prototype.jpg"
-import giftGiverDesign1 from "../resources/giftgiver/gift-giver-new-1.png"
-import giftGiverDesign2 from "../resources/giftgiver/gift-giver-new-2.png"
-import giftGiverDesign3 from "../resources/giftgiver/gift-giver-new-3.png"
-import giftGiverDesign4 from "../resources/giftgiver/gift-giver-new-4.png"
-import giftGiverDesign5 from "../resources/giftgiver/gift-giver-new-5.png"
-import giftGiverDesign6 from "../resources/giftgiver/gift-giver-new-6.png"
-import giftGiverDesign7 from "../resources/giftgiver/gift-giver-new-7.png"
+import giftGiverDesign1 from "../resources/giftgiver/gift-giver-final-1.png"
+import giftGiverDesign2 from "../resources/giftgiver/gift-giver-final-2.png"
+import giftGiverDesign3 from "../resources/giftgiver/gift-giver-final-3.png"
+import giftGiverDesign4 from "../resources/giftgiver/gift-giver-final-4.png"
+import giftGiverDesign5 from "../resources/giftgiver/gift-giver-final-5.png"
+import giftGiverDesign6 from "../resources/giftgiver/gift-giver-final-6.png"
 import SkipButton from "./components/SkipButton";
 import Recommendations from "./components/Recommendations";
 import MachiningCover from "../resources/machining-recommendation.png"
@@ -175,16 +174,16 @@ const GiftGiver = () => (
                     When the user clicks on 'See suggestions', they are prompted to save the gift recipient.
                 </p>
                 <SinglePicture picture={{src: giftGiverDesign3}} fullsize/>
-                <SinglePicture picture={{src: giftGiverDesign4}} fullsize/>
             </ProjectSubsection>
             <ProjectSubsection>
                 <p>
                     Next, the results page appears. Users can click on the item card to see the individual item. They
                     can then either add the item to the cart and continue browsing or just go straight to buying it.
+                    After the purchase, they are redirected to the homepage.
                 </p>
+                <SinglePicture picture={{src: giftGiverDesign4}} fullsize/>
                 <SinglePicture picture={{src: giftGiverDesign5}} fullsize/>
                 <SinglePicture picture={{src: giftGiverDesign6}} fullsize/>
-                <SinglePicture picture={{src: giftGiverDesign7}} fullsize/>
             </ProjectSubsection>
         </ProjectSection>
         <ProjectSection title="The result">
