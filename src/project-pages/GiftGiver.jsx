@@ -100,19 +100,28 @@ const GiftGiver = () => (
             </p>
         </ProjectSection>
         <ProjectSection title="Paper prototypes">
-            <p>I developed paper prototypes of the app and tested it with users. Users were given a landing page
-                and they could interact with it as they would with a phone app - click on any interactive element
-                and complete any text boxes. The tasks they were given were based on the red routes of the
-                application, e.g. find a perfect gift for your mum for her birthday. The participants were asked
-                to think aloud while they were doing tasks, which allowed me to understand each participants'
-                actions better.</p>
             <p>
-                Paper prototypes testing allowed for the classification of crucial improvements needed. For
-                instance, I deleted the section 'Name' to improve clarity for the participants. They didn't know
-                whether they should type their name or type the name of the person who they were trying to buy a
-                gift for. Also, the search field on the landing page was not needed and confused the participants.
-                A better option was to delete it from the landing page, but keep it on the results page to allow
-                users to search for products.</p>
+                I developed paper prototypes of the app and tested it with users. Users were given a landing page and
+                they could interact with it as they would with a phone app - click on any interactive element and
+                complete any text boxes. <b>The tasks were based on the red routes</b> of the application, e.g. find a
+                perfect gift for your mum for her birthday. The participants were asked to <b>think aloud</b> while they
+                were doing tasks, which allowed me to understand each participants' actions better.
+            </p>
+            <p>
+                Paper prototypes testing allowed for the classification of <b>crucial improvements</b> needed:
+                <ul>
+                    <li>
+                        I deleted the section 'Name' to improve clarity for the participants. They didn't know whether
+                        they should type their name or type the name of the person who they were trying to buy a gift
+                        for.
+                    </li>
+                    <li>
+                        The search field on the page with entering the data was not needed and confused the
+                        participants. A better option was to delete it from this page, but keep it on the results page
+                        to allow users to search for products.
+                    </li>
+                </ul>
+            </p>
             <SinglePicture picture={{src: PaperPrototype}} xlrg/>
         </ProjectSection>
         <ProjectSection title="First Hi-Fi design">
