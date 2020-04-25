@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.46d68fce.chunk.css",
-    "main.js": "/static/js/main.d004e43c.chunk.js",
-    "main.js.map": "/static/js/main.d004e43c.chunk.js.map",
+    "main.css": "/static/css/main.e62b9e8b.chunk.css",
+    "main.js": "/static/js/main.49671b65.chunk.js",
+    "main.js.map": "/static/js/main.49671b65.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.63c1efab.js",
     "runtime-main.js.map": "/static/js/runtime-main.63c1efab.js.map",
     "static/css/2.17e5ed98.chunk.css": "/static/css/2.17e5ed98.chunk.css",
-    "static/js/2.147077d0.chunk.js": "/static/js/2.147077d0.chunk.js",
-    "static/js/2.147077d0.chunk.js.map": "/static/js/2.147077d0.chunk.js.map",
+    "static/js/2.d9f5ba1a.chunk.js": "/static/js/2.d9f5ba1a.chunk.js",
+    "static/js/2.d9f5ba1a.chunk.js.map": "/static/js/2.d9f5ba1a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3c8f2a550c2dc1ca54df246f8e62564f.js": "/precache-manifest.3c8f2a550c2dc1ca54df246f8e62564f.js",
+    "precache-manifest.59a3a94afbf13cb0baa6520e3ac00bfe.js": "/precache-manifest.59a3a94afbf13cb0baa6520e3ac00bfe.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.17e5ed98.chunk.css.map": "/static/css/2.17e5ed98.chunk.css.map",
-    "static/css/main.46d68fce.chunk.css.map": "/static/css/main.46d68fce.chunk.css.map",
-    "static/js/2.147077d0.chunk.js.LICENSE": "/static/js/2.147077d0.chunk.js.LICENSE",
+    "static/css/main.e62b9e8b.chunk.css.map": "/static/css/main.e62b9e8b.chunk.css.map",
+    "static/js/2.d9f5ba1a.chunk.js.LICENSE": "/static/js/2.d9f5ba1a.chunk.js.LICENSE",
     "static/media/about-us.png": "/static/media/about-us.38c16bd9.png",
     "static/media/ada-persona.png": "/static/media/ada-persona.5679d307.png",
     "static/media/affinity-map.jpg": "/static/media/affinity-map.2b7cb438.jpg",
@@ -41,7 +41,6 @@
     "static/media/gift-giver-new-6.png": "/static/media/gift-giver-new-6.f8930b6d.png",
     "static/media/gift-giver-new-7.png": "/static/media/gift-giver-new-7.fa1e3934.png",
     "static/media/gift-giver-recommendation.png": "/static/media/gift-giver-recommendation.3b2eb8d7.png",
-    "static/media/gift-giver.gif": "/static/media/gift-giver.d4faad12.gif",
     "static/media/ielts-new-1.png": "/static/media/ielts-new-1.cd33a54a.png",
     "static/media/ielts-new-2.png": "/static/media/ielts-new-2.e2bb5922.png",
     "static/media/ielts-new-3.png": "/static/media/ielts-new-3.43f5e176.png",
@@ -71,8 +70,8 @@
   "entrypoints": [
     "static/js/runtime-main.63c1efab.js",
     "static/css/2.17e5ed98.chunk.css",
-    "static/js/2.147077d0.chunk.js",
-    "static/css/main.46d68fce.chunk.css",
-    "static/js/main.d004e43c.chunk.js"
+    "static/js/2.d9f5ba1a.chunk.js",
+    "static/css/main.e62b9e8b.chunk.css",
+    "static/js/main.49671b65.chunk.js"
   ]
 }
