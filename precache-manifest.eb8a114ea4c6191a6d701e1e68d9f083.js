@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "be7f58e3509e35c2f049008da5be359f",
+    "revision": "a4ef64543000efe57d7169ca6f342e41",
     "url": "/index.html"
   },
   {
-    "revision": "a5571f9a8872bd7b170c",
+    "revision": "219486cc1cd447896bce",
     "url": "/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "545729f9cfae033d214a",
-    "url": "/static/css/main.79be610b.chunk.css"
+    "revision": "aa36f803770792615699",
+    "url": "/static/css/main.3d6ef423.chunk.css"
   },
   {
-    "revision": "a5571f9a8872bd7b170c",
-    "url": "/static/js/2.9f169f7f.chunk.js"
+    "revision": "219486cc1cd447896bce",
+    "url": "/static/js/2.7bb17f08.chunk.js"
   },
   {
     "revision": "801eb6b718cfeb49e4699ab80a85e8cf",
-    "url": "/static/js/2.9f169f7f.chunk.js.LICENSE"
+    "url": "/static/js/2.7bb17f08.chunk.js.LICENSE"
   },
   {
-    "revision": "545729f9cfae033d214a",
-    "url": "/static/js/main.71eaaebf.chunk.js"
+    "revision": "aa36f803770792615699",
+    "url": "/static/js/main.a5a4acba.chunk.js"
   },
   {
     "revision": "e738b54ffe3b15816cf3",
@@ -76,8 +76,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/cover.31b280d8.png"
   },
   {
-    "revision": "ab7f1f1f9e185f360a920470073b2a47",
-    "url": "/static/media/cover.ab7f1f1f.png"
+    "revision": "a085d638d6494118ac1a5b97e1695add",
+    "url": "/static/media/cover.a085d638.png"
   },
   {
     "revision": "d4a0e88966d5e5721e6b9415fb50dcec",
@@ -104,40 +104,40 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/fitness-app-design.5256cd9f.png"
   },
   {
+    "revision": "59b31c635d7c46f9a7708274c620c6bc",
+    "url": "/static/media/functionality-decisions.59b31c63.pdf"
+  },
+  {
     "revision": "c76a01ea87430fb550279df1db8f3f9d",
     "url": "/static/media/gallery.c76a01ea.png"
   },
   {
-    "revision": "875c8d97308abf47f1f28703dbb42eba",
-    "url": "/static/media/gift-giver-new-1.875c8d97.png"
+    "revision": "081c403cba624ad4cc3a5c30a458d8bc",
+    "url": "/static/media/gift-giver-final-1.081c403c.png"
   },
   {
-    "revision": "0b20a1372f2b8d814a51ad9a91d4b0d2",
-    "url": "/static/media/gift-giver-new-2.0b20a137.png"
+    "revision": "65e4488c5558878d0dde3f28e85d0515",
+    "url": "/static/media/gift-giver-final-2.65e4488c.png"
   },
   {
-    "revision": "fcc2192c3b7f7a2ffa1c066ee21d14c4",
-    "url": "/static/media/gift-giver-new-3.fcc2192c.png"
+    "revision": "6eb64b73668ce65c23659dfc915c3952",
+    "url": "/static/media/gift-giver-final-3.6eb64b73.png"
   },
   {
-    "revision": "5a77729b49cd6c4a993b3844dc552e7c",
-    "url": "/static/media/gift-giver-new-4.5a77729b.png"
+    "revision": "1dce79f1db4a9b7b410408fac156abca",
+    "url": "/static/media/gift-giver-final-4.1dce79f1.png"
   },
   {
-    "revision": "dcd40a758fbc41f512ac5d5c7ce559bc",
-    "url": "/static/media/gift-giver-new-5.dcd40a75.png"
+    "revision": "6246a06267c9bb25a25dcea70c2950c0",
+    "url": "/static/media/gift-giver-final-5.6246a062.png"
   },
   {
-    "revision": "f8930b6dac8b143c484293308fd82e6e",
-    "url": "/static/media/gift-giver-new-6.f8930b6d.png"
+    "revision": "b9f97a8c890acba12d459277017a5e46",
+    "url": "/static/media/gift-giver-final-6.b9f97a8c.png"
   },
   {
-    "revision": "fa1e3934e092d42e8dc031b4d3355dfa",
-    "url": "/static/media/gift-giver-new-7.fa1e3934.png"
-  },
-  {
-    "revision": "3b2eb8d7a92ade33991cd0fe8f5564f8",
-    "url": "/static/media/gift-giver-recommendation.3b2eb8d7.png"
+    "revision": "a6896f8835df6bb9596183596f1c0584",
+    "url": "/static/media/gift-giver-recommendation.a6896f88.png"
   },
   {
     "revision": "cd33a54a4e8dd541a48fded4ea41eed2",
