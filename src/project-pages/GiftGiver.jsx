@@ -11,9 +11,6 @@ import NielsenHeuristicDescription from "./components/NielsenHeuristicDescriptio
 import GiftGiverPic from "../resources/giftgiver/cover.png"
 import Rachel from "../resources/giftgiver/personas-rachel.png"
 import Ben from "../resources/giftgiver/personas-ben.png"
-import categoriesNew from "../resources/giftgiver/categories-new-version.png"
-import categoriesOld from "../resources/giftgiver/categories-old-version.png"
-import filterSort from "../resources/giftgiver/filter-and-sort.png"
 import originalDesign from "../resources/giftgiver/original-design.png"
 import PaperPrototype from "../resources/giftgiver/paper-prototype.jpg"
 import giftGiverDesign1 from "../resources/giftgiver/gift-giver-new-1.png"
@@ -101,75 +98,6 @@ const GiftGiver = () => (
                 decision easier. I decided the way I would tackle this issue would be to use a combination of user input
                 and categories buttons.
             </p>
-        </ProjectSection>
-        <ProjectSection title="Categories">
-            <p>
-                The decision of which categories to include stemmed from the user research and usability testing. I
-                asked participants to tell me who they bought presents for and found that the most common answers
-                were their mum, boyfriend, son, friends, etc; thus, providing me with a start to my list. Other
-                websites offered a similar classification, for instance, Him / Her / Mum / Son. I have included
-                these categories in my first Hi-Fi Prototype.
-            </p>
-            <p>
-                After usability testing, though, I discovered I had included too many buttons, which made it
-                difficult for the participants to click on the correct one. Furthermore, it turned out to be
-                distracting (too many options to choose from made the choice cumbersome). Another problem with this
-                classification was that it was gender binary. The issues would arise if, for example, a man liked
-                makeup and dresses. It was not necessary to state someone's gender as the items they already owned
-                would decide on the most suitable gifts. Therefore, I designed a new categorisation. I decided to
-                only include three categories: 'Partner', 'Family' and 'Friend'.
-            </p>
-            <p>
-                I wanted to keep the categories, rather than get rid of them, as they will include gifts specific
-                to a person's relationship to another person. For example, a partner category will also include
-                romantic gifts.
-            </p>
-            <MultiplePictures
-                pictures={[
-                    {src: categoriesOld, description: "Original Design"},
-                    {src: categoriesNew, description: "Improved Design"}
-                ]}
-                horizontal/>
-        </ProjectSection>
-        <ProjectSection title="Users input">
-            <p>
-                I was thinking what is the best idea for users to input the person's favourite things. First of all
-                , I came up with as many as possible on my own. Then, I asked a few friends for their ideas as well
-                . At this stage I wanted to collect as many ideas as possible, therefore I asked them to think
-                freely, elimination would come later. Some of the ideas included: a list of categories and
-                subcategories, a text box, voice recognition, a dropdown. Typing in a text box seemed to be the
-                most appropriate, as it is the least time consuming. As the possibilities of things a person can
-                own are endless, the input would not work as a dropdown, and it would be tedious to click through
-                a hierarchy of categories too for every item. Furthermore, it would be beneficial if the input box
-                could provide autofill suggestions when users began to type. This would help to make the text input
-                quicker, avoid typos and prompt users to type in things that are already in the system. If users
-                type in an unrecognisable item, the system should come up with similar suggestions and inform the
-                user that the item is not in the database ('Oops! Sorry, this item is not in our database.
-                Did you mean...?'.
-            </p>
-        </ProjectSection>
-        <ProjectSection title="Filter and sort">
-            <p>
-                Once the user lands at the results page, they should be able to sort and filter results. The
-                choice of what to sort by should be done by swiping through a list of available options. The
-                default sort should be by 'Recommended', but users should also be able to choose to sort by 'Most
-                Popular', 'Lowest Price' or 'Highest Price'. Filtering can be done by 'Product Category', 'Occasion'
-                , 'Relationship', 'Price', and 'Rating'. The first four options should be sorts, which should be
-                applied automatically after the user clicks the option. Further options should be filters, so that
-                if a user clicks on 'Product Category' a pop-up screen would allow a user to customise the category
-                of product they are looking for. These options stemmed from user research and competitors analysis.
-                I conducted a card sorting exercise, where participants had to sort different items into their own
-                categories and name them. Then, I asked them to add their own items and come up with their own
-                categories for an e-commerce app. This exercise allowed me to understand participants' process of
-                thinking while selecting sorting or filtering options.
-            </p>
-            <p>
-                Some users wanted to choose a personalised present for their mum, but the main category was a
-                general term 'Family'. Therefore, I have applied the additional filter of 'Relationship' at the
-                results page (e.g. the recipient can choose 'Mum' relationship and will be shown a filtered list of
-                personalised presents for Mums). Multiple filters can be applied simultaneously.
-            </p>
-            <SinglePicture picture={{src: filterSort}} fullsize/>
         </ProjectSection>
         <ProjectSection title="Paper prototypes">
             <p>I developed paper prototypes of the app and tested it with users. Users were given a landing page
