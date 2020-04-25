@@ -49,23 +49,33 @@ const GiftGiver = () => (
         </ProjectSection>
         <ProjectSection title="Personas">
             <p>
-                To start the project I decided to conduct some contextual research. I visited/called 15
-                participants and asked them to show me how they go about finding a gift for someone. My questions
-                were open-ended and objective and so I did not ask 'What do you like about...?' as it would suggest
-                a positive answer. Instead, I started by saying 'Show me how you go about selecting a gift for
-                someone.' Then I asked follow-up questions based on what they told me. For example, one person told
-                me they would most likely look for inspiration on the internet; so I asked the participant to
-                imagine they wanted to buy a present for their mum and to show me how they would do it now. I was
-                interested in which websites they used and what they liked and disliked about a particular website.
-                Again, I phrased this as an open question not to bias any responses from the participants.
+                To start the project I decided to conduct some contextual research. I visited/called 15 participants and
+                asked them to show me how they go about finding a gift for someone. My questions were open-ended and
+                objective and so I did not ask 'What do you like about...?' as it would suggest a positive answer.
+                Instead, I started by saying 'Show me how you go about selecting a gift for someone.' Then, I asked
+                follow-up questions based on what they told me. For example, one person told me they would most likely
+                look for inspiration on the internet; so I asked the participant to imagine they wanted to buy a present
+                for their mum and to show me how they would do it now. I was interested in which websites they used and
+                what they liked and disliked about a particular website. Again, I phrased this as an open question not
+                to bias any responses from the participants.
             </p>
             <p>
-                I analysed my findings and looked for the most common patterns, which led to the development of
-                personas and user stories. I found that most people came under two categories: 1) People who mostly
-                shop for gifts online; 2) People who almost never shop online, as they don't know where to look. I
-                personified both categories as Rachel and Ben respectively. Rachel, was identified as a primary
-                target, as she is most likely to use the app - she already shops and looks for inspiration online,
-                but none of the other websites she uses offer her gift ideas suited to someone's needs.
+                I analysed my findings and looked for the most common patterns, which led to the development of personas
+                and user stories. I found that most people came under two categories:
+                <ol>
+                    <li>
+                        People who mostly shop for gifts online;
+                    </li>
+                    <li>
+                        People who almost never shop online, as they don't know where to look.
+                    </li>
+                </ol>
+                I personified both categories as Rachel and Ben respectively.
+            </p>
+            <p>
+                <b>Rachel</b>, was identified as a primary target, as she is most likely to use the app - she already
+                shops and looks for inspiration online, but none of the other websites she uses offer her gift ideas
+                suited to someone's needs.
             </p>
             <MultiplePictures
                 pictures={[
