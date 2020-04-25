@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e8f1189ef7cf417cea68810db1651f4c",
+    "revision": "f610d0a65128af5fcfb1d5038a73b1a3",
     "url": "/index.html"
   },
   {
-    "revision": "d579e182351d9f1c7f59",
+    "revision": "a5571f9a8872bd7b170c",
     "url": "/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "2eaa7852f471eced0ea5",
-    "url": "/static/css/main.e62b9e8b.chunk.css"
+    "revision": "d090abf129838dc6af81",
+    "url": "/static/css/main.79be610b.chunk.css"
   },
   {
-    "revision": "d579e182351d9f1c7f59",
-    "url": "/static/js/2.d9f5ba1a.chunk.js"
+    "revision": "a5571f9a8872bd7b170c",
+    "url": "/static/js/2.9f169f7f.chunk.js"
   },
   {
     "revision": "801eb6b718cfeb49e4699ab80a85e8cf",
-    "url": "/static/js/2.d9f5ba1a.chunk.js.LICENSE"
+    "url": "/static/js/2.9f169f7f.chunk.js.LICENSE"
   },
   {
-    "revision": "2eaa7852f471eced0ea5",
-    "url": "/static/js/main.59199f8d.chunk.js"
+    "revision": "d090abf129838dc6af81",
+    "url": "/static/js/main.a4687de5.chunk.js"
   },
   {
     "revision": "e738b54ffe3b15816cf3",
@@ -60,10 +60,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/calculator-design.39d9a32d.png"
   },
   {
-    "revision": "8ee5016622e0e1ee55dbaea0531cf817",
-    "url": "/static/media/categories-old-version.8ee50166.png"
-  },
-  {
     "revision": "cfccc335f467ae722b101a4e3ca2438e",
     "url": "/static/media/checkout-design.cfccc335.png"
   },
@@ -94,10 +90,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "784300f3ea4dab9092508e8e72275b87",
     "url": "/static/media/double-diamond.784300f3.png"
-  },
-  {
-    "revision": "d1dc8701c3f2f1fd723ad2097ebc0f18",
-    "url": "/static/media/filter-and-sort.d1dc8701.png"
   },
   {
     "revision": "170c5b07333e5fe7c9440489334c9ad0",
