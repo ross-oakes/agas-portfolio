@@ -8,7 +8,7 @@ import SinglePicture from "./components/SinglePicture";
 import MultiplePictures from "./components/MultiplePictures";
 import NielsenHeuristicDescription from "./components/NielsenHeuristicDescriptions";
 
-import GiftGiverPic from "../resources/giftgiver/gift-giver.gif"
+import GiftGiverPic from "../resources/giftgiver/cover.png"
 import Rachel from "../resources/giftgiver/personas-rachel.png"
 import Ben from "../resources/giftgiver/personas-ben.png"
 import categoriesNew from "../resources/giftgiver/categories-new-version.png"
