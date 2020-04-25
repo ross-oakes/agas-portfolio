@@ -203,19 +203,9 @@ const GiftGiver = () => (
         </ProjectSection>
         <ProjectSection title="What could have been better">
             <p>
-                A possible avenue to explore in the future would be to send users notifications when their
+                A possible avenue to explore in the future would be to send users <b>notifications</b> when their
                 recipient's birthday is due, reminding the user about getting a gift for the upcoming event.
                 Notifications can be also sent before other occasions, such as Valentine's Day or Mother's Day.
-            </p>
-            <p>
-                I sacrificed primary button’s appearance for aesthetics in the landing page and the payment
-                confirmation page. Everywhere else, primary buttons are in a vivid purple colour. On the landing
-                page, the button ‘See suggestions’ is white with a lilac border. This is because the landing page
-                looked flashy when ‘See suggestions’ button was purple. It is, though, an important issue to
-                consider whether the primary button consistency should have been kept over the aesthetics of the
-                page. With new research linking the aesthetics to the perceived functionality of the page, the
-                question of which of these two, in the case of my project, is more important, remains up to further
-                investigation. I would recommend A/B testing as a further step to resolve this issue.
             </p>
         </ProjectSection>
         <Recommendations
